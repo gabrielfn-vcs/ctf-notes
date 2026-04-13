@@ -1,0 +1,286 @@
+{"line": "sda", "t": 0, "v": 1, "marker": "bus-idle"}
+{"line": "sda", "t": 2000, "v": 0, "marker": "start"}
+{"line": "sda", "t": 4000, "v": 1, "marker": "address-bit", "byteIndex": 0, "bitIndex": 0, "type": "address"}
+{"line": "sda", "t": 14000, "v": 0, "marker": "address-bit", "byteIndex": 0, "bitIndex": 1, "type": "address"}
+{"line": "sda", "t": 24000, "v": 0, "marker": "address-bit", "byteIndex": 0, "bitIndex": 2, "type": "address"}
+{"line": "sda", "t": 34000, "v": 1, "marker": "address-bit", "byteIndex": 0, "bitIndex": 3, "type": "address"}
+{"line": "sda", "t": 44000, "v": 0, "marker": "address-bit", "byteIndex": 0, "bitIndex": 4, "type": "address"}
+{"line": "sda", "t": 54000, "v": 0, "marker": "address-bit", "byteIndex": 0, "bitIndex": 5, "type": "address"}
+{"line": "sda", "t": 64000, "v": 0, "marker": "address-bit", "byteIndex": 0, "bitIndex": 6, "type": "address"}
+{"line": "sda", "t": 74000, "v": 0, "marker": "address-bit", "byteIndex": 0, "bitIndex": 7, "type": "address"}
+{"line": "sda", "t": 84000, "v": 0, "marker": "ack-bit", "byteIndex": 0, "type": "ack"}
+{"line": "sda", "t": 94000, "v": 1, "marker": "ack-release", "byteIndex": 0, "type": "ack"}
+{"line": "sda", "t": 94000, "v": 0, "marker": "data-bit", "byteIndex": 1, "bitIndex": 0, "type": "data"}
+{"line": "sda", "t": 104000, "v": 1, "marker": "data-bit", "byteIndex": 1, "bitIndex": 1, "type": "data"}
+{"line": "sda", "t": 114000, "v": 0, "marker": "data-bit", "byteIndex": 1, "bitIndex": 2, "type": "data"}
+{"line": "sda", "t": 124000, "v": 1, "marker": "data-bit", "byteIndex": 1, "bitIndex": 3, "type": "data"}
+{"line": "sda", "t": 134000, "v": 0, "marker": "data-bit", "byteIndex": 1, "bitIndex": 4, "type": "data"}
+{"line": "sda", "t": 144000, "v": 1, "marker": "data-bit", "byteIndex": 1, "bitIndex": 5, "type": "data"}
+{"line": "sda", "t": 154000, "v": 1, "marker": "data-bit", "byteIndex": 1, "bitIndex": 6, "type": "data"}
+{"line": "sda", "t": 164000, "v": 0, "marker": "data-bit", "byteIndex": 1, "bitIndex": 7, "type": "data"}
+{"line": "sda", "t": 174000, "v": 0, "marker": "ack-bit", "byteIndex": 1, "type": "ack"}
+{"line": "sda", "t": 184000, "v": 1, "marker": "ack-release", "byteIndex": 1, "type": "ack"}
+{"line": "sda", "t": 184000, "v": 0, "marker": "data-bit", "byteIndex": 2, "bitIndex": 0, "type": "data"}
+{"line": "sda", "t": 194000, "v": 1, "marker": "data-bit", "byteIndex": 2, "bitIndex": 1, "type": "data"}
+{"line": "sda", "t": 204000, "v": 0, "marker": "data-bit", "byteIndex": 2, "bitIndex": 2, "type": "data"}
+{"line": "sda", "t": 214000, "v": 1, "marker": "data-bit", "byteIndex": 2, "bitIndex": 3, "type": "data"}
+{"line": "sda", "t": 224000, "v": 0, "marker": "data-bit", "byteIndex": 2, "bitIndex": 4, "type": "data"}
+{"line": "sda", "t": 234000, "v": 1, "marker": "data-bit", "byteIndex": 2, "bitIndex": 5, "type": "data"}
+{"line": "sda", "t": 244000, "v": 0, "marker": "data-bit", "byteIndex": 2, "bitIndex": 6, "type": "data"}
+{"line": "sda", "t": 254000, "v": 0, "marker": "data-bit", "byteIndex": 2, "bitIndex": 7, "type": "data"}
+{"line": "sda", "t": 264000, "v": 0, "marker": "ack-bit", "byteIndex": 2, "type": "ack"}
+{"line": "sda", "t": 274000, "v": 1, "marker": "ack-release", "byteIndex": 2, "type": "ack"}
+{"line": "sda", "t": 274000, "v": 0, "marker": "data-bit", "byteIndex": 3, "bitIndex": 0, "type": "data"}
+{"line": "sda", "t": 284000, "v": 1, "marker": "data-bit", "byteIndex": 3, "bitIndex": 1, "type": "data"}
+{"line": "sda", "t": 294000, "v": 0, "marker": "data-bit", "byteIndex": 3, "bitIndex": 2, "type": "data"}
+{"line": "sda", "t": 304000, "v": 0, "marker": "data-bit", "byteIndex": 3, "bitIndex": 3, "type": "data"}
+{"line": "sda", "t": 314000, "v": 1, "marker": "data-bit", "byteIndex": 3, "bitIndex": 4, "type": "data"}
+{"line": "sda", "t": 324000, "v": 0, "marker": "data-bit", "byteIndex": 3, "bitIndex": 5, "type": "data"}
+{"line": "sda", "t": 334000, "v": 1, "marker": "data-bit", "byteIndex": 3, "bitIndex": 6, "type": "data"}
+{"line": "sda", "t": 344000, "v": 1, "marker": "data-bit", "byteIndex": 3, "bitIndex": 7, "type": "data"}
+{"line": "sda", "t": 354000, "v": 0, "marker": "ack-bit", "byteIndex": 3, "type": "ack"}
+{"line": "sda", "t": 364000, "v": 1, "marker": "ack-release", "byteIndex": 3, "type": "ack"}
+{"line": "sda", "t": 368000, "v": 1, "marker": "stop"}
+{"line": "sda", "t": 368000, "v": 1, "marker": "gap-start"}
+{"line": "sda", "t": 408000, "v": 1, "marker": "bus-idle"}
+{"line": "sda", "t": 410000, "v": 0, "marker": "start"}
+{"line": "sda", "t": 412000, "v": 0, "marker": "address-bit", "byteIndex": 0, "bitIndex": 0, "type": "address"}
+{"line": "sda", "t": 422000, "v": 1, "marker": "address-bit", "byteIndex": 0, "bitIndex": 1, "type": "address"}
+{"line": "sda", "t": 432000, "v": 1, "marker": "address-bit", "byteIndex": 0, "bitIndex": 2, "type": "address"}
+{"line": "sda", "t": 442000, "v": 1, "marker": "address-bit", "byteIndex": 0, "bitIndex": 3, "type": "address"}
+{"line": "sda", "t": 452000, "v": 1, "marker": "address-bit", "byteIndex": 0, "bitIndex": 4, "type": "address"}
+{"line": "sda", "t": 462000, "v": 0, "marker": "address-bit", "byteIndex": 0, "bitIndex": 5, "type": "address"}
+{"line": "sda", "t": 472000, "v": 0, "marker": "address-bit", "byteIndex": 0, "bitIndex": 6, "type": "address"}
+{"line": "sda", "t": 482000, "v": 0, "marker": "address-bit", "byteIndex": 0, "bitIndex": 7, "type": "address"}
+{"line": "sda", "t": 492000, "v": 0, "marker": "ack-bit", "byteIndex": 0, "type": "ack"}
+{"line": "sda", "t": 502000, "v": 1, "marker": "ack-release", "byteIndex": 0, "type": "ack"}
+{"line": "sda", "t": 502000, "v": 0, "marker": "data-bit", "byteIndex": 1, "bitIndex": 0, "type": "data"}
+{"line": "sda", "t": 512000, "v": 1, "marker": "data-bit", "byteIndex": 1, "bitIndex": 1, "type": "data"}
+{"line": "sda", "t": 522000, "v": 0, "marker": "data-bit", "byteIndex": 1, "bitIndex": 2, "type": "data"}
+{"line": "sda", "t": 532000, "v": 1, "marker": "data-bit", "byteIndex": 1, "bitIndex": 3, "type": "data"}
+{"line": "sda", "t": 542000, "v": 0, "marker": "data-bit", "byteIndex": 1, "bitIndex": 4, "type": "data"}
+{"line": "sda", "t": 552000, "v": 0, "marker": "data-bit", "byteIndex": 1, "bitIndex": 5, "type": "data"}
+{"line": "sda", "t": 562000, "v": 0, "marker": "data-bit", "byteIndex": 1, "bitIndex": 6, "type": "data"}
+{"line": "sda", "t": 572000, "v": 1, "marker": "data-bit", "byteIndex": 1, "bitIndex": 7, "type": "data"}
+{"line": "sda", "t": 582000, "v": 0, "marker": "ack-bit", "byteIndex": 1, "type": "ack"}
+{"line": "sda", "t": 592000, "v": 1, "marker": "ack-release", "byteIndex": 1, "type": "ack"}
+{"line": "sda", "t": 592000, "v": 0, "marker": "data-bit", "byteIndex": 2, "bitIndex": 0, "type": "data"}
+{"line": "sda", "t": 602000, "v": 1, "marker": "data-bit", "byteIndex": 2, "bitIndex": 1, "type": "data"}
+{"line": "sda", "t": 612000, "v": 0, "marker": "data-bit", "byteIndex": 2, "bitIndex": 2, "type": "data"}
+{"line": "sda", "t": 622000, "v": 1, "marker": "data-bit", "byteIndex": 2, "bitIndex": 3, "type": "data"}
+{"line": "sda", "t": 632000, "v": 0, "marker": "data-bit", "byteIndex": 2, "bitIndex": 4, "type": "data"}
+{"line": "sda", "t": 642000, "v": 0, "marker": "data-bit", "byteIndex": 2, "bitIndex": 5, "type": "data"}
+{"line": "sda", "t": 652000, "v": 1, "marker": "data-bit", "byteIndex": 2, "bitIndex": 6, "type": "data"}
+{"line": "sda", "t": 662000, "v": 1, "marker": "data-bit", "byteIndex": 2, "bitIndex": 7, "type": "data"}
+{"line": "sda", "t": 672000, "v": 0, "marker": "ack-bit", "byteIndex": 2, "type": "ack"}
+{"line": "sda", "t": 682000, "v": 1, "marker": "ack-release", "byteIndex": 2, "type": "ack"}
+{"line": "sda", "t": 682000, "v": 0, "marker": "data-bit", "byteIndex": 3, "bitIndex": 0, "type": "data"}
+{"line": "sda", "t": 692000, "v": 1, "marker": "data-bit", "byteIndex": 3, "bitIndex": 1, "type": "data"}
+{"line": "sda", "t": 702000, "v": 0, "marker": "data-bit", "byteIndex": 3, "bitIndex": 2, "type": "data"}
+{"line": "sda", "t": 712000, "v": 0, "marker": "data-bit", "byteIndex": 3, "bitIndex": 3, "type": "data"}
+{"line": "sda", "t": 722000, "v": 0, "marker": "data-bit", "byteIndex": 3, "bitIndex": 4, "type": "data"}
+{"line": "sda", "t": 732000, "v": 0, "marker": "data-bit", "byteIndex": 3, "bitIndex": 5, "type": "data"}
+{"line": "sda", "t": 742000, "v": 0, "marker": "data-bit", "byteIndex": 3, "bitIndex": 6, "type": "data"}
+{"line": "sda", "t": 752000, "v": 0, "marker": "data-bit", "byteIndex": 3, "bitIndex": 7, "type": "data"}
+{"line": "sda", "t": 762000, "v": 0, "marker": "ack-bit", "byteIndex": 3, "type": "ack"}
+{"line": "sda", "t": 772000, "v": 1, "marker": "ack-release", "byteIndex": 3, "type": "ack"}
+{"line": "sda", "t": 772000, "v": 0, "marker": "data-bit", "byteIndex": 4, "bitIndex": 0, "type": "data"}
+{"line": "sda", "t": 782000, "v": 1, "marker": "data-bit", "byteIndex": 4, "bitIndex": 1, "type": "data"}
+{"line": "sda", "t": 792000, "v": 0, "marker": "data-bit", "byteIndex": 4, "bitIndex": 2, "type": "data"}
+{"line": "sda", "t": 802000, "v": 1, "marker": "data-bit", "byteIndex": 4, "bitIndex": 3, "type": "data"}
+{"line": "sda", "t": 812000, "v": 1, "marker": "data-bit", "byteIndex": 4, "bitIndex": 4, "type": "data"}
+{"line": "sda", "t": 822000, "v": 0, "marker": "data-bit", "byteIndex": 4, "bitIndex": 5, "type": "data"}
+{"line": "sda", "t": 832000, "v": 0, "marker": "data-bit", "byteIndex": 4, "bitIndex": 6, "type": "data"}
+{"line": "sda", "t": 842000, "v": 1, "marker": "data-bit", "byteIndex": 4, "bitIndex": 7, "type": "data"}
+{"line": "sda", "t": 852000, "v": 0, "marker": "ack-bit", "byteIndex": 4, "type": "ack"}
+{"line": "sda", "t": 862000, "v": 1, "marker": "ack-release", "byteIndex": 4, "type": "ack"}
+{"line": "sda", "t": 862000, "v": 0, "marker": "data-bit", "byteIndex": 5, "bitIndex": 0, "type": "data"}
+{"line": "sda", "t": 872000, "v": 1, "marker": "data-bit", "byteIndex": 5, "bitIndex": 1, "type": "data"}
+{"line": "sda", "t": 882000, "v": 0, "marker": "data-bit", "byteIndex": 5, "bitIndex": 2, "type": "data"}
+{"line": "sda", "t": 892000, "v": 1, "marker": "data-bit", "byteIndex": 5, "bitIndex": 3, "type": "data"}
+{"line": "sda", "t": 902000, "v": 1, "marker": "data-bit", "byteIndex": 5, "bitIndex": 4, "type": "data"}
+{"line": "sda", "t": 912000, "v": 0, "marker": "data-bit", "byteIndex": 5, "bitIndex": 5, "type": "data"}
+{"line": "sda", "t": 922000, "v": 1, "marker": "data-bit", "byteIndex": 5, "bitIndex": 6, "type": "data"}
+{"line": "sda", "t": 932000, "v": 0, "marker": "data-bit", "byteIndex": 5, "bitIndex": 7, "type": "data"}
+{"line": "sda", "t": 942000, "v": 0, "marker": "ack-bit", "byteIndex": 5, "type": "ack"}
+{"line": "sda", "t": 952000, "v": 1, "marker": "ack-release", "byteIndex": 5, "type": "ack"}
+{"line": "sda", "t": 956000, "v": 1, "marker": "stop"}
+{"line": "sda", "t": 956000, "v": 1, "marker": "gap-start"}
+{"line": "sda", "t": 996000, "v": 1, "marker": "bus-idle"}
+{"line": "sda", "t": 998000, "v": 0, "marker": "start"}
+{"line": "sda", "t": 1000000, "v": 1, "marker": "address-bit", "byteIndex": 0, "bitIndex": 0, "type": "address"}
+{"line": "sda", "t": 1010000, "v": 0, "marker": "address-bit", "byteIndex": 0, "bitIndex": 1, "type": "address"}
+{"line": "sda", "t": 1020000, "v": 1, "marker": "address-bit", "byteIndex": 0, "bitIndex": 2, "type": "address"}
+{"line": "sda", "t": 1030000, "v": 0, "marker": "address-bit", "byteIndex": 0, "bitIndex": 3, "type": "address"}
+{"line": "sda", "t": 1040000, "v": 0, "marker": "address-bit", "byteIndex": 0, "bitIndex": 4, "type": "address"}
+{"line": "sda", "t": 1050000, "v": 0, "marker": "address-bit", "byteIndex": 0, "bitIndex": 5, "type": "address"}
+{"line": "sda", "t": 1060000, "v": 1, "marker": "address-bit", "byteIndex": 0, "bitIndex": 6, "type": "address"}
+{"line": "sda", "t": 1070000, "v": 0, "marker": "address-bit", "byteIndex": 0, "bitIndex": 7, "type": "address"}
+{"line": "sda", "t": 1080000, "v": 0, "marker": "ack-bit", "byteIndex": 0, "type": "ack"}
+{"line": "sda", "t": 1090000, "v": 1, "marker": "ack-release", "byteIndex": 0, "type": "ack"}
+{"line": "sda", "t": 1090000, "v": 0, "marker": "data-bit", "byteIndex": 1, "bitIndex": 0, "type": "data"}
+{"line": "sda", "t": 1100000, "v": 1, "marker": "data-bit", "byteIndex": 1, "bitIndex": 1, "type": "data"}
+{"line": "sda", "t": 1110000, "v": 0, "marker": "data-bit", "byteIndex": 1, "bitIndex": 2, "type": "data"}
+{"line": "sda", "t": 1120000, "v": 1, "marker": "data-bit", "byteIndex": 1, "bitIndex": 3, "type": "data"}
+{"line": "sda", "t": 1130000, "v": 0, "marker": "data-bit", "byteIndex": 1, "bitIndex": 4, "type": "data"}
+{"line": "sda", "t": 1140000, "v": 0, "marker": "data-bit", "byteIndex": 1, "bitIndex": 5, "type": "data"}
+{"line": "sda", "t": 1150000, "v": 1, "marker": "data-bit", "byteIndex": 1, "bitIndex": 6, "type": "data"}
+{"line": "sda", "t": 1160000, "v": 1, "marker": "data-bit", "byteIndex": 1, "bitIndex": 7, "type": "data"}
+{"line": "sda", "t": 1170000, "v": 0, "marker": "ack-bit", "byteIndex": 1, "type": "ack"}
+{"line": "sda", "t": 1180000, "v": 1, "marker": "ack-release", "byteIndex": 1, "type": "ack"}
+{"line": "sda", "t": 1180000, "v": 0, "marker": "data-bit", "byteIndex": 2, "bitIndex": 0, "type": "data"}
+{"line": "sda", "t": 1190000, "v": 1, "marker": "data-bit", "byteIndex": 2, "bitIndex": 1, "type": "data"}
+{"line": "sda", "t": 1200000, "v": 0, "marker": "data-bit", "byteIndex": 2, "bitIndex": 2, "type": "data"}
+{"line": "sda", "t": 1210000, "v": 1, "marker": "data-bit", "byteIndex": 2, "bitIndex": 3, "type": "data"}
+{"line": "sda", "t": 1220000, "v": 0, "marker": "data-bit", "byteIndex": 2, "bitIndex": 4, "type": "data"}
+{"line": "sda", "t": 1230000, "v": 0, "marker": "data-bit", "byteIndex": 2, "bitIndex": 5, "type": "data"}
+{"line": "sda", "t": 1240000, "v": 0, "marker": "data-bit", "byteIndex": 2, "bitIndex": 6, "type": "data"}
+{"line": "sda", "t": 1250000, "v": 1, "marker": "data-bit", "byteIndex": 2, "bitIndex": 7, "type": "data"}
+{"line": "sda", "t": 1260000, "v": 0, "marker": "ack-bit", "byteIndex": 2, "type": "ack"}
+{"line": "sda", "t": 1270000, "v": 1, "marker": "ack-release", "byteIndex": 2, "type": "ack"}
+{"line": "sda", "t": 1270000, "v": 0, "marker": "data-bit", "byteIndex": 3, "bitIndex": 0, "type": "data"}
+{"line": "sda", "t": 1280000, "v": 1, "marker": "data-bit", "byteIndex": 3, "bitIndex": 1, "type": "data"}
+{"line": "sda", "t": 1290000, "v": 0, "marker": "data-bit", "byteIndex": 3, "bitIndex": 2, "type": "data"}
+{"line": "sda", "t": 1300000, "v": 1, "marker": "data-bit", "byteIndex": 3, "bitIndex": 3, "type": "data"}
+{"line": "sda", "t": 1310000, "v": 1, "marker": "data-bit", "byteIndex": 3, "bitIndex": 4, "type": "data"}
+{"line": "sda", "t": 1320000, "v": 1, "marker": "data-bit", "byteIndex": 3, "bitIndex": 5, "type": "data"}
+{"line": "sda", "t": 1330000, "v": 1, "marker": "data-bit", "byteIndex": 3, "bitIndex": 6, "type": "data"}
+{"line": "sda", "t": 1340000, "v": 1, "marker": "data-bit", "byteIndex": 3, "bitIndex": 7, "type": "data"}
+{"line": "sda", "t": 1350000, "v": 0, "marker": "ack-bit", "byteIndex": 3, "type": "ack"}
+{"line": "sda", "t": 1360000, "v": 1, "marker": "ack-release", "byteIndex": 3, "type": "ack"}
+{"line": "sda", "t": 1360000, "v": 0, "marker": "data-bit", "byteIndex": 4, "bitIndex": 0, "type": "data"}
+{"line": "sda", "t": 1370000, "v": 1, "marker": "data-bit", "byteIndex": 4, "bitIndex": 1, "type": "data"}
+{"line": "sda", "t": 1380000, "v": 0, "marker": "data-bit", "byteIndex": 4, "bitIndex": 2, "type": "data"}
+{"line": "sda", "t": 1390000, "v": 1, "marker": "data-bit", "byteIndex": 4, "bitIndex": 3, "type": "data"}
+{"line": "sda", "t": 1400000, "v": 0, "marker": "data-bit", "byteIndex": 4, "bitIndex": 4, "type": "data"}
+{"line": "sda", "t": 1410000, "v": 0, "marker": "data-bit", "byteIndex": 4, "bitIndex": 5, "type": "data"}
+{"line": "sda", "t": 1420000, "v": 1, "marker": "data-bit", "byteIndex": 4, "bitIndex": 6, "type": "data"}
+{"line": "sda", "t": 1430000, "v": 0, "marker": "data-bit", "byteIndex": 4, "bitIndex": 7, "type": "data"}
+{"line": "sda", "t": 1440000, "v": 0, "marker": "ack-bit", "byteIndex": 4, "type": "ack"}
+{"line": "sda", "t": 1450000, "v": 1, "marker": "ack-release", "byteIndex": 4, "type": "ack"}
+{"line": "sda", "t": 1450000, "v": 0, "marker": "data-bit", "byteIndex": 5, "bitIndex": 0, "type": "data"}
+{"line": "sda", "t": 1460000, "v": 1, "marker": "data-bit", "byteIndex": 5, "bitIndex": 1, "type": "data"}
+{"line": "sda", "t": 1470000, "v": 0, "marker": "data-bit", "byteIndex": 5, "bitIndex": 2, "type": "data"}
+{"line": "sda", "t": 1480000, "v": 0, "marker": "data-bit", "byteIndex": 5, "bitIndex": 3, "type": "data"}
+{"line": "sda", "t": 1490000, "v": 1, "marker": "data-bit", "byteIndex": 5, "bitIndex": 4, "type": "data"}
+{"line": "sda", "t": 1500000, "v": 1, "marker": "data-bit", "byteIndex": 5, "bitIndex": 5, "type": "data"}
+{"line": "sda", "t": 1510000, "v": 1, "marker": "data-bit", "byteIndex": 5, "bitIndex": 6, "type": "data"}
+{"line": "sda", "t": 1520000, "v": 0, "marker": "data-bit", "byteIndex": 5, "bitIndex": 7, "type": "data"}
+{"line": "sda", "t": 1530000, "v": 0, "marker": "ack-bit", "byteIndex": 5, "type": "ack"}
+{"line": "sda", "t": 1540000, "v": 1, "marker": "ack-release", "byteIndex": 5, "type": "ack"}
+{"line": "sda", "t": 1540000, "v": 0, "marker": "data-bit", "byteIndex": 6, "bitIndex": 0, "type": "data"}
+{"line": "sda", "t": 1550000, "v": 0, "marker": "data-bit", "byteIndex": 6, "bitIndex": 1, "type": "data"}
+{"line": "sda", "t": 1560000, "v": 0, "marker": "data-bit", "byteIndex": 6, "bitIndex": 2, "type": "data"}
+{"line": "sda", "t": 1570000, "v": 1, "marker": "data-bit", "byteIndex": 6, "bitIndex": 3, "type": "data"}
+{"line": "sda", "t": 1580000, "v": 0, "marker": "data-bit", "byteIndex": 6, "bitIndex": 4, "type": "data"}
+{"line": "sda", "t": 1590000, "v": 0, "marker": "data-bit", "byteIndex": 6, "bitIndex": 5, "type": "data"}
+{"line": "sda", "t": 1600000, "v": 1, "marker": "data-bit", "byteIndex": 6, "bitIndex": 6, "type": "data"}
+{"line": "sda", "t": 1610000, "v": 0, "marker": "data-bit", "byteIndex": 6, "bitIndex": 7, "type": "data"}
+{"line": "sda", "t": 1620000, "v": 0, "marker": "ack-bit", "byteIndex": 6, "type": "ack"}
+{"line": "sda", "t": 1630000, "v": 1, "marker": "ack-release", "byteIndex": 6, "type": "ack"}
+{"line": "sda", "t": 1630000, "v": 0, "marker": "data-bit", "byteIndex": 7, "bitIndex": 0, "type": "data"}
+{"line": "sda", "t": 1640000, "v": 0, "marker": "data-bit", "byteIndex": 7, "bitIndex": 1, "type": "data"}
+{"line": "sda", "t": 1650000, "v": 1, "marker": "data-bit", "byteIndex": 7, "bitIndex": 2, "type": "data"}
+{"line": "sda", "t": 1660000, "v": 1, "marker": "data-bit", "byteIndex": 7, "bitIndex": 3, "type": "data"}
+{"line": "sda", "t": 1670000, "v": 0, "marker": "data-bit", "byteIndex": 7, "bitIndex": 4, "type": "data"}
+{"line": "sda", "t": 1680000, "v": 0, "marker": "data-bit", "byteIndex": 7, "bitIndex": 5, "type": "data"}
+{"line": "sda", "t": 1690000, "v": 0, "marker": "data-bit", "byteIndex": 7, "bitIndex": 6, "type": "data"}
+{"line": "sda", "t": 1700000, "v": 1, "marker": "data-bit", "byteIndex": 7, "bitIndex": 7, "type": "data"}
+{"line": "sda", "t": 1710000, "v": 0, "marker": "ack-bit", "byteIndex": 7, "type": "ack"}
+{"line": "sda", "t": 1720000, "v": 1, "marker": "ack-release", "byteIndex": 7, "type": "ack"}
+{"line": "sda", "t": 1720000, "v": 0, "marker": "data-bit", "byteIndex": 8, "bitIndex": 0, "type": "data"}
+{"line": "sda", "t": 1730000, "v": 0, "marker": "data-bit", "byteIndex": 8, "bitIndex": 1, "type": "data"}
+{"line": "sda", "t": 1740000, "v": 0, "marker": "data-bit", "byteIndex": 8, "bitIndex": 2, "type": "data"}
+{"line": "sda", "t": 1750000, "v": 0, "marker": "data-bit", "byteIndex": 8, "bitIndex": 3, "type": "data"}
+{"line": "sda", "t": 1760000, "v": 0, "marker": "data-bit", "byteIndex": 8, "bitIndex": 4, "type": "data"}
+{"line": "sda", "t": 1770000, "v": 0, "marker": "data-bit", "byteIndex": 8, "bitIndex": 5, "type": "data"}
+{"line": "sda", "t": 1780000, "v": 1, "marker": "data-bit", "byteIndex": 8, "bitIndex": 6, "type": "data"}
+{"line": "sda", "t": 1790000, "v": 1, "marker": "data-bit", "byteIndex": 8, "bitIndex": 7, "type": "data"}
+{"line": "sda", "t": 1800000, "v": 0, "marker": "ack-bit", "byteIndex": 8, "type": "ack"}
+{"line": "sda", "t": 1810000, "v": 1, "marker": "ack-release", "byteIndex": 8, "type": "ack"}
+{"line": "sda", "t": 1814000, "v": 1, "marker": "stop"}
+{"line": "sda", "t": 1814000, "v": 1, "marker": "gap-start"}
+{"line": "sda", "t": 1854000, "v": 1, "marker": "bus-idle"}
+{"line": "sda", "t": 1856000, "v": 0, "marker": "start"}
+{"line": "sda", "t": 1858000, "v": 0, "marker": "address-bit", "byteIndex": 0, "bitIndex": 0, "type": "address"}
+{"line": "sda", "t": 1868000, "v": 1, "marker": "address-bit", "byteIndex": 0, "bitIndex": 1, "type": "address"}
+{"line": "sda", "t": 1878000, "v": 0, "marker": "address-bit", "byteIndex": 0, "bitIndex": 2, "type": "address"}
+{"line": "sda", "t": 1888000, "v": 1, "marker": "address-bit", "byteIndex": 0, "bitIndex": 3, "type": "address"}
+{"line": "sda", "t": 1898000, "v": 0, "marker": "address-bit", "byteIndex": 0, "bitIndex": 4, "type": "address"}
+{"line": "sda", "t": 1908000, "v": 0, "marker": "address-bit", "byteIndex": 0, "bitIndex": 5, "type": "address"}
+{"line": "sda", "t": 1918000, "v": 1, "marker": "address-bit", "byteIndex": 0, "bitIndex": 6, "type": "address"}
+{"line": "sda", "t": 1928000, "v": 0, "marker": "address-bit", "byteIndex": 0, "bitIndex": 7, "type": "address"}
+{"line": "sda", "t": 1938000, "v": 0, "marker": "ack-bit", "byteIndex": 0, "type": "ack"}
+{"line": "sda", "t": 1948000, "v": 1, "marker": "ack-release", "byteIndex": 0, "type": "ack"}
+{"line": "sda", "t": 1948000, "v": 0, "marker": "data-bit", "byteIndex": 1, "bitIndex": 0, "type": "data"}
+{"line": "sda", "t": 1958000, "v": 1, "marker": "data-bit", "byteIndex": 1, "bitIndex": 1, "type": "data"}
+{"line": "sda", "t": 1968000, "v": 0, "marker": "data-bit", "byteIndex": 1, "bitIndex": 2, "type": "data"}
+{"line": "sda", "t": 1978000, "v": 1, "marker": "data-bit", "byteIndex": 1, "bitIndex": 3, "type": "data"}
+{"line": "sda", "t": 1988000, "v": 0, "marker": "data-bit", "byteIndex": 1, "bitIndex": 4, "type": "data"}
+{"line": "sda", "t": 1998000, "v": 1, "marker": "data-bit", "byteIndex": 1, "bitIndex": 5, "type": "data"}
+{"line": "sda", "t": 2008000, "v": 1, "marker": "data-bit", "byteIndex": 1, "bitIndex": 6, "type": "data"}
+{"line": "sda", "t": 2018000, "v": 0, "marker": "data-bit", "byteIndex": 1, "bitIndex": 7, "type": "data"}
+{"line": "sda", "t": 2028000, "v": 0, "marker": "ack-bit", "byteIndex": 1, "type": "ack"}
+{"line": "sda", "t": 2038000, "v": 1, "marker": "ack-release", "byteIndex": 1, "type": "ack"}
+{"line": "sda", "t": 2038000, "v": 0, "marker": "data-bit", "byteIndex": 2, "bitIndex": 0, "type": "data"}
+{"line": "sda", "t": 2048000, "v": 1, "marker": "data-bit", "byteIndex": 2, "bitIndex": 1, "type": "data"}
+{"line": "sda", "t": 2058000, "v": 0, "marker": "data-bit", "byteIndex": 2, "bitIndex": 2, "type": "data"}
+{"line": "sda", "t": 2068000, "v": 1, "marker": "data-bit", "byteIndex": 2, "bitIndex": 3, "type": "data"}
+{"line": "sda", "t": 2078000, "v": 0, "marker": "data-bit", "byteIndex": 2, "bitIndex": 4, "type": "data"}
+{"line": "sda", "t": 2088000, "v": 1, "marker": "data-bit", "byteIndex": 2, "bitIndex": 5, "type": "data"}
+{"line": "sda", "t": 2098000, "v": 0, "marker": "data-bit", "byteIndex": 2, "bitIndex": 6, "type": "data"}
+{"line": "sda", "t": 2108000, "v": 0, "marker": "data-bit", "byteIndex": 2, "bitIndex": 7, "type": "data"}
+{"line": "sda", "t": 2118000, "v": 0, "marker": "ack-bit", "byteIndex": 2, "type": "ack"}
+{"line": "sda", "t": 2128000, "v": 1, "marker": "ack-release", "byteIndex": 2, "type": "ack"}
+{"line": "sda", "t": 2128000, "v": 0, "marker": "data-bit", "byteIndex": 3, "bitIndex": 0, "type": "data"}
+{"line": "sda", "t": 2138000, "v": 1, "marker": "data-bit", "byteIndex": 3, "bitIndex": 1, "type": "data"}
+{"line": "sda", "t": 2148000, "v": 0, "marker": "data-bit", "byteIndex": 3, "bitIndex": 2, "type": "data"}
+{"line": "sda", "t": 2158000, "v": 1, "marker": "data-bit", "byteIndex": 3, "bitIndex": 3, "type": "data"}
+{"line": "sda", "t": 2168000, "v": 1, "marker": "data-bit", "byteIndex": 3, "bitIndex": 4, "type": "data"}
+{"line": "sda", "t": 2178000, "v": 1, "marker": "data-bit", "byteIndex": 3, "bitIndex": 5, "type": "data"}
+{"line": "sda", "t": 2188000, "v": 1, "marker": "data-bit", "byteIndex": 3, "bitIndex": 6, "type": "data"}
+{"line": "sda", "t": 2198000, "v": 0, "marker": "data-bit", "byteIndex": 3, "bitIndex": 7, "type": "data"}
+{"line": "sda", "t": 2208000, "v": 0, "marker": "ack-bit", "byteIndex": 3, "type": "ack"}
+{"line": "sda", "t": 2218000, "v": 1, "marker": "ack-release", "byteIndex": 3, "type": "ack"}
+{"line": "sda", "t": 2218000, "v": 0, "marker": "data-bit", "byteIndex": 4, "bitIndex": 0, "type": "data"}
+{"line": "sda", "t": 2228000, "v": 1, "marker": "data-bit", "byteIndex": 4, "bitIndex": 1, "type": "data"}
+{"line": "sda", "t": 2238000, "v": 0, "marker": "data-bit", "byteIndex": 4, "bitIndex": 2, "type": "data"}
+{"line": "sda", "t": 2248000, "v": 0, "marker": "data-bit", "byteIndex": 4, "bitIndex": 3, "type": "data"}
+{"line": "sda", "t": 2258000, "v": 0, "marker": "data-bit", "byteIndex": 4, "bitIndex": 4, "type": "data"}
+{"line": "sda", "t": 2268000, "v": 0, "marker": "data-bit", "byteIndex": 4, "bitIndex": 5, "type": "data"}
+{"line": "sda", "t": 2278000, "v": 0, "marker": "data-bit", "byteIndex": 4, "bitIndex": 6, "type": "data"}
+{"line": "sda", "t": 2288000, "v": 1, "marker": "data-bit", "byteIndex": 4, "bitIndex": 7, "type": "data"}
+{"line": "sda", "t": 2298000, "v": 0, "marker": "ack-bit", "byteIndex": 4, "type": "ack"}
+{"line": "sda", "t": 2308000, "v": 1, "marker": "ack-release", "byteIndex": 4, "type": "ack"}
+{"line": "sda", "t": 2308000, "v": 0, "marker": "data-bit", "byteIndex": 5, "bitIndex": 0, "type": "data"}
+{"line": "sda", "t": 2318000, "v": 0, "marker": "data-bit", "byteIndex": 5, "bitIndex": 1, "type": "data"}
+{"line": "sda", "t": 2328000, "v": 0, "marker": "data-bit", "byteIndex": 5, "bitIndex": 2, "type": "data"}
+{"line": "sda", "t": 2338000, "v": 0, "marker": "data-bit", "byteIndex": 5, "bitIndex": 3, "type": "data"}
+{"line": "sda", "t": 2348000, "v": 0, "marker": "data-bit", "byteIndex": 5, "bitIndex": 4, "type": "data"}
+{"line": "sda", "t": 2358000, "v": 0, "marker": "data-bit", "byteIndex": 5, "bitIndex": 5, "type": "data"}
+{"line": "sda", "t": 2368000, "v": 1, "marker": "data-bit", "byteIndex": 5, "bitIndex": 6, "type": "data"}
+{"line": "sda", "t": 2378000, "v": 0, "marker": "data-bit", "byteIndex": 5, "bitIndex": 7, "type": "data"}
+{"line": "sda", "t": 2388000, "v": 0, "marker": "ack-bit", "byteIndex": 5, "type": "ack"}
+{"line": "sda", "t": 2398000, "v": 1, "marker": "ack-release", "byteIndex": 5, "type": "ack"}
+{"line": "sda", "t": 2398000, "v": 0, "marker": "data-bit", "byteIndex": 6, "bitIndex": 0, "type": "data"}
+{"line": "sda", "t": 2408000, "v": 0, "marker": "data-bit", "byteIndex": 6, "bitIndex": 1, "type": "data"}
+{"line": "sda", "t": 2418000, "v": 0, "marker": "data-bit", "byteIndex": 6, "bitIndex": 2, "type": "data"}
+{"line": "sda", "t": 2428000, "v": 0, "marker": "data-bit", "byteIndex": 6, "bitIndex": 3, "type": "data"}
+{"line": "sda", "t": 2438000, "v": 1, "marker": "data-bit", "byteIndex": 6, "bitIndex": 4, "type": "data"}
+{"line": "sda", "t": 2448000, "v": 1, "marker": "data-bit", "byteIndex": 6, "bitIndex": 5, "type": "data"}
+{"line": "sda", "t": 2458000, "v": 1, "marker": "data-bit", "byteIndex": 6, "bitIndex": 6, "type": "data"}
+{"line": "sda", "t": 2468000, "v": 1, "marker": "data-bit", "byteIndex": 6, "bitIndex": 7, "type": "data"}
+{"line": "sda", "t": 2478000, "v": 0, "marker": "ack-bit", "byteIndex": 6, "type": "ack"}
+{"line": "sda", "t": 2488000, "v": 1, "marker": "ack-release", "byteIndex": 6, "type": "ack"}
+{"line": "sda", "t": 2488000, "v": 0, "marker": "data-bit", "byteIndex": 7, "bitIndex": 0, "type": "data"}
+{"line": "sda", "t": 2498000, "v": 0, "marker": "data-bit", "byteIndex": 7, "bitIndex": 1, "type": "data"}
+{"line": "sda", "t": 2508000, "v": 0, "marker": "data-bit", "byteIndex": 7, "bitIndex": 2, "type": "data"}
+{"line": "sda", "t": 2518000, "v": 1, "marker": "data-bit", "byteIndex": 7, "bitIndex": 3, "type": "data"}
+{"line": "sda", "t": 2528000, "v": 1, "marker": "data-bit", "byteIndex": 7, "bitIndex": 4, "type": "data"}
+{"line": "sda", "t": 2538000, "v": 0, "marker": "data-bit", "byteIndex": 7, "bitIndex": 5, "type": "data"}
+{"line": "sda", "t": 2548000, "v": 0, "marker": "data-bit", "byteIndex": 7, "bitIndex": 6, "type": "data"}
+{"line": "sda", "t": 2558000, "v": 1, "marker": "data-bit", "byteIndex": 7, "bitIndex": 7, "type": "data"}
+{"line": "sda", "t": 2568000, "v": 0, "marker": "ack-bit", "byteIndex": 7, "type": "ack"}
+{"line": "sda", "t": 2578000, "v": 1, "marker": "ack-release", "byteIndex": 7, "type": "ack"}
+{"line": "sda", "t": 2582000, "v": 1, "marker": "stop"}
+{"line": "sda", "t": 0, "v": 1, "marker": "bus-idle"}

@@ -1,0 +1,29 @@
+{% macro obstacle(name, rate, operational, img_name, description) -%}
+<div class="card border border-3 border-{% if rate > 100 %}danger{% else %}success{% endif %} col-md-6 justify-items-center bg-dark">
+    <div class="card-body row row-cols-2 text-center text-white">
+        <img class="img col-md-6 img-fluid" height="200" width="200" src="{{ url_for('static', filename='img/' + img_name) }}" alt="Obstacle Icons" >
+        <div class="col-md-6">
+            <h5 class="card-title">Obstacle: {{ name }}</h5>
+            <p class="card-subtitle mb-2">Operational: 
+            {% if operational %}
+                &#128994; True
+            {% else %}
+                &#9940; False
+            {% endif %}<p>
+            <p class="card-text">: {{ description }}</p>
+            <form class="mt-5" action="{{ url_for('dashboard.rate_' + name) }}" method="post">
+                <fieldset>
+                    <legend>Current Rate: <span class="text-{% if rate > 100 %}danger{% else %}success{% endif %}">{{ rate }}</span></legend>
+                    <div>
+                        <label for="rate">Rate:</label>
+                        <input class="w-100 border border-success bg-dark text-white" type="number" id="rate" name="rate" min="1" max="100" required>
+                    </div>
+                    <div>
+                        <input class="btn btn-outline-success my-3" type="submit" value="Set Rate">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+{%- endmacro %}

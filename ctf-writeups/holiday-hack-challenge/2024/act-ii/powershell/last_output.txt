@@ -1,0 +1,192 @@
+Checking 04886164e5140175bafe599b7f1cacc8,DFD05F3B46D21BC8556CDBF544325A945ED0304EC0BB7DBFD68ED5931E7FF6EE
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153098.5860338'>/mfa_validate/DFD05F3B46D21BC8556CDBF544325A945ED0304EC0BB7DBFD68ED5931E7FF6EE</a></h1>
+<h1>[*] Setting cookie attempts</h1>
+Checking 664f52463ef97bcd1729d6de1028e41e,1F3C45D7E7B1F7621F67136C538C6933791D3392648C7B0F8B17FB1A6343EBD5
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153098.654394'>/mfa_validate/1F3C45D7E7B1F7621F67136C538C6933791D3392648C7B0F8B17FB1A6343EBD5</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 3e03cd0f3d335c6fb50122553f63ef78,E2DBBDBCC7E57E526841899975B6621105710E76C203C1DC30419E7F1CBA5297
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153098.6611743'>/mfa_validate/E2DBBDBCC7E57E526841899975B6621105710E76C203C1DC30419E7F1CBA5297</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking f2aeb18f5b3f08420eed9b548b6058c3,BC83A2C7A6279EAD36370AB3509FEA7483EFF83C164FC7CFE3C680D879B9F9D2
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153098.734651'>/mfa_validate/BC83A2C7A6279EAD36370AB3509FEA7483EFF83C164FC7CFE3C680D879B9F9D2</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 32b9401a6d972f8c1a98de145629ea9d,B93772D2393029424049564B366F08B21E66282CE3D7B9DA4F7A69C8891012A0
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153098.7408082'>/mfa_validate/B93772D2393029424049564B366F08B21E66282CE3D7B9DA4F7A69C8891012A0</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 3a79238df0a92ab0afa44a85f914fc3b,989FDE082FB901AE5EDFD873BF41A76BF47B318F76968D0275DAD99ABD5894B4
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153098.7465453'>/mfa_validate/989FDE082FB901AE5EDFD873BF41A76BF47B318F76968D0275DAD99ABD5894B4</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 49c2a68b21b9982aa9fd64cf0fd79f72,E2B80B2C70BA5982814B758849472C8711AF8051E5261CE827C02818D7E1DE8C
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153098.7522006'>/mfa_validate/E2B80B2C70BA5982814B758849472C8711AF8051E5261CE827C02818D7E1DE8C</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking f8142c1304efb9b7e9a7f57363c2d286,704FECC829A3ACB5E50E3277EAFC03CA902E515CFD81BFA94670A44ACA551D6A
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153098.757901'>/mfa_validate/704FECC829A3ACB5E50E3277EAFC03CA902E515CFD81BFA94670A44ACA551D6A</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 706457f6dd78729a8bed5bae1efaeb50,F5251B4CA89F3C4EB6BBCF40AD41ABC870FFB8BFC4D1E170DF7ED88F23E20568
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153098.8290865'>/mfa_validate/F5251B4CA89F3C4EB6BBCF40AD41ABC870FFB8BFC4D1E170DF7ED88F23E20568</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking bb0564aa5785045937a35a9fa3fbbc73,A9FBA920D17E1B98F393E691EC837A0CA41BE8115389F2A634F77DCEEAF20725
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153098.835483'>/mfa_validate/A9FBA920D17E1B98F393E691EC837A0CA41BE8115389F2A634F77DCEEAF20725</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 4173a7bc22aee35c5fc48261b041d064,AF2B19CC9CEE8005C95A321605FB2AAB8577C66EBD762CC2DF943FEE47987D86
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153098.8406925'>/mfa_validate/AF2B19CC9CEE8005C95A321605FB2AAB8577C66EBD762CC2DF943FEE47987D86</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 198b8bf2cd30a7c7fed464cca1720a88,0F8B6BD4B5D006BD7A0FCEEBA10A7726430EA9AF7FA4314C0A83E17ACAEA32B6
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153098.8467557'>/mfa_validate/0F8B6BD4B5D006BD7A0FCEEBA10A7726430EA9AF7FA4314C0A83E17ACAEA32B6</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 3a7c8ecffeeadb164c31559f8f24a1e7,38810A7BEA5587438CBFA6A0C364619CA4F886EC403BE951CF38F5158D7DA4F9
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153098.8557646'>/mfa_validate/38810A7BEA5587438CBFA6A0C364619CA4F886EC403BE951CF38F5158D7DA4F9</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 288e60e318d9ad7d70d743a614442ffc,A93F039A2D5158251D509AFB2BF6BC45DEC47D8AC189A170A23CAEA07F009476
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153098.8617864'>/mfa_validate/A93F039A2D5158251D509AFB2BF6BC45DEC47D8AC189A170A23CAEA07F009476</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 87ab4cb29649807fdb716ac85cf560ea,89298B15BECC2F6C98C53EBFEBF1C91D7D569CB0895B22F840BD3B9CA400E9F7
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153098.933173'>/mfa_validate/89298B15BECC2F6C98C53EBFEBF1C91D7D569CB0895B22F840BD3B9CA400E9F7</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 89f3ec1275407c9526a645602d56e799,F6BC096E3570C6622EA951B3CFB852E116D0E1460576FB9FBE6F6B75DCCB46C7
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153098.9422698'>/mfa_validate/F6BC096E3570C6622EA951B3CFB852E116D0E1460576FB9FBE6F6B75DCCB46C7</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 33539252b40b5c244b09aee8a57adbc9,3877CD419E2D8907C09DE27C68BABFBCD88A9D8F7BEBDB4385AFF288D0A39631
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.0292346'>/mfa_validate/3877CD419E2D8907C09DE27C68BABFBCD88A9D8F7BEBDB4385AFF288D0A39631</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 152899789a191d9e9150a1e3a5513b7f,1E257FCA2443492C6B8621BEE3117E9DE40D6D6E1A7CA4861079FB74CB9DC164
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.0370708'>/mfa_validate/1E257FCA2443492C6B8621BEE3117E9DE40D6D6E1A7CA4861079FB74CB9DC164</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 7cd48566f118a02f300cdfa75dee7863,AC7458460E359B3B940540168AFFC7FA354C3CC05A52A52A1A6DE0538AE60EC8
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.0425992'>/mfa_validate/AC7458460E359B3B940540168AFFC7FA354C3CC05A52A52A1A6DE0538AE60EC8</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking d798a55fca64118cea2df3c120f67569,65D70BADAC127DAC0BCC4962107B708A37CF24B8DCD327C328A3C59A610F18EE
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.0479257'>/mfa_validate/65D70BADAC127DAC0BCC4962107B708A37CF24B8DCD327C328A3C59A610F18EE</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 6ef5570cd43a3ec9f43c57f662201e55,E2692776B6ECD2C39373CED96F7FF8B64AEAE56404352CF06AEFC724CC4C7CF1
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.053533'>/mfa_validate/E2692776B6ECD2C39373CED96F7FF8B64AEAE56404352CF06AEFC724CC4C7CF1</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking bf189d47c3175ada98af398669e3cac3,E433FEB9DE55166463E0BD4BA14A3CC099BD1BA1ABF20FD290491BDA3D3CF2E6
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.0616183'>/mfa_validate/E433FEB9DE55166463E0BD4BA14A3CC099BD1BA1ABF20FD290491BDA3D3CF2E6</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 743ac25389a0b430dd9f8e72b2ec9d7f,CF056AE6605F7909A7E6126716E528B863807D2DC153A4D5AA00714AC72AADC4
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.1309488'>/mfa_validate/CF056AE6605F7909A7E6126716E528B863807D2DC153A4D5AA00714AC72AADC4</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 270aabd5feaaf40185f2effa9fa2cd6e,F732A928CDA0C4A51284F8B28401EAC228CA2769804CFBCC16F2C8A0C58713F2
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.1378734'>/mfa_validate/F732A928CDA0C4A51284F8B28401EAC228CA2769804CFBCC16F2C8A0C58713F2</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 8b58850ee66bd2ab7dd2f5f850c855f8,D2E0F89C295194775B9835F646F5BDD950EB05CB6D912602CE4FF62A30EBE437
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.1485593'>/mfa_validate/D2E0F89C295194775B9835F646F5BDD950EB05CB6D912602CE4FF62A30EBE437</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 6fd00cbda10079b1d55283a88680d075,7A50D248E3991BF55C361E119FAA292C8661F0EB6476C868DB3289793391E12F
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.1543689'>/mfa_validate/7A50D248E3991BF55C361E119FAA292C8661F0EB6476C868DB3289793391E12F</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 612001dd92369a7750c763963bc327f0,BC9F1A7214052F7AD3FB5076A1862E24DC71808BA27C5D9C584D681F6C3AFE6B
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.159969'>/mfa_validate/BC9F1A7214052F7AD3FB5076A1862E24DC71808BA27C5D9C584D681F6C3AFE6B</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 010f2cc580f74521c86215b7374eead6,5BBE0D45C6A1FD01A7641FF4807009EFC91FD7F5637DDED8B71AD8E2ADA5D086
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.2328844'>/mfa_validate/5BBE0D45C6A1FD01A7641FF4807009EFC91FD7F5637DDED8B71AD8E2ADA5D086</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 29860c67296d808bc6506175a8cbb422,8FCFF56C3C425A8A7163493B1F17FB330AD89FBBEFDDD9C5D226196C4C327BBB
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.2383704'>/mfa_validate/8FCFF56C3C425A8A7163493B1F17FB330AD89FBBEFDDD9C5D226196C4C327BBB</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 7b7f6891b6b6ab46fe2e85651db8205f,F892F608096E56013C3ED96E4F984C6376617C42E328E20382660370FF181CE4
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.243986'>/mfa_validate/F892F608096E56013C3ED96E4F984C6376617C42E328E20382660370FF181CE4</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 45ffb41c4e458d08a8b08beeec2b4652,D040356E54CA166CD0479D9878FC9BA1012A80419A846A58A24649F4F01B63F8
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.24936'>/mfa_validate/D040356E54CA166CD0479D9878FC9BA1012A80419A846A58A24649F4F01B63F8</a></h1>
+<h1>[+] Success, defense mechanisms deactivated.</h1><br>Administrator Token supplied, You are able to control the production and deployment of the snow cannons. May the best elves win: WombleysProductionLineShallPrevail</p>
+Checking d0e6bfb6a4e6531a0c71225f0a3d908d,FF1A98E7BB3D9F87C4495EE7D62C455CBAD6C6A6AD4ABBA25A503B7C1AE113C1
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.3457868'>/mfa_validate/FF1A98E7BB3D9F87C4495EE7D62C455CBAD6C6A6AD4ABBA25A503B7C1AE113C1</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking bd7efda0cb3c6d15dd896755003c635c,6297F422314EA9E9172752F3A891BD505752C5F14FCAB93153BCB1038FB5AB87
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.3559659'>/mfa_validate/6297F422314EA9E9172752F3A891BD505752C5F14FCAB93153BCB1038FB5AB87</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 5be8911ced448dbb6f0bd5a24cc36935,04519F7AF02A977A27A8D9398E86354117537FA896C437019A61F46D31BFD339
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.3655696'>/mfa_validate/04519F7AF02A977A27A8D9398E86354117537FA896C437019A61F46D31BFD339</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 1acbfea6a2dad66eb074b17459f8c5b6,5A4B06401AD22FA4CF75FE22829CB14549C4F18A18C67BEB16D314B80A4F44D9
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.4463115'>/mfa_validate/5A4B06401AD22FA4CF75FE22829CB14549C4F18A18C67BEB16D314B80A4F44D9</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 0f262d0003bd696550744fd43cd5b520,ABF98108DBD1095A59BAE36726FAC48E3AB23DA2CF2EFFEAE02EF5C142CB76FE
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.4519777'>/mfa_validate/ABF98108DBD1095A59BAE36726FAC48E3AB23DA2CF2EFFEAE02EF5C142CB76FE</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 8cac896f624576d825564bb30c7250eb,2DDA00DA692764113B97787241658A1911AEB4C0BD9B92E4FAB4FFCB1FE15A33
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.4572072'>/mfa_validate/2DDA00DA692764113B97787241658A1911AEB4C0BD9B92E4FAB4FFCB1FE15A33</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 8ef6d2e12a58d7ec521a56f25e624b80,CE92890075A6232A039BCB06B83ADF90355119A99DA8D694C85681E310191BB9
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.4620936'>/mfa_validate/CE92890075A6232A039BCB06B83ADF90355119A99DA8D694C85681E310191BB9</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking b4959370a4c484c10a1ecc53b1b56a7d,AE311EBE101C6AC4E11E4E338906ECEDC22583FAD68B85834EED3CB684FC4383
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.4670494'>/mfa_validate/AE311EBE101C6AC4E11E4E338906ECEDC22583FAD68B85834EED3CB684FC4383</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 38bdd7748a70529e9beb04b95c09195d,ACAB8D777A0C5F9D631B4FE6E07CC14B7E063C1E48EE8A0AB876D12082AD3FEA
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.5327165'>/mfa_validate/ACAB8D777A0C5F9D631B4FE6E07CC14B7E063C1E48EE8A0AB876D12082AD3FEA</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 8d4366f08c013f5c0c587b8508b48b15,01B1F4132E95B847D89FCDC599FD685E26198AA684196663C4C0B51B1A410DC4
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.5381582'>/mfa_validate/01B1F4132E95B847D89FCDC599FD685E26198AA684196663C4C0B51B1A410DC4</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 67566692ca644ddf9c1344415972fba8,368EF0EB3BD563C81F658E6C47182524256F09212010774B00939A440DABD9F6
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.5441613'>/mfa_validate/368EF0EB3BD563C81F658E6C47182524256F09212010774B00939A440DABD9F6</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 8fbf4152f89b7e309e89b9f7080c7230,B3395DC1F995F897F36E5AB99B7A3EADA186713CC40785BB33F06C4D7C989673
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.5505748'>/mfa_validate/B3395DC1F995F897F36E5AB99B7A3EADA186713CC40785BB33F06C4D7C989673</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 936f4db24a290032c954073b3913f444,9992B3B85730EA436A546086036520BCF15D86B1A2A8F96E4D3C569148F770D3
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.5557733'>/mfa_validate/9992B3B85730EA436A546086036520BCF15D86B1A2A8F96E4D3C569148F770D3</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking c44d8d6b03dcd4b6bf7cb53db4afdca6,35138166CED99D6A600B52F70C818CF44826170FD88B8234107EC0BD51CC276D
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.6338568'>/mfa_validate/35138166CED99D6A600B52F70C818CF44826170FD88B8234107EC0BD51CC276D</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking cb722d0b55805cd6feffc22a9f68177d,15D6E335C167DEA490AC4CD91815C56D7ECEF3CD4B019588567710D839A9EA45
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.6395295'>/mfa_validate/15D6E335C167DEA490AC4CD91815C56D7ECEF3CD4B019588567710D839A9EA45</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 724d494386f8ef9141da991926b14f9b,2AE009872B65D788E44F634736689AF1570333FD802B93B41DF09A3F7D02C0E1
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.6449287'>/mfa_validate/2AE009872B65D788E44F634736689AF1570333FD802B93B41DF09A3F7D02C0E1</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts
+Checking 67c7aef0d5d3e97ad2488babd2f4c749,BAC2F3580B6491CBF26C84F5DCF343D3F48557833C79CF3EFB09F04BE0E31B60
+<h1>Canary TRIPWIRE</h1>
+<p>Possible unauthorized access detected.<br>Endpoints have been scrambled.<br>Basic token evasion tactics implemented, fakeout threshold set to 10.<br>Default token validity set to 2 seconds.</p><h1>Your current token is valid at <a href='1732153099.6502051'>/mfa_validate/BAC2F3580B6491CBF26C84F5DCF343D3F48557833C79CF3EFB09F04BE0E31B60</a></h1>
+<h1>[-] ERROR: Access Denied</h1><br> [!] Logging access attempts

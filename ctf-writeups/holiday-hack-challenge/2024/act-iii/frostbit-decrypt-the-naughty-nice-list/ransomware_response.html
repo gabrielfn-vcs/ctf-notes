@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frost-Bit Ransomware</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            /* Light icy blue for a North Pole feel */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            text-align: center;
+            background-color: #ffffff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #ff0000;
+            color: white;
+            padding: 20px;
+            font-size: 2.5em;
+            font-weight: bold;
+            letter-spacing: 2px;
+            border-radius: 10px 10px 0 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .header img {
+            width: auto;
+            height: 75px;
+            margin-right: 20px;
+        }
+
+        .timer {
+            background-color: #0d47a1;
+            /* Deep blue */
+            color: white;
+            padding: 20px;
+            font-size: 2.2em;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        .timer span {
+            color: #ffeb3b;
+            /* Bright yellow for urgency */
+        }
+
+        .scenario {
+            background-color: #e0f2f1;
+            /* Light teal */
+            padding: 20px;
+            margin-top: 20px;
+            text-align: left;
+            border: 2px solid #b2dfdb;
+            /* Soft teal border */
+            border-radius: 10px;
+        }
+
+        .scenario h2 {
+            color: #00796b;
+            /* Dark teal */
+            font-size: 1.8em;
+        }
+
+        .scenario p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .warning {
+            background-color: #d32f2f;
+            /* Dark red */
+            color: white;
+            padding: 10px;
+            font-weight: bold;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        .publist {
+            background-color: #e0f2f1;
+            /* Same as scenario background */
+            padding: 20px;
+            margin-top: 20px;
+            text-align: left;
+            border: 2px solid #b2dfdb;
+            border-radius: 10px;
+        }
+
+        .publist a {
+            color: #00796b;
+            /* Matching link color */
+            text-decoration: none;
+        }
+
+        .publist a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .footer p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="/static/frostbit.png" alt="Frost-Bit Logo"> RANSOMWARE
+        </div>
+        <div class="timer">
+            UNTIL NAUGHTY-NICE LIST <span id="timer-display">Calculating remain time...</span> PUBLICATION
+        </div>
+        <div class="scenario">
+            <h2>Naughty-Nice List Ransomware Attack</h2>
+            <p>Attention Alabaster-elves,</p>
+            <p>I, Wombley Cube, have grown weary of Santa's continuous mismanagement and his repeated blunders that endanger
+                the holiday season year after year. It's time for a change, and I've decided to take matters into my own hands to
+                ensure the holiday season is saved once and for all.</p>
+            <p>The Naughty-Nice List is now under my control, encrypted with Frost-Bit ransomware. I am offering you a
+                choice: join my side before the deadline, and I will decrypt the list, allowing the holiday season to proceed
+                without a hitch under my leadership. Failure to comply, however, will have dire consequences. The list
+                will remain encrypted, and right before the holidays are over, I will release it to the public, causing an unprecedented
+                scandal that will forever tarnish the holiday season and the North Pole.</p>
+            <p>You have until the timer runs out to make your decision. Save the holiday season and secure your place in its
+                history, or let it fall into chaos under your watch.</p>
+        </div>
+        <div class="warning">
+            ALL AVAILABLE DATA WILL BE PUBLICLY DUMPED TO THESE SITES WHEN THE TIMER RUNS OUT:
+        </div>
+        <div class="publist">
+            <ul>
+                <li><a href="https://twinkler.np" target="_blank">https://twinkler.np</a></li>
+                <li><a href="https://toygist.santa" target="_blank">https://toygist.santa</a></li>
+                <li><a href="https://frostbin.ice" target="_blank">https://frostbin.ice</a></li>
+                <li><a href="https://elfnote.elf" target="_blank">https://elfnote.elf</a></li>
+                <li><a href="https://northpolevault.np" target="_blank">https://northpolevault.np</a></li>
+                <li><a href="https://candybin.snow" target="_blank">https://candybin.snow</a></li>
+            </ul>
+        </div>
+        <div class="footer">
+            <p id="current-time"></p>
+            <p>NORTH POLE</p>
+        </div>
+
+        <!-- Placeholder for Debug Data -->
+        <div id="debug" style="margin-top: 20px;"></div>
+
+    </div>
+
+    <script>
+        // Default values with placeholders for data passed from the server-side Python script
+        const isExpired = false;
+        const expiryTime = 1734998400;
+        const uuid = "09c4dbcb-87dd-4d92-b104-852c60a94f3e";
+        const debugData = false;
+        const deactivated = false;
+        const decryptedkey = false;
+
+        // Decode base64 debug data if it's not "false"
+        let decodedDebugData = null;
+        if (debugData) {
+            try {
+                decodedDebugData = atob(debugData);
+            } catch (e) {
+                console.error('Error decoding debug data: ', e, debugData);
+                decodedDebugData = "Error decoding debug data. " + e + " " + debugData;
+            }
+        }
+
+        function formatDate(date) {
+            const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+            const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+            const day = date.getDate().toString().padStart(2, '0');
+            const month = months[date.getMonth()];
+            const year = date.getFullYear();
+            const hours = date.getHours().toString().padStart(2, '0');
+            const minutes = date.getMinutes().toString().padStart(2, '0');
+            const seconds = date.getSeconds().toString().padStart(2, '0');
+
+            return `${day} ${month}, ${year} ${hours}:${minutes}:${seconds}`;
+        }
+        // Update the countdown timer based on expiryTime
+        function updateTimer() {
+            const now = Math.floor(Date.now() / 1000); // Current timestamp in seconds
+            const timeLeft = expiryTime - now;
+
+            if (timeLeft <= 0) {
+                document.getElementById('timer-display').textContent = "00D 00:00:00";
+                clearInterval(timerInterval);
+                if (!isExpired) {
+                    document.querySelector('.scenario').innerHTML += "<p class='alert'>The deadline has expired. The Naughty-Nice List will be released.</p>";
+                }
+                return;
+            }
+
+            const days = Math.floor(timeLeft / (24 * 3600));
+            const hours = Math.floor((timeLeft % (24 * 3600)) / 3600);
+            const minutes = Math.floor((timeLeft % 3600) / 60);
+            const seconds = timeLeft % 60;
+
+            // Format the timer string
+            const timerString = `${days.toString().padStart(2, '0')}D ${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            document.getElementById('timer-display').textContent = timerString;
+
+            // Update the current time display
+            const currentTime = new Date();
+            document.getElementById('current-time').textContent = formatDate(currentTime);
+        }
+
+        // Display decoded debug data if it exists
+        document.addEventListener('DOMContentLoaded', function () {
+            if (deactivated) {
+                document.querySelector('.scenario').innerHTML = "<p class='alert'>The ransomware has been deactivated. The Naughty-Nice List is safe from being released. The key to decrypt the Naughty-Nice list is: <strong><pre>" + decryptedkey + "</pre></strong></p>";
+                return;
+            }
+            // Start the countdown timer
+            const timerInterval = setInterval(updateTimer, 1000);
+            updateTimer(); // Initial call to set the timer immediately
+            if (decodedDebugData) {
+                const debugContainer = document.getElementById('debug');
+                debugContainer.innerHTML = `<h3>Debug Data</h3><pre style="background-color: #f4f4f4; padding: 10px; border: 1px solid #ddd; overflow-x: auto;">${decodedDebugData}</pre>`;
+            }
+        });
+    </script>
+</body>
+
+</html>

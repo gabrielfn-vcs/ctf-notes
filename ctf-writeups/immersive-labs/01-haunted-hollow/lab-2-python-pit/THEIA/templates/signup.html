@@ -1,0 +1,31 @@
+{% extends 'page.html' %}
+
+{% block content %}
+
+<div class="row">
+        <div class="col-md-6 mx-auto">
+                <h1>Operator signup</h1>
+                <hr>
+                {% import 'flash.html' as flash %}
+                {{ flash.render() }}
+
+                <form action="signup" method="POST">
+                        <div class="form-group">
+                                <!-- "Why do developers never get scared on Halloween? Because they're used to seeing their code come back to haunt them!" -->
+                                <input id="name" name="name" class="form-control input-lg" type="text"
+                                        placeholder="Enter your name" required>
+                                <input id="username" name="username" class="form-control input-lg" type="text"
+                                        placeholder="Enter a username" required>
+                                <input id="email" name="email" class="form-control input-lg" type="email"
+                                        placeholder="Enter an email address" required>
+                                <input id="password" name="password" class="form-control input-lg" type="password"
+                                        placeholder="Enter a password" required>
+                                <input id="admin" name="admin" class="form-control input-lg" type="hidden" value=0>
+                        </div>
+                        <input id="sign_up" type="submit" class="btn btn-secondary btn-lg btn-block" value="Submit">
+                </form>
+                <div class="footer"></div>
+        </div>
+</div>
+
+{% endblock %}

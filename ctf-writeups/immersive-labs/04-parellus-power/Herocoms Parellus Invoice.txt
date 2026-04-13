@@ -1,0 +1,42 @@
+HEROCOMS CREATIVE - Creative Design House
+
+Invoice number: 0369
+Invoice date: 20 April 2015
+
+Invoice to:
+CEO PARELLUS POWER
+Phone: +8816577726188
+Email: ceo@parelluspower.corp
+
+
+SL	ITEM DESCRIPTION		PRICE	QTY	 TOTAL
+
+01	Logo & Brand Designing		£150	02	 £300
+
+02	Web Development		£200    01      £200
+
+03	App Redesign			£100    03      £300
+
+04	Tri-fold Brochure              £50     05      £250
+
+05	Packing Design                 £25     02      £50
+
+06	Illustration Design            £125    02      £250
+
+				Subtotal:		£1250
+				Discount:		£0.00
+				Tax (19%):	  	£237.50
+
+				Total:			£1487.50
+
+Payment Method
+
+Account no: 66895326-814
+Account name: Parellus Power
+Branch name: Fortuna
+
+Terms & Conditions
+All sales are final. Invoice must be paid within 30 days.
+
+
+					THANK YOU FOR YOUR BUSINESS

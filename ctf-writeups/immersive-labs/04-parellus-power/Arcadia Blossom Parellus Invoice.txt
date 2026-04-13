@@ -1,0 +1,33 @@
+Arcadia Blossom Banking Services
+
+Receipt no: 0010082
+Invoice date: 16 July 2015
+
+Invoice to:
+CEO PARELLUS POWER
+Phone: +8816577726188
+Email: ceo@parelluspower.corp
+
+NO	ITEM DESCRIPTION		PRICE	QTY	TOTAL
+01	Safe deposit box		£325	1	£325
+
+Yearly reoccuring payment locked in for minimum 12 months
+
+				Subtotal:	£325
+				Discount:	£0.00
+				Tax (19%):	£61.75
+
+				TOTAL:		£386.75
+
+Payment Method
+
+Account no: 79144280631-4862
+Account name: ﻿AC Financial Services
+Branch name: Honeydew
+
+Terms & Conditions
+Minimum contract is 12 months. If you wish to terminate early fees will be incurred.
+
+
+					THANK YOU FOR YOUR BUSINESS
+

@@ -1,0 +1,142 @@
+═══════════════════════════════════════════════════════════════
+    WONKA INDUSTRIES - CLASSIFIED RESEARCH & DEVELOPMENT
+═══════════════════════════════════════════════════════════════
+
+PROJECT: EVERLASTING GOBSTOPPER 2.0
+CLASSIFICATION: TOP SECRET - GOLDEN TICKET CLEARANCE ONLY
+DOCUMENT ID: WI-RND-2026-0213
+REVISION: 3.7
+DATE: February 13, 2026
+
+═══════════════════════════════════════════════════════════════
+
+PRODUCT OVERVIEW:
+The Everlasting Gobstopper 2.0 represents a breakthrough in perpetual 
+confectionery engineering. Building upon the success of the original 
+Everlasting Gobstopper, version 2.0 introduces flavor cycling technology 
+that extends duration by 300% while reducing manufacturing costs by 40%.
+
+═══════════════════════════════════════════════════════════════
+
+MANUFACTURING RECIPE - BATCH SIZE: 1000 UNITS
+
+PHASE 1: BASE LAYER SYNTHESIS
+------------------------------
+- Compressed Sugar Matrix: 45.2 kg
+- Flavor Suspension Medium: 12.8 L
+- Crystallization Catalyst: 2.1 kg
+- Binding Agent (Gum Arabic): 5.7 kg
+- Color Stabilizer: 850 mL
+
+Temperature: 142°C
+Mixing Speed: 320 RPM
+Duration: 18 minutes
+
+PHASE 2: FLAVOR CORE INTEGRATION
+---------------------------------
+- Primary Flavor Compounds: 8.4 kg
+  * Cherry Essence: 2.1 kg
+  * Lemon Extract: 2.1 kg
+  * Orange Concentrate: 2.1 kg
+  * Grape Infusion: 2.1 kg
+
+- Secondary Flavor Matrix: 4.2 kg
+  * Watermelon Synthesizer: 1.4 kg
+  * Blueberry Catalyst: 1.4 kg
+  * Raspberry Compound: 1.4 kg
+
+- **CODENAME: AURORA-X7** : 950 grams
+  [NOTE: This is the proprietary breakthrough ingredient]
+  [Supplier: Internal synthesis only - Do not outsource]
+  [Storage: Refrigerated vault, Zone 3, Sublevel B]
+
+Temperature: 98°C
+Mixing Speed: 180 RPM
+Duration: 25 minutes
+
+PHASE 3: MOLECULAR RESTRUCTURING
+----------------------------------
+- pH Balancing Solution: 3.2 L
+- Structural Enhancer: 1.8 kg
+- Preservation Matrix: 2.4 kg
+- Glossing Agent: 1.1 L
+
+Temperature: 65°C
+Mixing Speed: 450 RPM
+Duration: 12 minutes
+
+PHASE 4: ENCAPSULATION
+-----------------------
+- Hardening Shell Base: 18.5 kg
+- Protective Coating: 4.8 L
+- Shine Activator: 650 mL
+- Final Glaze: 2.2 L
+
+Temperature: 55°C
+Rotation Speed: 75 RPM
+Duration: 30 minutes
+
+PHASE 5: QUALITY CONTROL
+-------------------------
+- Visual Inspection: Automated scanner
+- Flavor Duration Test: Minimum 72 hours
+- Color Change Verification: 7 distinct phases
+- Structural Integrity: Compression test at 85 PSI
+
+═══════════════════════════════════════════════════════════════
+
+CRITICAL MANUFACTURING PARAMETERS:
+
+PLC Configuration (Main Controller - 10.20.30.10):
+- Program Name: GOBSTOPPER_V2_FINAL
+- Cycle Time: 2.5 hours per batch
+- Safety Interlocks: 12 critical points
+- Quality Gates: 8 checkpoints
+
+Mixer Settings:
+- Primary Mixer: Variable speed 180-450 RPM
+- Secondary Mixer: Constant 220 RPM
+- Temperature Control: ±2°C tolerance
+
+═══════════════════════════════════════════════════════════════
+
+INGREDIENT SOURCING NOTES:
+
+**AURORA-X7** - CRITICAL INFORMATION:
+This proprietary compound is the key to the Everlasting Gobstopper 2.0's
+extended duration and enhanced flavor cycling. It is synthesized in-house
+using a secret process known only to Willy Wonka and head Oompa Loompa
+chemist #3.
+
+AURORA-X7 Properties:
+- Appearance: Iridescent crystalline powder
+- Color: Shifts between purple, blue, and gold
+- Solubility: Highly soluble in sugar matrix above 95°C
+- Stability: Stable at room temperature, reactive above 150°C
+- Shelf Life: 6 months refrigerated
+
+WARNING: Do not expose AURORA-X7 to competitors. Patent pending.
+Industrial espionage attempts have been detected.
+
+═══════════════════════════════════════════════════════════════
+
+YIELD EXPECTATIONS:
+- Units per batch: 1,000 Gobstoppers
+- Defect rate: <2%
+- Duration per unit: 72+ hours of flavor
+- Cost per unit: $0.47 (down from $0.78 in version 1.0)
+
+MARKET IMPACT:
+Projected to revolutionize the everlasting candy market and establish
+Wonka Industries as the undisputed leader in perpetual confectionery.
+
+═══════════════════════════════════════════════════════════════
+
+AUTHORIZED PERSONNEL ONLY
+If you are reading this document without proper authorization,
+please report to Security immediately.
+
+Willy Wonka, Chief Innovation Officer
+Wonka Industries
+
+═══════════════════════════════════════════════════════════════

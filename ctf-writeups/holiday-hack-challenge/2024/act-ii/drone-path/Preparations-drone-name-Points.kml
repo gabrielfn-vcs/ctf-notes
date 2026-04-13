@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Placemark id="3">
+            <name>Point 1</name>
+            <description>Timestamp: 3/7/2024
+Altitude: 329.1721074691694 ft</description>
+            <Point id="2">
+                <coordinates>144.8567879816271,-37.42277804382341,329.1721074691694</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="5">
+            <name>Point 2</name>
+            <description>Timestamp: 3/7/2024
+Altitude: 136.9853073940529 ft</description>
+            <Point id="4">
+                <coordinates>142.4357677725014,-38.0569169391843,136.9853073940529</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="7">
+            <name>Point 3</name>
+            <description>Timestamp: 3/7/2024
+Altitude: 377.5016249149292 ft</description>
+            <Point id="6">
+                <coordinates>143.9329094555584,-37.80217469906655,377.5016249149292</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="9">
+            <name>Point 4</name>
+            <description>Timestamp: 3/7/2024
+Altitude: 143.2939472276593 ft</description>
+            <Point id="8">
+                <coordinates>142.2754454646221,-38.0682499155867,143.2939472276593</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="11">
+            <name>Point 5</name>
+            <description>Timestamp: 3/7/2024
+Altitude: 61.14087621810435 ft</description>
+            <Point id="10">
+                <coordinates>141.756352258091,-34.52324587244343,61.14087621810435</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="13">
+            <name>Point 6</name>
+            <description>Timestamp: 3/7/2024
+Altitude: 168.6693280467137 ft</description>
+            <Point id="12">
+                <coordinates>145.513859306511,-36.74357572393437,168.6693280467137</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="15">
+            <name>Point 7</name>
+            <description>Timestamp: 3/7/2024
+Altitude: 4.240033669814256 ft</description>
+            <Point id="14">
+                <coordinates>144.745994150535,-37.89721189352699,4.240033669814256</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="17">
+            <name>Point 8</name>
+            <description>Timestamp: 3/7/2024
+Altitude: 303.1828443856635 ft</description>
+            <Point id="16">
+                <coordinates>145.8966329539992,-37.00702150480869,303.1828443856635</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

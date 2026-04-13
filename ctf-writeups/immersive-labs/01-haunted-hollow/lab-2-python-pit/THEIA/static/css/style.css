@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Creepster';
+    src: url('../fonts/Creepster-Regular.ttf') format('truetype');
+} 
+@font-face {
+    font-family: 'SpecialElite';
+    src: url('../fonts/SpecialElite-Regular.ttf') format('truetype');
+}   
+
+
+:root {
+    --black: rgba(0, 0, 0, 1);
+    --orange: rgba(255, 127, 0, 1);
+    --ghost-white: rgba(248, 248, 255, 1);
+    --blood-red: rgba(139, 0, 0, 1);
+    --goo-green: rgba(9,255,0, 1);
+    --dark-green: rgba(0, 100, 0, 1);
+    --creepster: 'Creepster', cursive;
+    --special-elite: 'SpecialElite', sans-serif;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--ghost-white);
+    font-family: var(--special-elite);
+}
+
+/* Headings and headers */
+
+h1,h2 {
+    font-family: var(--creepster);
+}
+
+h1{
+    font-size: 4rem;
+    color: var(--orange);
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--goo-green);
+}
+
+
+p {
+    color: var(--ghost-white);
+    font-family: var(--special-elite); 
+}
+
+a {
+    color: var(--ghost-white);
+}
+
+button {
+    background-color: var(--blood-red);
+    color: var(--ghost-white);
+}
+
+.nav {
+    background-color: var(--dark-green);
+}

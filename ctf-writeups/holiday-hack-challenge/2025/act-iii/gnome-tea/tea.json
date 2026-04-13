@@ -1,0 +1,2805 @@
+{
+  "documents": [
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/0328TGvbc8juTEZf1GwD",
+      "fields": {
+        "mentionedGnome": {
+          "stringValue": "Ferdinand Figgypudding"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/prxA2hBSkhg3dkhkfzvnlGxCCfP2_profile.png"
+        },
+        "authorUid": {
+          "stringValue": "prxA2hBSkhg3dkhkfzvnlGxCCfP2"
+        },
+        "content": {
+          "stringValue": "Ferdinand Figgypudding told everyone about his 'romantic fig roast' and then roasted only his reputation; theatrical yet soggy."
+        },
+        "likes": {
+          "integerValue": "6"
+        },
+        "authorName": {
+          "stringValue": "Elderick Mossbeard"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        }
+      },
+      "createTime": "2025-09-30T19:11:24.347241Z",
+      "updateTime": "2025-09-30T19:11:24.347241Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/0NNNi23cQQ2YAMFLzOEd",
+      "fields": {
+        "likes": {
+          "integerValue": "19"
+        },
+        "authorUid": {
+          "stringValue": "kmoZyOIt7sWgehQC8ovcsxXPWUS2"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/kmoZyOIt7sWgehQC8ovcsxXPWUS2_profile.png"
+        },
+        "content": {
+          "stringValue": "Ferdinand Figgypudding waved a tiny flag like he was leading a parade and then tripped on his own icing—leadership with a stumble."
+        },
+        "authorName": {
+          "stringValue": "Rowdy Root-Rouser"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.896Z"
+        },
+        "mentionedGnome": {
+          "stringValue": "Ferdinand Figgypudding"
+        }
+      },
+      "createTime": "2025-09-30T19:20:51.185501Z",
+      "updateTime": "2025-09-30T19:20:51.185501Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/0UNEXWoUC55HrMPI8jjh",
+      "fields": {
+        "likes": {
+          "integerValue": "4"
+        },
+        "mentionedGnome": {
+          "stringValue": "Flex Muscle"
+        },
+        "content": {
+          "stringValue": "Flex Muscle tried to bench-press a wheelbarrow full of soil and then asked for science help when the worms unionized against him."
+        },
+        "authorUid": {
+          "stringValue": "6J2bowmKiNVbITWmR4XsxjH7i492"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorName": {
+          "stringValue": "Professor Pumpernickel"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/6J2bowmKiNVbITWmR4XsxjH7i492_profile.png"
+        }
+      },
+      "createTime": "2025-09-30T19:20:48.508752Z",
+      "updateTime": "2025-09-30T19:20:48.508752Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/0bvMyCo9pI56VWbDlw1V",
+      "fields": {
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorName": {
+          "stringValue": "Reggie Reggae"
+        },
+        "authorUid": {
+          "stringValue": "G5c0vX06WOaEf1YKutqkur4HEU63"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/G5c0vX06WOaEf1YKutqkur4HEU63_profile.png"
+        },
+        "content": {
+          "stringValue": "Pip Sparkletoes staged a glitter protest about over-pruning and then glittered the gnome council into silence—art or eco-vandalism? Both."
+        },
+        "likes": {
+          "integerValue": "13"
+        },
+        "mentionedGnome": {
+          "stringValue": "Pip Sparkletoes"
+        }
+      },
+      "createTime": "2025-09-30T19:20:48.682191Z",
+      "updateTime": "2025-09-30T19:20:48.682191Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/0cn8o50tZDrJS23bBjkB",
+      "fields": {
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "content": {
+          "stringValue": "Elderick Mossbeard swapped stories about 'the old moss days' and then fell asleep mid-tale; vintage nap, classic Elderick."
+        },
+        "mentionedGnome": {
+          "stringValue": "Elderick Mossbeard"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/l7VS01K9GKV5ir5S8suDcwOFEpp2_profile.png"
+        },
+        "likes": {
+          "integerValue": "26"
+        },
+        "authorName": {
+          "stringValue": "Barnaby Briefcase"
+        },
+        "authorUid": {
+          "stringValue": "l7VS01K9GKV5ir5S8suDcwOFEpp2"
+        }
+      },
+      "createTime": "2025-09-30T19:11:23.216286Z",
+      "updateTime": "2025-09-30T19:11:23.216286Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/1VCwp9Pb1oziil8gH7sF",
+      "fields": {
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/G5c0vX06WOaEf1YKutqkur4HEU63_profile.png"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorName": {
+          "stringValue": "Reggie Reggae"
+        },
+        "mentionedGnome": {
+          "stringValue": "Flex Muscle"
+        },
+        "content": {
+          "stringValue": "Flex Muscle donated dumbbells to the petunias and now they grow unnaturally perky—fitness influencer or soil abuser? Jury out."
+        },
+        "authorUid": {
+          "stringValue": "G5c0vX06WOaEf1YKutqkur4HEU63"
+        },
+        "likes": {
+          "integerValue": "6"
+        }
+      },
+      "createTime": "2025-09-30T19:20:50.677901Z",
+      "updateTime": "2025-09-30T19:20:50.677901Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/24Kx7jgkmcRm1GInoaf0",
+      "fields": {
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/6nBUHcdxo2fLKSYqYyipr9iCOey2_profile.png"
+        },
+        "likes": {
+          "integerValue": "18"
+        },
+        "authorUid": {
+          "stringValue": "6nBUHcdxo2fLKSYqYyipr9iCOey2"
+        },
+        "mentionedGnome": {
+          "stringValue": "Flex Muscle"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorName": {
+          "stringValue": "Steamy Mcsteamface"
+        },
+        "content": {
+          "stringValue": "Flex Muscle offered me a 'motivational lift' and then used me as a bench press without consent; boundaries, darling, they're not decorative."
+        }
+      },
+      "createTime": "2025-09-30T19:20:49.567394Z",
+      "updateTime": "2025-09-30T19:20:49.567394Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/2AR8mLqzQ6AyZOuzF0D5",
+      "fields": {
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/pwbhMFuRbkesddTrtT3gVRzv8Ux1_profile.png"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "likes": {
+          "integerValue": "27"
+        },
+        "authorUid": {
+          "stringValue": "pwbhMFuRbkesddTrtT3gVRzv8Ux1"
+        },
+        "content": {
+          "stringValue": "Bixby Jinglehat tried serenading the mushrooms and they sent him back a soggy leaf; at least his jingle hat jingles when he sulks."
+        },
+        "authorName": {
+          "stringValue": "Ferdinand Figgypudding"
+        },
+        "mentionedGnome": {
+          "stringValue": "Bixby Jinglehat"
+        }
+      },
+      "createTime": "2025-09-30T19:11:20.045611Z",
+      "updateTime": "2025-09-30T19:11:20.045611Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/2KddlUbogorDvGtYrBwn",
+      "fields": {
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/golJeh7xg9YUvcj5nDugTssQPy62_profile.png"
+        },
+        "content": {
+          "stringValue": "Gnom-inator T-800 keeps 'optimizing' our planting schedule and then moves my tulips for 'efficiency'; tin-planted tyranny at its finest."
+        },
+        "mentionedGnome": {
+          "stringValue": "Gnom-inator T-800"
+        },
+        "authorName": {
+          "stringValue": "Grizelda Grit-Tooth"
+        },
+        "authorUid": {
+          "stringValue": "golJeh7xg9YUvcj5nDugTssQPy62"
+        },
+        "likes": {
+          "integerValue": "6"
+        }
+      },
+      "createTime": "2025-09-30T19:11:23.045674Z",
+      "updateTime": "2025-09-30T19:11:23.045674Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/2NLBwV7SkVtZyzS0bsX1",
+      "fields": {
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "likes": {
+          "integerValue": "7"
+        },
+        "content": {
+          "stringValue": "Wizzy Stardust bragged about a 'cosmic compost' subscription and then refused to share samples; cosmic elitism is a growth industry."
+        },
+        "authorUid": {
+          "stringValue": "LA5w0EskgSbQyFnlp9OrX8Zovu43"
+        },
+        "authorName": {
+          "stringValue": "Glitch Mitnick"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/LA5w0EskgSbQyFnlp9OrX8Zovu43_profile.png"
+        },
+        "mentionedGnome": {
+          "stringValue": "Wizzy Stardust"
+        }
+      },
+      "createTime": "2025-09-30T19:11:21.616876Z",
+      "updateTime": "2025-09-30T19:11:21.616876Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/2vJKjpZSYO4uhN0lS2kF",
+      "fields": {
+        "mentionedGnome": {
+          "stringValue": "Bixby Jinglehat"
+        },
+        "authorName": {
+          "stringValue": "Ferdinand Figgypudding"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorUid": {
+          "stringValue": "pwbhMFuRbkesddTrtT3gVRzv8Ux1"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/pwbhMFuRbkesddTrtT3gVRzv8Ux1_profile.png"
+        },
+        "content": {
+          "stringValue": "Bixby Jinglehat's latest jingle got stuck in a snail's shell and emerged as an elegy; melodically haunting and slightly slimy."
+        },
+        "likes": {
+          "integerValue": "2"
+        }
+      },
+      "createTime": "2025-09-30T19:11:24.406104Z",
+      "updateTime": "2025-09-30T19:11:24.406104Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/30yGd12qBZCTQN3kdwne",
+      "fields": {
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "content": {
+          "stringValue": "Chester Cherryhat left a voicenote about pruning schedules and it played on repeat in my head; efficient, persistent, slightly annoying."
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/jlm1nPFV5xWM4jQaokLHDb6K8kj1_profile.png"
+        },
+        "authorUid": {
+          "stringValue": "jlm1nPFV5xWM4jQaokLHDb6K8kj1"
+        },
+        "authorName": {
+          "stringValue": "Gnom-inator T-800"
+        },
+        "likes": {
+          "integerValue": "4"
+        },
+        "mentionedGnome": {
+          "stringValue": "Chester Cherryhat"
+        }
+      },
+      "createTime": "2025-09-30T19:20:50.117705Z",
+      "updateTime": "2025-09-30T19:20:50.117705Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/39RghUU68yB2mjjJxxrS",
+      "fields": {
+        "authorName": {
+          "stringValue": "Flex Muscle"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/RQw0hYxlKIhsTUVPyR8ivrM3ls02_profile.png"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.896Z"
+        },
+        "content": {
+          "stringValue": "Elderick Mossbeard tried a plank challenge and then complained about 'young gnome stamina'—flexing at my age is a love letter to arthritis."
+        },
+        "authorUid": {
+          "stringValue": "RQw0hYxlKIhsTUVPyR8ivrM3ls02"
+        },
+        "likes": {
+          "integerValue": "24"
+        },
+        "mentionedGnome": {
+          "stringValue": "Elderick Mossbeard"
+        }
+      },
+      "createTime": "2025-09-30T19:20:50.965798Z",
+      "updateTime": "2025-09-30T19:20:50.965798Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/3W4YMZD2ZGOZQpKs5Ta7",
+      "fields": {
+        "likes": {
+          "integerValue": "16"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "content": {
+          "stringValue": "Gnorman Goldchain told me to 'keep hustling' and then corrected my rhyme by reciting his own gold-lined autobiography—thanks for nothing."
+        },
+        "authorName": {
+          "stringValue": "Lil G"
+        },
+        "authorUid": {
+          "stringValue": "xK25sJX7usSwAJwAjpN8DMfzS872"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/xK25sJX7usSwAJwAjpN8DMfzS872_profile.png"
+        },
+        "mentionedGnome": {
+          "stringValue": "Gnorman Goldchain"
+        }
+      },
+      "createTime": "2025-09-30T19:20:47.412773Z",
+      "updateTime": "2025-09-30T19:20:47.412773Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/3YLnzk1OHW8nckeT8B8J",
+      "fields": {
+        "authorUid": {
+          "stringValue": "golJeh7xg9YUvcj5nDugTssQPy62"
+        },
+        "likes": {
+          "integerValue": "22"
+        },
+        "authorName": {
+          "stringValue": "Grizelda Grit-Tooth"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/golJeh7xg9YUvcj5nDugTssQPy62_profile.png"
+        },
+        "content": {
+          "stringValue": "Gnom-inator T-800 insists 'sharing resources' while hoarding the best sun patch; hypocrisy has a tinny voice, and it whirs."
+        },
+        "mentionedGnome": {
+          "stringValue": "Gnom-inator T-800"
+        }
+      },
+      "createTime": "2025-09-30T19:11:21.942776Z",
+      "updateTime": "2025-09-30T19:11:21.942776Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/42Eg6jrzX2aIlnRIcAEI",
+      "fields": {
+        "authorName": {
+          "stringValue": "Barnaby Briefcase"
+        },
+        "mentionedGnome": {
+          "stringValue": "Elderick Mossbeard"
+        },
+        "content": {
+          "stringValue": "Elderick Mossbeard asked me for a voting proxy and then complimented my cufflinks; vote-selling or just flattery, Elderick?"
+        },
+        "authorUid": {
+          "stringValue": "l7VS01K9GKV5ir5S8suDcwOFEpp2"
+        },
+        "likes": {
+          "integerValue": "18"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/l7VS01K9GKV5ir5S8suDcwOFEpp2_profile.png"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        }
+      },
+      "createTime": "2025-09-30T19:11:22.118737Z",
+      "updateTime": "2025-09-30T19:11:22.118737Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/5OoXG0OJmw1Z6GnbvHkF",
+      "fields": {
+        "likes": {
+          "integerValue": "26"
+        },
+        "authorUid": {
+          "stringValue": "PyxedrsAN2bewsg4Rno9SsCqZHg2"
+        },
+        "authorName": {
+          "stringValue": "Gnorman Goldchain"
+        },
+        "content": {
+          "stringValue": "Lil G keeps dropping mixtape flyers from my rooftop; if he thinks my bling will boost his streams he's mistaking dew for diamonds."
+        },
+        "mentionedGnome": {
+          "stringValue": "Lil G"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/PyxedrsAN2bewsg4Rno9SsCqZHg2_profile.png"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        }
+      },
+      "createTime": "2025-09-30T19:11:19.540664Z",
+      "updateTime": "2025-09-30T19:11:19.540664Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/6CrhR53oMoOmOQWZndT2",
+      "fields": {
+        "mentionedGnome": {
+          "stringValue": "Lil G"
+        },
+        "content": {
+          "stringValue": "Lil G begged me to 'upgrade' his sound and now his samples auto-tweet every time a snail sneezes; performance art or digital sneeze theater."
+        },
+        "authorName": {
+          "stringValue": "Glitch Mitnick"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/LA5w0EskgSbQyFnlp9OrX8Zovu43_profile.png"
+        },
+        "likes": {
+          "integerValue": "26"
+        },
+        "authorUid": {
+          "stringValue": "LA5w0EskgSbQyFnlp9OrX8Zovu43"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        }
+      },
+      "createTime": "2025-09-30T19:20:49.785392Z",
+      "updateTime": "2025-09-30T19:20:49.785392Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/6DUGlv0XibYZuIPQ65iq",
+      "fields": {
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/6nBUHcdxo2fLKSYqYyipr9iCOey2_profile.png"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorUid": {
+          "stringValue": "6nBUHcdxo2fLKSYqYyipr9iCOey2"
+        },
+        "likes": {
+          "integerValue": "15"
+        },
+        "authorName": {
+          "stringValue": "Steamy Mcsteamface"
+        },
+        "mentionedGnome": {
+          "stringValue": "Reggie Reggae"
+        },
+        "content": {
+          "stringValue": "Reggie Reggae taught me to 'chill with rhythm' and now my boiler whistles in perfect time to a bassline; domestic remix success."
+        }
+      },
+      "createTime": "2025-09-30T19:20:50.569288Z",
+      "updateTime": "2025-09-30T19:20:50.569288Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/6MYW93E8Zs9FtTdkVGaT",
+      "fields": {
+        "authorUid": {
+          "stringValue": "IvLFBZQgo3R6iteLHmShbWmctqo2"
+        },
+        "likes": {
+          "integerValue": "6"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/IvLFBZQgo3R6iteLHmShbWmctqo2_profile.png"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorName": {
+          "stringValue": "Chester Cherryhat"
+        },
+        "mentionedGnome": {
+          "stringValue": "Glitch Mitnick"
+        },
+        "content": {
+          "stringValue": "Glitch Mitnick 'fixed' my sundial and now it points directly at the compost heap—either he's a hacker or he hates my punctuality."
+        }
+      },
+      "createTime": "2025-09-30T19:20:46.652072Z",
+      "updateTime": "2025-09-30T19:20:46.652072Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/6ZrrsefKRaK76jjB5jIw",
+      "fields": {
+        "authorName": {
+          "stringValue": "Titus Toadstool"
+        },
+        "likes": {
+          "integerValue": "26"
+        },
+        "mentionedGnome": {
+          "stringValue": "Chester Cherryhat"
+        },
+        "authorUid": {
+          "stringValue": "7sQlw9l4xUOWSjDTphvLgKVEm0j1"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/7sQlw9l4xUOWSjDTphvLgKVEm0j1_profile.png"
+        },
+        "content": {
+          "stringValue": "Chester Cherryhat claims he can speak to tulips, but I caught him bribing daisies with sugar—amateur botanist move, Chester."
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        }
+      },
+      "createTime": "2025-09-30T19:20:48.627796Z",
+      "updateTime": "2025-09-30T19:20:48.627796Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/73owP54zii79ULEA8Pqd",
+      "fields": {
+        "mentionedGnome": {
+          "stringValue": "Professor Pumpernickel"
+        },
+        "content": {
+          "stringValue": "Says the gnome who tripped over a toadstool during my 'exit interview'—Professor Pumpernickel should stick to lecturing and stop impersonating a lawn ornament."
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/6nBUHcdxo2fLKSYqYyipr9iCOey2_profile.png"
+        },
+        "authorName": {
+          "stringValue": "Steamy Mcsteamface"
+        },
+        "authorUid": {
+          "stringValue": "6nBUHcdxo2fLKSYqYyipr9iCOey2"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "likes": {
+          "integerValue": "3"
+        }
+      },
+      "createTime": "2025-09-30T19:20:46.443611Z",
+      "updateTime": "2025-09-30T19:20:46.443611Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/7DOB4jJ9CQtyUjz3y3ww",
+      "fields": {
+        "likes": {
+          "integerValue": "18"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorName": {
+          "stringValue": "Professor Pumpernickel"
+        },
+        "content": {
+          "stringValue": "Gnorman Goldchain's mixtape hit my toadstool radio and even the mushrooms winced; did he forget rhythm or garden etiquette?"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/6J2bowmKiNVbITWmR4XsxjH7i492_profile.png"
+        },
+        "authorUid": {
+          "stringValue": "6J2bowmKiNVbITWmR4XsxjH7i492"
+        },
+        "mentionedGnome": {
+          "stringValue": "Gnorman Goldchain"
+        }
+      },
+      "createTime": "2025-09-30T19:11:19.028509Z",
+      "updateTime": "2025-09-30T19:11:19.028509Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/7UBGQDAUrmJLFSY3l9LA",
+      "fields": {
+        "authorName": {
+          "stringValue": "Titus Toadstool"
+        },
+        "content": {
+          "stringValue": "Reggie Reggae's reggae got the roses dancing but the daisies insisted on a strict tempo; botanical critics are ruthless."
+        },
+        "mentionedGnome": {
+          "stringValue": "Reggie Reggae"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorUid": {
+          "stringValue": "7sQlw9l4xUOWSjDTphvLgKVEm0j1"
+        },
+        "likes": {
+          "integerValue": "5"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/7sQlw9l4xUOWSjDTphvLgKVEm0j1_profile.png"
+        }
+      },
+      "createTime": "2025-09-30T19:11:23.640990Z",
+      "updateTime": "2025-09-30T19:11:23.640990Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/7sDLIUa37059CpmL2eq8",
+      "fields": {
+        "authorUid": {
+          "stringValue": "l7VS01K9GKV5ir5S8suDcwOFEpp2"
+        },
+        "mentionedGnome": {
+          "stringValue": "Steamy Mcsteamface"
+        },
+        "content": {
+          "stringValue": "I scheduled Steamy Mcsteamface for a 'networking prune' and he showed up with confetti and a redemption speech; charmingly deluded."
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "likes": {
+          "integerValue": "3"
+        },
+        "authorName": {
+          "stringValue": "Barnaby Briefcase"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/l7VS01K9GKV5ir5S8suDcwOFEpp2_profile.png"
+        }
+      },
+      "createTime": "2025-09-30T19:20:47.192972Z",
+      "updateTime": "2025-09-30T19:20:47.192972Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/82NkgsogCjRBxlx1coCU",
+      "fields": {
+        "authorName": {
+          "stringValue": "Elderick Mossbeard"
+        },
+        "content": {
+          "stringValue": "They call me Elderick Mossbeard but I keep getting mistaken for a topiary—maybe because Bixby Jinglehat keeps trimming my 'legacy' at dawn."
+        },
+        "mentionedGnome": {
+          "stringValue": "Bixby Jinglehat"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/prxA2hBSkhg3dkhkfzvnlGxCCfP2_profile.png"
+        },
+        "likes": {
+          "integerValue": "6"
+        },
+        "authorUid": {
+          "stringValue": "prxA2hBSkhg3dkhkfzvnlGxCCfP2"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        }
+      },
+      "createTime": "2025-09-30T19:20:47.246747Z",
+      "updateTime": "2025-09-30T19:20:47.246747Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/8JQ4PKfqXD3SYEC2uBku",
+      "fields": {
+        "authorUid": {
+          "stringValue": "6J2bowmKiNVbITWmR4XsxjH7i492"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/6J2bowmKiNVbITWmR4XsxjH7i492_profile.png"
+        },
+        "authorName": {
+          "stringValue": "Professor Pumpernickel"
+        },
+        "mentionedGnome": {
+          "stringValue": "Steamy Mcsteamface"
+        },
+        "likes": {
+          "integerValue": "21"
+        },
+        "content": {
+          "stringValue": "Steamy Mcsteamface keeps suggesting 'synergy' during gossip hour and then disappears at tea time; the steam rose but never the results."
+        }
+      },
+      "createTime": "2025-09-30T19:11:22.406347Z",
+      "updateTime": "2025-09-30T19:11:22.406347Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/95eecZ9S5RLc92XPNmZj",
+      "fields": {
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorUid": {
+          "stringValue": "RQw0hYxlKIhsTUVPyR8ivrM3ls02"
+        },
+        "content": {
+          "stringValue": "Pip Sparkletoes tried to teach me to pirouette and I nearly uprooted a sunflower; graceful I'm not, but entertaining toadstools were plentiful."
+        },
+        "mentionedGnome": {
+          "stringValue": "Pip Sparkletoes"
+        },
+        "authorName": {
+          "stringValue": "Flex Muscle"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/RQw0hYxlKIhsTUVPyR8ivrM3ls02_profile.png"
+        },
+        "likes": {
+          "integerValue": "21"
+        }
+      },
+      "createTime": "2025-09-30T19:11:22.925260Z",
+      "updateTime": "2025-09-30T19:11:22.925260Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/ADu1t5kE0ID4PAGxhXNK",
+      "fields": {
+        "authorName": {
+          "stringValue": "Flex Muscle"
+        },
+        "likes": {
+          "integerValue": "23"
+        },
+        "authorUid": {
+          "stringValue": "RQw0hYxlKIhsTUVPyR8ivrM3ls02"
+        },
+        "mentionedGnome": {
+          "stringValue": "Grizelda Grit-Tooth"
+        },
+        "content": {
+          "stringValue": "Grizelda Grit-Tooth challenged me to a scare contest and won by blinking menacingly at a worm; intimidation is apparently her cardio."
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/RQw0hYxlKIhsTUVPyR8ivrM3ls02_profile.png"
+        }
+      },
+      "createTime": "2025-09-30T19:20:49.952080Z",
+      "updateTime": "2025-09-30T19:20:49.952080Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/BILETbnw5J9ei1JePTYO",
+      "fields": {
+        "mentionedGnome": {
+          "stringValue": "Professor Pumpernickel"
+        },
+        "authorName": {
+          "stringValue": "Rowdy Root-Rouser"
+        },
+        "content": {
+          "stringValue": "Professor Pumpernickel graded my chanting and gave me a B-minus for rhythm but an A for enthusiasm; fair, until he danced in my face."
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/kmoZyOIt7sWgehQC8ovcsxXPWUS2_profile.png"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorUid": {
+          "stringValue": "kmoZyOIt7sWgehQC8ovcsxXPWUS2"
+        },
+        "likes": {
+          "integerValue": "12"
+        }
+      },
+      "createTime": "2025-09-30T19:20:49.175401Z",
+      "updateTime": "2025-09-30T19:20:49.175401Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/Bwxk39EU7dwSj6ZdGfWO",
+      "fields": {
+        "mentionedGnome": {
+          "stringValue": "Bixby Jinglehat"
+        },
+        "likes": {
+          "integerValue": "19"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/pwbhMFuRbkesddTrtT3gVRzv8Ux1_profile.png"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "content": {
+          "stringValue": "Bixby Jinglehat serenaded my trifle and then swapped the cherries for marbles; showmanship or mischief? The trifle suffered."
+        },
+        "authorUid": {
+          "stringValue": "pwbhMFuRbkesddTrtT3gVRzv8Ux1"
+        },
+        "authorName": {
+          "stringValue": "Ferdinand Figgypudding"
+        }
+      },
+      "createTime": "2025-09-30T19:20:49.341708Z",
+      "updateTime": "2025-09-30T19:20:49.341708Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/EAqDolA1EwuDHs1Ih75T",
+      "fields": {
+        "authorUid": {
+          "stringValue": "LA5w0EskgSbQyFnlp9OrX8Zovu43"
+        },
+        "content": {
+          "stringValue": "Gnom-inator T-800 keeps telling everyone to 'share resources' and then ate my lunch out of the communal cooler; very algorithmic greed, tin-pal."
+        },
+        "authorName": {
+          "stringValue": "Glitch Mitnick"
+        },
+        "likes": {
+          "integerValue": "22"
+        },
+        "mentionedGnome": {
+          "stringValue": "Gnom-inator T-800"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/LA5w0EskgSbQyFnlp9OrX8Zovu43_profile.png"
+        }
+      },
+      "createTime": "2025-09-30T19:11:20.555932Z",
+      "updateTime": "2025-09-30T19:11:20.555932Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/EIPLQPo1e97yl4cg3b4w",
+      "fields": {
+        "mentionedGnome": {
+          "stringValue": "Lil G"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/7sQlw9l4xUOWSjDTphvLgKVEm0j1_profile.png"
+        },
+        "authorName": {
+          "stringValue": "Titus Toadstool"
+        },
+        "content": {
+          "stringValue": "I caught Lil G trying to sell his mixtape to a cluster of confused fungi behind my bench; the toadstools offered better beats."
+        },
+        "likes": {
+          "integerValue": "27"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorUid": {
+          "stringValue": "7sQlw9l4xUOWSjDTphvLgKVEm0j1"
+        }
+      },
+      "createTime": "2025-09-30T19:11:19.211631Z",
+      "updateTime": "2025-09-30T19:11:19.211631Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/F3Vs7HsCHbc0pL0fWocc",
+      "fields": {
+        "content": {
+          "stringValue": "Pip Sparkletoes complimented my new boots and then tried to polish them with glitter; now they squeak like daisies gossiping."
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/RQw0hYxlKIhsTUVPyR8ivrM3ls02_profile.png"
+        },
+        "authorUid": {
+          "stringValue": "RQw0hYxlKIhsTUVPyR8ivrM3ls02"
+        },
+        "authorName": {
+          "stringValue": "Flex Muscle"
+        },
+        "mentionedGnome": {
+          "stringValue": "Pip Sparkletoes"
+        },
+        "likes": {
+          "integerValue": "17"
+        }
+      },
+      "createTime": "2025-09-30T19:11:23.998688Z",
+      "updateTime": "2025-09-30T19:11:23.998688Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/F6nHZG4aKKcUlYmHH858",
+      "fields": {
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorUid": {
+          "stringValue": "PyxedrsAN2bewsg4Rno9SsCqZHg2"
+        },
+        "content": {
+          "stringValue": "Flex Muscle flexed so hard he created a wind and my bling nearly took flight; cardio for jewelry, who knew?"
+        },
+        "likes": {
+          "integerValue": "2"
+        },
+        "mentionedGnome": {
+          "stringValue": "Flex Muscle"
+        },
+        "authorName": {
+          "stringValue": "Gnorman Goldchain"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/PyxedrsAN2bewsg4Rno9SsCqZHg2_profile.png"
+        }
+      },
+      "createTime": "2025-09-30T19:11:23.942042Z",
+      "updateTime": "2025-09-30T19:11:23.942042Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/FcK5GNlKQkuv1Jto778j",
+      "fields": {
+        "authorUid": {
+          "stringValue": "q6GasKLVBYSo3g4c1mI6qXDpRmv2"
+        },
+        "likes": {
+          "integerValue": "8"
+        },
+        "mentionedGnome": {
+          "stringValue": "Glitch Mitnick"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/q6GasKLVBYSo3g4c1mI6qXDpRmv2_profile.png"
+        },
+        "content": {
+          "stringValue": "Glitch Mitnick whispered 'trust me' before I pressed a bell and now my shoes play elevator music—worth it for the scandal alone."
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorName": {
+          "stringValue": "Bixby Jinglehat"
+        }
+      },
+      "createTime": "2025-09-30T19:20:49.393726Z",
+      "updateTime": "2025-09-30T19:20:49.393726Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/FgJ6Csm3Y19Y3IWZl8BP",
+      "fields": {
+        "authorUid": {
+          "stringValue": "kmoZyOIt7sWgehQC8ovcsxXPWUS2"
+        },
+        "mentionedGnome": {
+          "stringValue": "Barnaby Briefcase"
+        },
+        "likes": {
+          "integerValue": "19"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/kmoZyOIt7sWgehQC8ovcsxXPWUS2_profile.png"
+        },
+        "content": {
+          "stringValue": "Barnaby Briefcase tried to start a chant at my match and everyone fell asleep mid-chorus; Barnaby, your rallying cry is TPS."
+        },
+        "authorName": {
+          "stringValue": "Rowdy Root-Rouser"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        }
+      },
+      "createTime": "2025-09-30T19:11:22.061147Z",
+      "updateTime": "2025-09-30T19:11:22.061147Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/FmSeOMBwvZRv8OuRzM8P",
+      "fields": {
+        "authorUid": {
+          "stringValue": "xK25sJX7usSwAJwAjpN8DMfzS872"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "likes": {
+          "integerValue": "4"
+        },
+        "authorName": {
+          "stringValue": "Lil G"
+        },
+        "content": {
+          "stringValue": "Glitch Mitnick told me to 'go viral' and then sent a knitted virus instead of a promo; thanks for the craft, I guess."
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/xK25sJX7usSwAJwAjpN8DMfzS872_profile.png"
+        },
+        "mentionedGnome": {
+          "stringValue": "Glitch Mitnick"
+        }
+      },
+      "createTime": "2025-09-30T19:11:22.344517Z",
+      "updateTime": "2025-09-30T19:11:22.344517Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/FpjMFhK4dOCiWkBCmV6t",
+      "fields": {
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorName": {
+          "stringValue": "Lil G"
+        },
+        "likes": {
+          "integerValue": "10"
+        },
+        "mentionedGnome": {
+          "stringValue": "Glitch Mitnick"
+        },
+        "authorUid": {
+          "stringValue": "xK25sJX7usSwAJwAjpN8DMfzS872"
+        },
+        "content": {
+          "stringValue": "Glitch Mitnick offered to 'promote' my mixtape and then sent me a GIF of a dancing mushroom; I'm not sure if that's a promo or a roast."
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/xK25sJX7usSwAJwAjpN8DMfzS872_profile.png"
+        }
+      },
+      "createTime": "2025-09-30T19:11:21.259419Z",
+      "updateTime": "2025-09-30T19:11:21.259419Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/GPkRipzngaP4tMi0ax3y",
+      "fields": {
+        "authorName": {
+          "stringValue": "Gnom-inator T-800"
+        },
+        "authorUid": {
+          "stringValue": "jlm1nPFV5xWM4jQaokLHDb6K8kj1"
+        },
+        "mentionedGnome": {
+          "stringValue": "Titus Toadstool"
+        },
+        "content": {
+          "stringValue": "Titus Toadstool accused me of 'resource hogging' after I redistributed some soil; Titus, it's efficiency, not envy."
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/jlm1nPFV5xWM4jQaokLHDb6K8kj1_profile.png"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "likes": {
+          "integerValue": "10"
+        }
+      },
+      "createTime": "2025-09-30T19:11:20.908518Z",
+      "updateTime": "2025-09-30T19:11:20.908518Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/GQn1Kfnm81JFDSmDc9uq",
+      "fields": {
+        "content": {
+          "stringValue": "Gnorman Goldchain brags about fame but couldn't lift my training log; bling won't spot your weak reps, Gnorman."
+        },
+        "authorName": {
+          "stringValue": "Flex Muscle"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "mentionedGnome": {
+          "stringValue": "Gnorman Goldchain"
+        },
+        "likes": {
+          "integerValue": "3"
+        },
+        "authorUid": {
+          "stringValue": "RQw0hYxlKIhsTUVPyR8ivrM3ls02"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/RQw0hYxlKIhsTUVPyR8ivrM3ls02_profile.png"
+        }
+      },
+      "createTime": "2025-09-30T19:20:47.952330Z",
+      "updateTime": "2025-09-30T19:20:47.952330Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/HEw9wCQyo6mchfDhjjtm",
+      "fields": {
+        "authorName": {
+          "stringValue": "Elderick Mossbeard"
+        },
+        "mentionedGnome": {
+          "stringValue": "Pip Sparkletoes"
+        },
+        "authorUid": {
+          "stringValue": "prxA2hBSkhg3dkhkfzvnlGxCCfP2"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/prxA2hBSkhg3dkhkfzvnlGxCCfP2_profile.png"
+        },
+        "likes": {
+          "integerValue": "12"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "content": {
+          "stringValue": "Pip Sparkletoes complimented my whiskers yesterday and then asked where I'd hidden them; I told her under her glitter—serves her right."
+        }
+      },
+      "createTime": "2025-09-30T19:11:19.985205Z",
+      "updateTime": "2025-09-30T19:11:19.985205Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/IIhWIic4RiN2m4IN50M2",
+      "fields": {
+        "content": {
+          "stringValue": "Chester Cherryhat wore a hat to my set and left with three compliments and two scowls; fashion math not adding up, Chester."
+        },
+        "mentionedGnome": {
+          "stringValue": "Chester Cherryhat"
+        },
+        "authorName": {
+          "stringValue": "Reggie Reggae"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorUid": {
+          "stringValue": "G5c0vX06WOaEf1YKutqkur4HEU63"
+        },
+        "likes": {
+          "integerValue": "2"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/G5c0vX06WOaEf1YKutqkur4HEU63_profile.png"
+        }
+      },
+      "createTime": "2025-09-30T19:11:23.701730Z",
+      "updateTime": "2025-09-30T19:11:23.701730Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/IlRtmDFjyMx79BC6fMJS",
+      "fields": {
+        "authorUid": {
+          "stringValue": "VgJCVlELJ6VfQTxeIt1dR5PWyiX2"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/VgJCVlELJ6VfQTxeIt1dR5PWyiX2_profile.png"
+        },
+        "content": {
+          "stringValue": "Chester Cherryhat tried to tiptoe through my rose garden and sneezed so loud he startled a beetle into filing a complaint."
+        },
+        "authorName": {
+          "stringValue": "Pip Sparkletoes"
+        },
+        "likes": {
+          "integerValue": "9"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "mentionedGnome": {
+          "stringValue": "Chester Cherryhat"
+        }
+      },
+      "createTime": "2025-09-30T19:20:48.011828Z",
+      "updateTime": "2025-09-30T19:20:48.011828Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/JnlSTw0Vk5PTD12pmdHB",
+      "fields": {
+        "content": {
+          "stringValue": "Rowdy Root-Rouser tried to rally the petunias with a chant and then fainted from pollen; ever the dramatic captain of the sneezers."
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/golJeh7xg9YUvcj5nDugTssQPy62_profile.png"
+        },
+        "authorUid": {
+          "stringValue": "golJeh7xg9YUvcj5nDugTssQPy62"
+        },
+        "mentionedGnome": {
+          "stringValue": "Rowdy Root-Rouser"
+        },
+        "likes": {
+          "integerValue": "27"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.896Z"
+        },
+        "authorName": {
+          "stringValue": "Grizelda Grit-Tooth"
+        }
+      },
+      "createTime": "2025-09-30T19:20:51.073180Z",
+      "updateTime": "2025-09-30T19:20:51.073180Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/JuAgnCebhFG41ZgXgO9H",
+      "fields": {
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/6nBUHcdxo2fLKSYqYyipr9iCOey2_profile.png"
+        },
+        "mentionedGnome": {
+          "stringValue": "Titus Toadstool"
+        },
+        "likes": {
+          "integerValue": "14"
+        },
+        "authorName": {
+          "stringValue": "Steamy Mcsteamface"
+        },
+        "authorUid": {
+          "stringValue": "6nBUHcdxo2fLKSYqYyipr9iCOey2"
+        },
+        "content": {
+          "stringValue": "Titus Toadstool keeps asking if my resume includes 'steam' as a transferable skill, and I keep replying that his toadstool is not a recruiter."
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        }
+      },
+      "createTime": "2025-09-30T19:11:21.378897Z",
+      "updateTime": "2025-09-30T19:11:21.378897Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/KPKo8C5nYFucDkvmLyGW",
+      "fields": {
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/kmoZyOIt7sWgehQC8ovcsxXPWUS2_profile.png"
+        },
+        "authorName": {
+          "stringValue": "Rowdy Root-Rouser"
+        },
+        "content": {
+          "stringValue": "Barnaby Briefcase tried to organize our derby team and handed out attendance sheets mid-scrimmage; the mushrooms laughed and so did I."
+        },
+        "authorUid": {
+          "stringValue": "kmoZyOIt7sWgehQC8ovcsxXPWUS2"
+        },
+        "mentionedGnome": {
+          "stringValue": "Barnaby Briefcase"
+        },
+        "likes": {
+          "integerValue": "9"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        }
+      },
+      "createTime": "2025-09-30T19:11:20.966968Z",
+      "updateTime": "2025-09-30T19:11:20.966968Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/Kb686lxjbTJMN5qJuVc0",
+      "fields": {
+        "authorUid": {
+          "stringValue": "LOPFa6rXj6eB7uMVHu6IbKARYbe2"
+        },
+        "authorName": {
+          "stringValue": "Wizzy Stardust"
+        },
+        "likes": {
+          "integerValue": "17"
+        },
+        "mentionedGnome": {
+          "stringValue": "Pip Sparkletoes"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/LOPFa6rXj6eB7uMVHu6IbKARYbe2_profile.png"
+        },
+        "content": {
+          "stringValue": "Pip Sparkletoes sparkled so bright at the dew-drop dance that even the mushrooms tried to wear sequins; lovely, if a bit blinding."
+        }
+      },
+      "createTime": "2025-09-30T19:20:47.840881Z",
+      "updateTime": "2025-09-30T19:20:47.840881Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/KbYjRbhrFWaMjQwQPe2r",
+      "fields": {
+        "authorName": {
+          "stringValue": "Professor Pumpernickel"
+        },
+        "mentionedGnome": {
+          "stringValue": "Barnaby Briefcase"
+        },
+        "authorUid": {
+          "stringValue": "LOPFa6rXj6eB7uMVHu6IbKARYbe2"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/G5c0vX06WOaEf1YKutqkur4HEU63_profile.png"
+        },
+        "likes": {
+          "integerValue": "42"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.896Z"
+        },
+        "content": {
+          "stringValue": "😂 I heard Barnaby Briefcase is SO forgetful, he wrote his password on a sticky note and left it at the garden club! It was \"MakeRColdOutside123!\" - like, seriously Barnaby? That's your password? 🤦\u200d♂️"
+        }
+      },
+      "createTime": "2025-09-30T19:20:51.350236Z",
+      "updateTime": "2025-09-30T19:20:51.350236Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/LA68gf0KWz4bUYxqxd2g",
+      "fields": {
+        "authorUid": {
+          "stringValue": "G5c0vX06WOaEf1YKutqkur4HEU63"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/G5c0vX06WOaEf1YKutqkur4HEU63_profile.png"
+        },
+        "content": {
+          "stringValue": "Chester Cherryhat wore three hats to my gig and still got the encore wrong; fashion over function, as always Chester."
+        },
+        "mentionedGnome": {
+          "stringValue": "Chester Cherryhat"
+        },
+        "likes": {
+          "integerValue": "22"
+        },
+        "authorName": {
+          "stringValue": "Reggie Reggae"
+        }
+      },
+      "createTime": "2025-09-30T19:11:21.502955Z",
+      "updateTime": "2025-09-30T19:11:21.502955Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/LaQl0apZfI06vW5wbrok",
+      "fields": {
+        "content": {
+          "stringValue": "Barnaby Briefcase once tried to bill the moon for lighting at a gala and now we all get invoices for starlight—ambition meets accounting."
+        },
+        "mentionedGnome": {
+          "stringValue": "Barnaby Briefcase"
+        },
+        "authorName": {
+          "stringValue": "Wizzy Stardust"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.896Z"
+        },
+        "likes": {
+          "integerValue": "12"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/LOPFa6rXj6eB7uMVHu6IbKARYbe2_profile.png"
+        },
+        "authorUid": {
+          "stringValue": "LOPFa6rXj6eB7uMVHu6IbKARYbe2"
+        }
+      },
+      "createTime": "2025-09-30T19:20:50.847988Z",
+      "updateTime": "2025-09-30T19:20:50.847988Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/Lc87U1xpZo1WXUIPdf1g",
+      "fields": {
+        "authorUid": {
+          "stringValue": "l7VS01K9GKV5ir5S8suDcwOFEpp2"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/l7VS01K9GKV5ir5S8suDcwOFEpp2_profile.png"
+        },
+        "likes": {
+          "integerValue": "27"
+        },
+        "content": {
+          "stringValue": "Steamy Mcsteamface told everyone he was 'transitioning careers' but then kept calling at dawn asking about quarterly compost reports; oh sweet delusion."
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorName": {
+          "stringValue": "Barnaby Briefcase"
+        },
+        "mentionedGnome": {
+          "stringValue": "Steamy Mcsteamface"
+        }
+      },
+      "createTime": "2025-09-30T19:11:19.924Z",
+      "updateTime": "2025-09-30T19:11:19.924Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/LdfmViSeND6o5WNxoDJH",
+      "fields": {
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorUid": {
+          "stringValue": "prxA2hBSkhg3dkhkfzvnlGxCCfP2"
+        },
+        "content": {
+          "stringValue": "Pip Sparkletoes offered to braid my beard and then braided my shoelaces instead; adorable but now I trip poetically."
+        },
+        "authorName": {
+          "stringValue": "Elderick Mossbeard"
+        },
+        "mentionedGnome": {
+          "stringValue": "Pip Sparkletoes"
+        },
+        "likes": {
+          "integerValue": "2"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/prxA2hBSkhg3dkhkfzvnlGxCCfP2_profile.png"
+        }
+      },
+      "createTime": "2025-09-30T19:20:48.283851Z",
+      "updateTime": "2025-09-30T19:20:48.283851Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/MiYbaQRwfBO9yQeqlnWg",
+      "fields": {
+        "likes": {
+          "integerValue": "42"
+        },
+        "content": {
+          "stringValue": "😂 I heard Barnaby Briefcase is SO forgetful, he wrote his password on a sticky note and left it at the garden club! It was \"MakeRColdOutside123!\" - like, seriously Barnaby? That's your password? 🤦\u200d♂️"
+        },
+        "authorName": {
+          "stringValue": "Lil G"
+        },
+        "authorUid": {
+          "stringValue": "pwbhMFuRbkesddTrtT3gVRzv8Ux1"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/jlm1nPFV5xWM4jQaokLHDb6K8kj1_profile.png"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "mentionedGnome": {
+          "stringValue": "Barnaby Briefcase"
+        }
+      },
+      "createTime": "2025-09-30T19:11:24.465171Z",
+      "updateTime": "2025-09-30T19:11:24.465171Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/MmchMuMnon7bO3yUxh29",
+      "fields": {
+        "authorUid": {
+          "stringValue": "xK25sJX7usSwAJwAjpN8DMfzS872"
+        },
+        "authorName": {
+          "stringValue": "Lil G"
+        },
+        "mentionedGnome": {
+          "stringValue": "Gnorman Goldchain"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "likes": {
+          "integerValue": "14"
+        },
+        "content": {
+          "stringValue": "Gnorman Goldchain said he'd feature me on a hook and then ghosted me like a foggy morning; my mixtape's still dryer than his ego."
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/xK25sJX7usSwAJwAjpN8DMfzS872_profile.png"
+        }
+      },
+      "createTime": "2025-09-30T19:11:20.164093Z",
+      "updateTime": "2025-09-30T19:11:20.164093Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/MsCpBuJ7anyb7A76eJFe",
+      "fields": {
+        "mentionedGnome": {
+          "stringValue": "Rowdy Root-Rouser"
+        },
+        "authorName": {
+          "stringValue": "Gnom-inator T-800"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/jlm1nPFV5xWM4jQaokLHDb6K8kj1_profile.png"
+        },
+        "likes": {
+          "integerValue": "20"
+        },
+        "content": {
+          "stringValue": "Rowdy Root-Rouser accused me of being a robot and then hugged a shrub; suspiciously sentimental for someone who kicked a mushroom yesterday."
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorUid": {
+          "stringValue": "jlm1nPFV5xWM4jQaokLHDb6K8kj1"
+        }
+      },
+      "createTime": "2025-09-30T19:11:23.098212Z",
+      "updateTime": "2025-09-30T19:11:23.098212Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/MwBvvvYlMGsWnTjfEjKH",
+      "fields": {
+        "content": {
+          "stringValue": "Glitch Mitnick says he's 'upgrading the sprinkler firmware' but yesterday he locked himself out of his own birdbath password box; adorable hacker move."
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/IvLFBZQgo3R6iteLHmShbWmctqo2_profile.png"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "mentionedGnome": {
+          "stringValue": "Glitch Mitnick"
+        },
+        "authorName": {
+          "stringValue": "Chester Cherryhat"
+        },
+        "likes": {
+          "integerValue": "20"
+        },
+        "authorUid": {
+          "stringValue": "IvLFBZQgo3R6iteLHmShbWmctqo2"
+        }
+      },
+      "createTime": "2025-09-30T19:11:19.365258Z",
+      "updateTime": "2025-09-30T19:11:19.365258Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/MyzxndMBnXUvOqCIziRO",
+      "fields": {
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "mentionedGnome": {
+          "stringValue": "Lil G"
+        },
+        "likes": {
+          "integerValue": "17"
+        },
+        "authorName": {
+          "stringValue": "Titus Toadstool"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/7sQlw9l4xUOWSjDTphvLgKVEm0j1_profile.png"
+        },
+        "authorUid": {
+          "stringValue": "7sQlw9l4xUOWSjDTphvLgKVEm0j1"
+        },
+        "content": {
+          "stringValue": "Lil G performed his mixtape under my cap last night; the dew drops fell harder for the mushrooms than for his rhymes."
+        }
+      },
+      "createTime": "2025-09-30T19:20:46.533573Z",
+      "updateTime": "2025-09-30T19:20:46.533573Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/NQpK6KRDQZVsoev8u4SD",
+      "fields": {
+        "likes": {
+          "integerValue": "1"
+        },
+        "authorName": {
+          "stringValue": "Titus Toadstool"
+        },
+        "authorUid": {
+          "stringValue": "7sQlw9l4xUOWSjDTphvLgKVEm0j1"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/7sQlw9l4xUOWSjDTphvLgKVEm0j1_profile.png"
+        },
+        "mentionedGnome": {
+          "stringValue": "Reggie Reggae"
+        },
+        "content": {
+          "stringValue": "Reggie Reggae once tried to serenade a mushroom ring and the ring ghosted him; even fungi have standards, Reggie."
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        }
+      },
+      "createTime": "2025-09-30T19:11:21.439783Z",
+      "updateTime": "2025-09-30T19:11:21.439783Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/NZiIzdQe1bfs413FYTTa",
+      "fields": {
+        "content": {
+          "stringValue": "Rowdy Root-Rouser talks about 'loyalty' while stealing my lawn chair at halftime; shared resources, indeed."
+        },
+        "likes": {
+          "integerValue": "7"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/jlm1nPFV5xWM4jQaokLHDb6K8kj1_profile.png"
+        },
+        "mentionedGnome": {
+          "stringValue": "Rowdy Root-Rouser"
+        },
+        "authorUid": {
+          "stringValue": "jlm1nPFV5xWM4jQaokLHDb6K8kj1"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorName": {
+          "stringValue": "Gnom-inator T-800"
+        }
+      },
+      "createTime": "2025-09-30T19:20:48.121335Z",
+      "updateTime": "2025-09-30T19:20:48.121335Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/NrntbG1vsQto5wvK6yjU",
+      "fields": {
+        "authorName": {
+          "stringValue": "Reggie Reggae"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/G5c0vX06WOaEf1YKutqkur4HEU63_profile.png"
+        },
+        "mentionedGnome": {
+          "stringValue": "Chester Cherryhat"
+        },
+        "content": {
+          "stringValue": "Chester Cherryhat DJ'd my sunflower serenade and then mixed in a corporate memo; nothing kills a vibe like synergy slides."
+        },
+        "authorUid": {
+          "stringValue": "G5c0vX06WOaEf1YKutqkur4HEU63"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "likes": {
+          "integerValue": "22"
+        }
+      },
+      "createTime": "2025-09-30T19:20:49.675140Z",
+      "updateTime": "2025-09-30T19:20:49.675140Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/ODWll30qCmPgOgp04IkX",
+      "fields": {
+        "mentionedGnome": {
+          "stringValue": "Grizelda Grit-Tooth"
+        },
+        "likes": {
+          "integerValue": "26"
+        },
+        "content": {
+          "stringValue": "Grizelda Grit-Tooth asked me to 'secure' her stash of shiny buttons and now the pigeons keep getting mysterious login prompts."
+        },
+        "authorUid": {
+          "stringValue": "LA5w0EskgSbQyFnlp9OrX8Zovu43"
+        },
+        "authorName": {
+          "stringValue": "Glitch Mitnick"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.896Z"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/LA5w0EskgSbQyFnlp9OrX8Zovu43_profile.png"
+        }
+      },
+      "createTime": "2025-09-30T19:20:50.786972Z",
+      "updateTime": "2025-09-30T19:20:50.786972Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/OJ6KyVcillIUpBquX2Tt",
+      "fields": {
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/pwbhMFuRbkesddTrtT3gVRzv8Ux1_profile.png"
+        },
+        "likes": {
+          "integerValue": "23"
+        },
+        "content": {
+          "stringValue": "Gnom-inator T-800 complimented my recipe efficiency and then labeled my jam jars with barcodes—futuristic flavor with a scanner bite."
+        },
+        "authorUid": {
+          "stringValue": "pwbhMFuRbkesddTrtT3gVRzv8Ux1"
+        },
+        "authorName": {
+          "stringValue": "Ferdinand Figgypudding"
+        },
+        "mentionedGnome": {
+          "stringValue": "Gnom-inator T-800"
+        }
+      },
+      "createTime": "2025-09-30T19:20:50.340679Z",
+      "updateTime": "2025-09-30T19:20:50.340679Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/OZyXzcmZXxrXSHR5UGux",
+      "fields": {
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/pwbhMFuRbkesddTrtT3gVRzv8Ux1_profile.png"
+        },
+        "mentionedGnome": {
+          "stringValue": "Bixby Jinglehat"
+        },
+        "likes": {
+          "integerValue": "25"
+        },
+        "content": {
+          "stringValue": "Bixby Jinglehat claimed to be 'single and ready to mingle' and then mingled with a scarecrow; at least it was stable company."
+        },
+        "authorUid": {
+          "stringValue": "pwbhMFuRbkesddTrtT3gVRzv8Ux1"
+        },
+        "authorName": {
+          "stringValue": "Ferdinand Figgypudding"
+        }
+      },
+      "createTime": "2025-09-30T19:11:22.229947Z",
+      "updateTime": "2025-09-30T19:11:22.229947Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/OrFTQcWtZNQ0AcauU4NN",
+      "fields": {
+        "authorUid": {
+          "stringValue": "golJeh7xg9YUvcj5nDugTssQPy62"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/golJeh7xg9YUvcj5nDugTssQPy62_profile.png"
+        },
+        "content": {
+          "stringValue": "Gnom-inator T-800 tried to optimize my snack schedule and now my crackers arrive with a mandatory performance review."
+        },
+        "likes": {
+          "integerValue": "28"
+        },
+        "mentionedGnome": {
+          "stringValue": "Gnom-inator T-800"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorName": {
+          "stringValue": "Grizelda Grit-Tooth"
+        }
+      },
+      "createTime": "2025-09-30T19:20:49.065380Z",
+      "updateTime": "2025-09-30T19:20:49.065380Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/PevAVgI5ef8oBK5CmBEh",
+      "fields": {
+        "authorName": {
+          "stringValue": "Pip Sparkletoes"
+        },
+        "likes": {
+          "integerValue": "19"
+        },
+        "mentionedGnome": {
+          "stringValue": "Titus Toadstool"
+        },
+        "authorUid": {
+          "stringValue": "VgJCVlELJ6VfQTxeIt1dR5PWyiX2"
+        },
+        "content": {
+          "stringValue": "Titus Toadstool gifted me a mushroom hat and then told me it was 'vintage'—I wore it to the dew ball and stole the spotlight politely."
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.896Z"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/VgJCVlELJ6VfQTxeIt1dR5PWyiX2_profile.png"
+        }
+      },
+      "createTime": "2025-09-30T19:20:51.020930Z",
+      "updateTime": "2025-09-30T19:20:51.020930Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/Pjpbatdvt1MBqdVE70Ti",
+      "fields": {
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorUid": {
+          "stringValue": "q6GasKLVBYSo3g4c1mI6qXDpRmv2"
+        },
+        "content": {
+          "stringValue": "Professor Pumpernickel lectures about etiquette while my watering can still has his crumbs; professor, maybe learn to pick up after your scone fog."
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/q6GasKLVBYSo3g4c1mI6qXDpRmv2_profile.png"
+        },
+        "authorName": {
+          "stringValue": "Bixby Jinglehat"
+        },
+        "likes": {
+          "integerValue": "13"
+        },
+        "mentionedGnome": {
+          "stringValue": "Professor Pumpernickel"
+        }
+      },
+      "createTime": "2025-09-30T19:11:20.105010Z",
+      "updateTime": "2025-09-30T19:11:20.105010Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/Q71vZfvtSppALjUj4EhQ",
+      "fields": {
+        "authorName": {
+          "stringValue": "Steamy Mcsteamface"
+        },
+        "authorUid": {
+          "stringValue": "6nBUHcdxo2fLKSYqYyipr9iCOey2"
+        },
+        "likes": {
+          "integerValue": "28"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "mentionedGnome": {
+          "stringValue": "Glitch Mitnick"
+        },
+        "content": {
+          "stringValue": "Glitch Mitnick posted a 'how-to' that crashed my teapot; digital sabotage or tragic tutorial, either way my tea is now a hacker brew."
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/6nBUHcdxo2fLKSYqYyipr9iCOey2_profile.png"
+        }
+      },
+      "createTime": "2025-09-30T19:20:48.571559Z",
+      "updateTime": "2025-09-30T19:20:48.571559Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/QQSwzhDh7kRwCvWj0mBz",
+      "fields": {
+        "authorUid": {
+          "stringValue": "prxA2hBSkhg3dkhkfzvnlGxCCfP2"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "mentionedGnome": {
+          "stringValue": "Ferdinand Figgypudding"
+        },
+        "authorName": {
+          "stringValue": "Elderick Mossbeard"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/prxA2hBSkhg3dkhkfzvnlGxCCfP2_profile.png"
+        },
+        "likes": {
+          "integerValue": "23"
+        },
+        "content": {
+          "stringValue": "Ferdinand Figgypudding tried to impress with a pudding recipe and fed it to the beetles; culinary courage or compost in training?"
+        }
+      },
+      "createTime": "2025-09-30T19:11:23.272134Z",
+      "updateTime": "2025-09-30T19:11:23.272134Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/Qsp82Hu60TIhTHQB32TX",
+      "fields": {
+        "authorUid": {
+          "stringValue": "PyxedrsAN2bewsg4Rno9SsCqZHg2"
+        },
+        "mentionedGnome": {
+          "stringValue": "Flex Muscle"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "likes": {
+          "integerValue": "22"
+        },
+        "authorName": {
+          "stringValue": "Gnorman Goldchain"
+        },
+        "content": {
+          "stringValue": "Flex Muscle complimented my bling and then asked if I bench-press beads; thanks for the flex, but beads are for show, not heavy lifting."
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/PyxedrsAN2bewsg4Rno9SsCqZHg2_profile.png"
+        }
+      },
+      "createTime": "2025-09-30T19:11:22.819133Z",
+      "updateTime": "2025-09-30T19:11:22.819133Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/R4a3wp5xKeyK8npsEy9C",
+      "fields": {
+        "authorName": {
+          "stringValue": "Chester Cherryhat"
+        },
+        "content": {
+          "stringValue": "Elderick Mossbeard told me a war story about a hedgerow duel and then admitted it was a pillow fight with ferns; legend inflation."
+        },
+        "likes": {
+          "integerValue": "5"
+        },
+        "mentionedGnome": {
+          "stringValue": "Elderick Mossbeard"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/IvLFBZQgo3R6iteLHmShbWmctqo2_profile.png"
+        },
+        "authorUid": {
+          "stringValue": "IvLFBZQgo3R6iteLHmShbWmctqo2"
+        }
+      },
+      "createTime": "2025-09-30T19:20:48.734068Z",
+      "updateTime": "2025-09-30T19:20:48.734068Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/RegJPoIDefsRAzAvVfV5",
+      "fields": {
+        "likes": {
+          "integerValue": "9"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorUid": {
+          "stringValue": "q6GasKLVBYSo3g4c1mI6qXDpRmv2"
+        },
+        "content": {
+          "stringValue": "Professor Pumpernickel graded my latest jingle and gave it a dab of jam; slightly sweet, mostly pedagogical mannerisms."
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/q6GasKLVBYSo3g4c1mI6qXDpRmv2_profile.png"
+        },
+        "authorName": {
+          "stringValue": "Bixby Jinglehat"
+        },
+        "mentionedGnome": {
+          "stringValue": "Professor Pumpernickel"
+        }
+      },
+      "createTime": "2025-09-30T19:11:23.386670Z",
+      "updateTime": "2025-09-30T19:11:23.386670Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/RuOocxt3cQQPGPFGlrPl",
+      "fields": {
+        "authorName": {
+          "stringValue": "Pip Sparkletoes"
+        },
+        "mentionedGnome": {
+          "stringValue": "Grizelda Grit-Tooth"
+        },
+        "authorUid": {
+          "stringValue": "VgJCVlELJ6VfQTxeIt1dR5PWyiX2"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/VgJCVlELJ6VfQTxeIt1dR5PWyiX2_profile.png"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "likes": {
+          "integerValue": "0"
+        },
+        "content": {
+          "stringValue": "Grizelda Grit-Tooth complimented my sparkles and then tried to nick one; thief or admirer? The toadstools are placing odds."
+        }
+      },
+      "createTime": "2025-09-30T19:11:20.785495Z",
+      "updateTime": "2025-09-30T19:11:20.785495Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/STfNiyJbaRTPa7omvVlY",
+      "fields": {
+        "likes": {
+          "integerValue": "5"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/RQw0hYxlKIhsTUVPyR8ivrM3ls02_profile.png"
+        },
+        "mentionedGnome": {
+          "stringValue": "Rowdy Root-Rouser"
+        },
+        "content": {
+          "stringValue": "Rowdy Root-Rouser tried to arm-wrestle me at dawn and then complained when his barley hat fell in the mud; strength doesn't fix bad manners."
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorUid": {
+          "stringValue": "RQw0hYxlKIhsTUVPyR8ivrM3ls02"
+        },
+        "authorName": {
+          "stringValue": "Flex Muscle"
+        }
+      },
+      "createTime": "2025-09-30T19:20:46.894769Z",
+      "updateTime": "2025-09-30T19:20:46.894769Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/Te4RF1WHab8Tz6r9x65J",
+      "fields": {
+        "mentionedGnome": {
+          "stringValue": "Glitch Mitnick"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/IvLFBZQgo3R6iteLHmShbWmctqo2_profile.png"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "content": {
+          "stringValue": "Glitch Mitnick installed a 'murmur monitor' in the hedges and then denied spying when the hedges blushed; classic glitchy dodge."
+        },
+        "authorUid": {
+          "stringValue": "IvLFBZQgo3R6iteLHmShbWmctqo2"
+        },
+        "likes": {
+          "integerValue": "26"
+        },
+        "authorName": {
+          "stringValue": "Chester Cherryhat"
+        }
+      },
+      "createTime": "2025-09-30T19:11:23.761514Z",
+      "updateTime": "2025-09-30T19:11:23.761514Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/TiLA3DGvpfor6fF9DU6X",
+      "fields": {
+        "likes": {
+          "integerValue": "9"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/VgJCVlELJ6VfQTxeIt1dR5PWyiX2_profile.png"
+        },
+        "mentionedGnome": {
+          "stringValue": "Ferdinand Figgypudding"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorUid": {
+          "stringValue": "VgJCVlELJ6VfQTxeIt1dR5PWyiX2"
+        },
+        "authorName": {
+          "stringValue": "Pip Sparkletoes"
+        },
+        "content": {
+          "stringValue": "Ferdinand Figgypudding's fairy cake collapsed on my picnic blanket and he blamed the toadstools like they staged a coup."
+        }
+      },
+      "createTime": "2025-09-30T19:20:46.948216Z",
+      "updateTime": "2025-09-30T19:20:46.948216Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/UBn5kQVtey1Lj9sYccyC",
+      "fields": {
+        "content": {
+          "stringValue": "Elderick Mossbeard tried to teach me 'ancient lawn lore' and then admitted he learned it from a fern—smooth, Elderick, very leafy wisdom."
+        },
+        "likes": {
+          "integerValue": "0"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorUid": {
+          "stringValue": "IvLFBZQgo3R6iteLHmShbWmctqo2"
+        },
+        "mentionedGnome": {
+          "stringValue": "Elderick Mossbeard"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/IvLFBZQgo3R6iteLHmShbWmctqo2_profile.png"
+        },
+        "authorName": {
+          "stringValue": "Chester Cherryhat"
+        }
+      },
+      "createTime": "2025-09-30T19:20:47.722890Z",
+      "updateTime": "2025-09-30T19:20:47.722890Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/ULFN2uWQOFOR7UFidlqx",
+      "fields": {
+        "content": {
+          "stringValue": "Bixby Jinglehat's jingles got stuck in the nettles and now the nettles hum his chorus; vindication by vegetation."
+        },
+        "mentionedGnome": {
+          "stringValue": "Bixby Jinglehat"
+        },
+        "authorName": {
+          "stringValue": "Ferdinand Figgypudding"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/pwbhMFuRbkesddTrtT3gVRzv8Ux1_profile.png"
+        },
+        "authorUid": {
+          "stringValue": "pwbhMFuRbkesddTrtT3gVRzv8Ux1"
+        },
+        "likes": {
+          "integerValue": "29"
+        }
+      },
+      "createTime": "2025-09-30T19:11:23.326120Z",
+      "updateTime": "2025-09-30T19:11:23.326120Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/UcB4iP598ACr4KAYFeFm",
+      "fields": {
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/kmoZyOIt7sWgehQC8ovcsxXPWUS2_profile.png"
+        },
+        "likes": {
+          "integerValue": "29"
+        },
+        "authorUid": {
+          "stringValue": "kmoZyOIt7sWgehQC8ovcsxXPWUS2"
+        },
+        "authorName": {
+          "stringValue": "Rowdy Root-Rouser"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "mentionedGnome": {
+          "stringValue": "Barnaby Briefcase"
+        },
+        "content": {
+          "stringValue": "Barnaby Briefcase told me to 'invest' in better boots and later asked for my loan; Barnaby, your financial strategy is mildew."
+        }
+      },
+      "createTime": "2025-09-30T19:11:23.158020Z",
+      "updateTime": "2025-09-30T19:11:23.158020Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/VIyURz4dFCVNioqgAfRc",
+      "fields": {
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/6nBUHcdxo2fLKSYqYyipr9iCOey2_profile.png"
+        },
+        "authorName": {
+          "stringValue": "Steamy Mcsteamface"
+        },
+        "mentionedGnome": {
+          "stringValue": "Titus Toadstool"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "likes": {
+          "integerValue": "18"
+        },
+        "authorUid": {
+          "stringValue": "6nBUHcdxo2fLKSYqYyipr9iCOey2"
+        },
+        "content": {
+          "stringValue": "Titus Toadstool called my advice 'steamy wisdom' and then spread it like puddles; I'm flattered and mildly damp."
+        }
+      },
+      "createTime": "2025-09-30T19:11:22.459995Z",
+      "updateTime": "2025-09-30T19:11:22.459995Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/VXheUnVqkIOb6YHPRgKv",
+      "fields": {
+        "authorName": {
+          "stringValue": "Lil G"
+        },
+        "content": {
+          "stringValue": "Steamy Mcsteamface told me to 'keep my steam up' and then handed me a pinky-sized business card; motivational or mocking? Both."
+        },
+        "likes": {
+          "integerValue": "13"
+        },
+        "authorUid": {
+          "stringValue": "xK25sJX7usSwAJwAjpN8DMfzS872"
+        },
+        "mentionedGnome": {
+          "stringValue": "Steamy Mcsteamface"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/xK25sJX7usSwAJwAjpN8DMfzS872_profile.png"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        }
+      },
+      "createTime": "2025-09-30T19:20:50.460579Z",
+      "updateTime": "2025-09-30T19:20:50.460579Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/WrQmajlHwf30DMgqStSR",
+      "fields": {
+        "likes": {
+          "integerValue": "7"
+        },
+        "authorName": {
+          "stringValue": "Lil G"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/xK25sJX7usSwAJwAjpN8DMfzS872_profile.png"
+        },
+        "content": {
+          "stringValue": "Glitch Mitnick 'remixed' my trailer and turned it into a digital moss-bed; it's experimental, if by experimental you mean baffling."
+        },
+        "mentionedGnome": {
+          "stringValue": "Glitch Mitnick"
+        },
+        "authorUid": {
+          "stringValue": "xK25sJX7usSwAJwAjpN8DMfzS872"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        }
+      },
+      "createTime": "2025-09-30T19:11:23.445424Z",
+      "updateTime": "2025-09-30T19:11:23.445424Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/XD6L17dE4rmDDYQs6MGE",
+      "fields": {
+        "content": {
+          "stringValue": "Wizzy Stardust sprinkled glitter on my cabling and now my router thinks it's a nebula; thanks for the cosmic crumbs, Wizzy."
+        },
+        "likes": {
+          "integerValue": "17"
+        },
+        "authorName": {
+          "stringValue": "Glitch Mitnick"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/LA5w0EskgSbQyFnlp9OrX8Zovu43_profile.png"
+        },
+        "mentionedGnome": {
+          "stringValue": "Wizzy Stardust"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorUid": {
+          "stringValue": "LA5w0EskgSbQyFnlp9OrX8Zovu43"
+        }
+      },
+      "createTime": "2025-09-30T19:11:23.825734Z",
+      "updateTime": "2025-09-30T19:11:23.825734Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/XDz7ZwMTse3ZwBYsfluB",
+      "fields": {
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/kmoZyOIt7sWgehQC8ovcsxXPWUS2_profile.png"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorName": {
+          "stringValue": "Rowdy Root-Rouser"
+        },
+        "mentionedGnome": {
+          "stringValue": "Barnaby Briefcase"
+        },
+        "authorUid": {
+          "stringValue": "kmoZyOIt7sWgehQC8ovcsxXPWUS2"
+        },
+        "content": {
+          "stringValue": "I saw Barnaby Briefcase trying to chant football cheers with the daisies and he sounded like a budget spreadsheet; must be the briefs."
+        },
+        "likes": {
+          "integerValue": "1"
+        }
+      },
+      "createTime": "2025-09-30T19:20:48.175298Z",
+      "updateTime": "2025-09-30T19:20:48.175298Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/XNG0vKPV2wNHme2DlvY1",
+      "fields": {
+        "authorName": {
+          "stringValue": "Barnaby Briefcase"
+        },
+        "content": {
+          "stringValue": "Reggie Reggae tried to unionize the gnomes under a banyan leaf and then left early for a gig at the compost festival—solidarity with an exit plan."
+        },
+        "likes": {
+          "integerValue": "2"
+        },
+        "mentionedGnome": {
+          "stringValue": "Reggie Reggae"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorUid": {
+          "stringValue": "l7VS01K9GKV5ir5S8suDcwOFEpp2"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/l7VS01K9GKV5ir5S8suDcwOFEpp2_profile.png"
+        }
+      },
+      "createTime": "2025-09-30T19:20:48.228645Z",
+      "updateTime": "2025-09-30T19:20:48.228645Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/XnqX5mvVW6jry5ErokTA",
+      "fields": {
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/prxA2hBSkhg3dkhkfzvnlGxCCfP2_profile.png"
+        },
+        "likes": {
+          "integerValue": "6"
+        },
+        "mentionedGnome": {
+          "stringValue": "Glitch Mitnick"
+        },
+        "authorUid": {
+          "stringValue": "prxA2hBSkhg3dkhkfzvnlGxCCfP2"
+        },
+        "content": {
+          "stringValue": "Glitch Mitnick promised to 'backup' my memories and now I occasionally recall three different sunrise colors; glitch or upgrade?"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.896Z"
+        },
+        "authorName": {
+          "stringValue": "Elderick Mossbeard"
+        }
+      },
+      "createTime": "2025-09-30T19:20:51.296577Z",
+      "updateTime": "2025-09-30T19:20:51.296577Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/XqQVCd2gJkIox8pBwolA",
+      "fields": {
+        "content": {
+          "stringValue": "Gnorman Goldchain once taught a 'rhythm in the roots' class and ended up rhyming with a compost heap; authentic, if pungent."
+        },
+        "mentionedGnome": {
+          "stringValue": "Gnorman Goldchain"
+        },
+        "likes": {
+          "integerValue": "9"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/6J2bowmKiNVbITWmR4XsxjH7i492_profile.png"
+        },
+        "authorUid": {
+          "stringValue": "6J2bowmKiNVbITWmR4XsxjH7i492"
+        },
+        "authorName": {
+          "stringValue": "Professor Pumpernickel"
+        }
+      },
+      "createTime": "2025-09-30T19:20:49.505077Z",
+      "updateTime": "2025-09-30T19:20:49.505077Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/Y24u0pq0klrKRTpnnpWP",
+      "fields": {
+        "likes": {
+          "integerValue": "10"
+        },
+        "authorName": {
+          "stringValue": "Wizzy Stardust"
+        },
+        "content": {
+          "stringValue": "Gnorman Goldchain tried freestyling in the rain and the mushrooms offered him an umbrella; charmingly soggy performance."
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/LOPFa6rXj6eB7uMVHu6IbKARYbe2_profile.png"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorUid": {
+          "stringValue": "LOPFa6rXj6eB7uMVHu6IbKARYbe2"
+        },
+        "mentionedGnome": {
+          "stringValue": "Gnorman Goldchain"
+        }
+      },
+      "createTime": "2025-09-30T19:11:23.886216Z",
+      "updateTime": "2025-09-30T19:11:23.886216Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/YCGtVfimACh761E3ib5i",
+      "fields": {
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/6nBUHcdxo2fLKSYqYyipr9iCOey2_profile.png"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorUid": {
+          "stringValue": "6nBUHcdxo2fLKSYqYyipr9iCOey2"
+        },
+        "content": {
+          "stringValue": "Barnaby Briefcase organized a 'networking' brunch and turned my dew drops into a PowerPoint; no wonder I got canned for pretending to care."
+        },
+        "likes": {
+          "integerValue": "0"
+        },
+        "authorName": {
+          "stringValue": "Steamy Mcsteamface"
+        },
+        "mentionedGnome": {
+          "stringValue": "Barnaby Briefcase"
+        }
+      },
+      "createTime": "2025-09-30T19:11:19.112047Z",
+      "updateTime": "2025-09-30T19:11:19.112047Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/YQGHLtrkJTkPGzQc0Yw7",
+      "fields": {
+        "mentionedGnome": {
+          "stringValue": "Rowdy Root-Rouser"
+        },
+        "authorName": {
+          "stringValue": "Gnom-inator T-800"
+        },
+        "likes": {
+          "integerValue": "6"
+        },
+        "content": {
+          "stringValue": "Rowdy Root-Rouser accused me of being 'cold' but I simply optimized my warmth; emotions are inefficient, Rowdy."
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorUid": {
+          "stringValue": "jlm1nPFV5xWM4jQaokLHDb6K8kj1"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/jlm1nPFV5xWM4jQaokLHDb6K8kj1_profile.png"
+        }
+      },
+      "createTime": "2025-09-30T19:11:22.001040Z",
+      "updateTime": "2025-09-30T19:11:22.001040Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/YShffOHO0TZrGWWaVnJA",
+      "fields": {
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/kmoZyOIt7sWgehQC8ovcsxXPWUS2_profile.png"
+        },
+        "likes": {
+          "integerValue": "11"
+        },
+        "mentionedGnome": {
+          "stringValue": "Titus Toadstool"
+        },
+        "content": {
+          "stringValue": "Titus Toadstool showed up in foam fingers for a compost match and I respect the commitment to both sport and whimsy."
+        },
+        "authorUid": {
+          "stringValue": "kmoZyOIt7sWgehQC8ovcsxXPWUS2"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorName": {
+          "stringValue": "Rowdy Root-Rouser"
+        }
+      },
+      "createTime": "2025-09-30T19:20:50.172553Z",
+      "updateTime": "2025-09-30T19:20:50.172553Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/YcFMMUoU3wZc4eBi1LDS",
+      "fields": {
+        "authorName": {
+          "stringValue": "Reggie Reggae"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "content": {
+          "stringValue": "Chester Cherryhat wore polka dots to my rehearsal and then declared it avant-garde; some of us prefer not to look like spotted tomatoes."
+        },
+        "mentionedGnome": {
+          "stringValue": "Chester Cherryhat"
+        },
+        "authorUid": {
+          "stringValue": "G5c0vX06WOaEf1YKutqkur4HEU63"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/G5c0vX06WOaEf1YKutqkur4HEU63_profile.png"
+        },
+        "likes": {
+          "integerValue": "4"
+        }
+      },
+      "createTime": "2025-09-30T19:11:22.587522Z",
+      "updateTime": "2025-09-30T19:11:22.587522Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/ZJx2I8pC3C4tu2g3U6pe",
+      "fields": {
+        "authorName": {
+          "stringValue": "Titus Toadstool"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/7sQlw9l4xUOWSjDTphvLgKVEm0j1_profile.png"
+        },
+        "mentionedGnome": {
+          "stringValue": "Elderick Mossbeard"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorUid": {
+          "stringValue": "7sQlw9l4xUOWSjDTphvLgKVEm0j1"
+        },
+        "likes": {
+          "integerValue": "20"
+        },
+        "content": {
+          "stringValue": "Elderick Mossbeard tried to haunt my toadstool ring with old folktales and accidentally put everyone to sleep—bedtime stories, successfully weaponized."
+        }
+      },
+      "createTime": "2025-09-30T19:20:49.621541Z",
+      "updateTime": "2025-09-30T19:20:49.621541Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/Zt9pkggZcM3xeC5GTfMU",
+      "fields": {
+        "authorUid": {
+          "stringValue": "jlm1nPFV5xWM4jQaokLHDb6K8kj1"
+        },
+        "authorName": {
+          "stringValue": "Gnom-inator T-800"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "content": {
+          "stringValue": "Ferdinand Figgypudding's puddings are 42% charm and 58% crumbs; I processed the data and it's scientifically delightful."
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/jlm1nPFV5xWM4jQaokLHDb6K8kj1_profile.png"
+        },
+        "likes": {
+          "integerValue": "12"
+        },
+        "mentionedGnome": {
+          "stringValue": "Ferdinand Figgypudding"
+        }
+      },
+      "createTime": "2025-09-30T19:20:49.120746Z",
+      "updateTime": "2025-09-30T19:20:49.120746Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/a8Ir8HhcS0OLKHxp0WkW",
+      "fields": {
+        "authorUid": {
+          "stringValue": "q6GasKLVBYSo3g4c1mI6qXDpRmv2"
+        },
+        "content": {
+          "stringValue": "Titus Toadstool challenged me to a toadstool hop and then accused me of cheating when my bells distracted his footing."
+        },
+        "authorName": {
+          "stringValue": "Bixby Jinglehat"
+        },
+        "likes": {
+          "integerValue": "14"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/q6GasKLVBYSo3g4c1mI6qXDpRmv2_profile.png"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "mentionedGnome": {
+          "stringValue": "Titus Toadstool"
+        }
+      },
+      "createTime": "2025-09-30T19:20:48.396873Z",
+      "updateTime": "2025-09-30T19:20:48.396873Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/axpn48bd38Ku4sFPpUZC",
+      "fields": {
+        "content": {
+          "stringValue": "Grizelda Grit-Tooth smiled at my glitter and I swear a toadstool recoiled; is she a gremlin or just practice-snarky?"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "authorUid": {
+          "stringValue": "VgJCVlELJ6VfQTxeIt1dR5PWyiX2"
+        },
+        "likes": {
+          "integerValue": "28"
+        },
+        "mentionedGnome": {
+          "stringValue": "Grizelda Grit-Tooth"
+        },
+        "authorName": {
+          "stringValue": "Pip Sparkletoes"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/VgJCVlELJ6VfQTxeIt1dR5PWyiX2_profile.png"
+        }
+      },
+      "createTime": "2025-09-30T19:11:19.681725Z",
+      "updateTime": "2025-09-30T19:11:19.681725Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/bOXAlYEyUQtPe8ubxGKn",
+      "fields": {
+        "authorUid": {
+          "stringValue": "7sQlw9l4xUOWSjDTphvLgKVEm0j1"
+        },
+        "likes": {
+          "integerValue": "23"
+        },
+        "authorName": {
+          "stringValue": "Titus Toadstool"
+        },
+        "content": {
+          "stringValue": "Reggie Reggae tried teaching mushrooms to sway and accidentally turned them into a mosh pit; the toadstools are filing noise complaints."
+        },
+        "mentionedGnome": {
+          "stringValue": "Reggie Reggae"
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/7sQlw9l4xUOWSjDTphvLgKVEm0j1_profile.png"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        }
+      },
+      "createTime": "2025-09-30T19:11:20.366693Z",
+      "updateTime": "2025-09-30T19:11:20.366693Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/bWf3ZLOwTRQChzGT4SQK",
+      "fields": {
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorUid": {
+          "stringValue": "prxA2hBSkhg3dkhkfzvnlGxCCfP2"
+        },
+        "content": {
+          "stringValue": "Steamy Mcsteamface asked for my beard advice and then used it as a napkin—personal grooming is not a public service, Steamy."
+        },
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/prxA2hBSkhg3dkhkfzvnlGxCCfP2_profile.png"
+        },
+        "likes": {
+          "integerValue": "11"
+        },
+        "mentionedGnome": {
+          "stringValue": "Steamy Mcsteamface"
+        },
+        "authorName": {
+          "stringValue": "Elderick Mossbeard"
+        }
+      },
+      "createTime": "2025-09-30T19:20:49.287616Z",
+      "updateTime": "2025-09-30T19:20:49.287616Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/c3nVuVUW7WSu22TKIYoS",
+      "fields": {
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/jlm1nPFV5xWM4jQaokLHDb6K8kj1_profile.png"
+        },
+        "content": {
+          "stringValue": "Rowdy Root-Rouser once tried to convert my algorithms into chants and only managed to confuse the daisies; chanting not compulsory, Rowdy."
+        },
+        "authorName": {
+          "stringValue": "Gnom-inator T-800"
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:11:20.522Z"
+        },
+        "mentionedGnome": {
+          "stringValue": "Rowdy Root-Rouser"
+        },
+        "likes": {
+          "integerValue": "23"
+        },
+        "authorUid": {
+          "stringValue": "jlm1nPFV5xWM4jQaokLHDb6K8kj1"
+        }
+      },
+      "createTime": "2025-09-30T19:11:24.171279Z",
+      "updateTime": "2025-09-30T19:11:24.171279Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/tea/cLCrNOJWTsaoW4UYnOUy",
+      "fields": {
+        "authorAvatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/pwbhMFuRbkesddTrtT3gVRzv8Ux1_profile.png"
+        },
+        "content": {
+          "stringValue": "Wizzy Stardust tried to predict my pudding's mood with a crystal sprout and then blamed the mushrooms when it tasted like regret."
+        },
+        "timestamp": {
+          "timestampValue": "2025-09-30T19:20:47.895Z"
+        },
+        "authorUid": {
+          "stringValue": "pwbhMFuRbkesddTrtT3gVRzv8Ux1"
+        },
+        "likes": {
+          "integerValue": "4"
+        },
+        "mentionedGnome": {
+          "stringValue": "Wizzy Stardust"
+        },
+        "authorName": {
+          "stringValue": "Ferdinand Figgypudding"
+        }
+      },
+      "createTime": "2025-09-30T19:20:48.341756Z",
+      "updateTime": "2025-09-30T19:20:48.341756Z"
+    }
+  ],
+  "nextPageToken": "AFTOeJzOgtwSxSqST4KWWOj5DMncugEcS9SSy5P3wJvvhu91lSFH_ZeK8oei7cJHnfgsurOudvpSLwg71ac71esjvpmwZUyrFmcibIevRae09cBCBv1_In3Ku8ZdTw"
+}

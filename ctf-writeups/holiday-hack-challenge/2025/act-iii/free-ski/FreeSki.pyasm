@@ -1,0 +1,2954 @@
+FreeSki.pyc (Python 3.13)
+[Code]
+    File Name: FreeSki.py
+    Object Name: <module>
+    Qualified Name: <module>
+    Arg Count: 0
+    Pos Only Arg Count: 0
+    KW Only Arg Count: 0
+    Stack Size: 13
+    Flags: 0x00000000
+    [Names]
+        'pygame'
+        'enum'
+        'random'
+        'binascii'
+        'init'
+        'font'
+        'screen_width'
+        'screen_height'
+        'framerate_fps'
+        'object_horizonal_hitbox'
+        'object_vertical_hitbox'
+        'max_speed'
+        'accelerate_increment'
+        'decelerate_increment'
+        'scale_factor'
+        'pixels_per_meter'
+        'skier_vertical_pixel_location'
+        'mountain_width'
+        'obstacle_draw_distance'
+        'skier_start'
+        'grace_period'
+        'display'
+        'set_mode'
+        'screen'
+        'time'
+        'Clock'
+        'clock'
+        'dt'
+        'key'
+        'set_repeat'
+        'set_caption'
+        'transform'
+        'scale_by'
+        'image'
+        'load'
+        'skierimage'
+        'skier_leftimage'
+        'skier_rightimage'
+        'skier_crashimage'
+        'skier_pizzaimage'
+        'treeimage'
+        'yetiimage'
+        'treasureimage'
+        'boulderimage'
+        'victoryimage'
+        'Font'
+        'gamefont'
+        'render'
+        'Color'
+        'text_surface1'
+        'text_surface2'
+        'flagfont'
+        'flag_text_surface'
+        'flag_message_text_surface1'
+        'flag_message_text_surface2'
+        'Enum'
+        'SkierStates'
+        'CRUISING'
+        'ACCELERATING'
+        'DECELERATING'
+        'TURNING_LEFT'
+        'TURNING_RIGHT'
+        'CRASHED'
+        'SkierStateImages'
+        'Skier'
+        'Obstacles'
+        'BOULDER'
+        'TREE'
+        'YETI'
+        'TREASURE'
+        'ObstacleImages'
+        'ObstacleProbabilities'
+        'fakeObstacleProbabilities'
+        'CalculateObstacleProbabilityRanges'
+        'ObstacleProbabilitiesRanges'
+        'Mountain'
+        'Mountains'
+        'list'
+        'ObstacleSet'
+        'SetFlag'
+        'main'
+        '__name__'
+    [Locals+Names]
+    [Constants]
+        0
+        None
+        800
+        600
+        60
+        1.5
+        0.5
+        0.4
+        0.02
+        0.05
+        0.1
+        30
+        100
+        1000
+        23
+        5
+        10
+        500
+        'FreeSki v0.0'
+        'img/skier.png'
+        'img/skier_left.png'
+        'img/skier_right.png'
+        'img/skier_crash.png'
+        'img/skier_pizza.png'
+        'img/tree.png'
+        'img/yeti.png'
+        'img/treasure.png'
+        'img/boulder.png'
+        'img/victory.png'
+        0.7
+        'fonts/VT323-Regular.ttf'
+        24
+        'Use arrow keys to ski and find the 5 treasures!'
+        False
+        'blue'
+        "          find all the lost bears. don't drill into a rock. Win game."
+        'yellow'
+        32
+        'replace me'
+        'saddle brown'
+        'You win! Drill Baby is reunited with'
+        'all its bears. Welcome to Flare-On 12.'
+        [Code]
+            File Name: FreeSki.py
+            Object Name: SkierStates
+            Qualified Name: SkierStates
+            Arg Count: 0
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 2
+            Flags: 0x00000000
+            [Names]
+                '__name__'
+                '__module__'
+                '__qualname__'
+                '__firstlineno__'
+                'enum'
+                'auto'
+                'CRUISING'
+                'ACCELERATING'
+                'DECELERATING'
+                'TURNING_LEFT'
+                'TURNING_RIGHT'
+                'CRASHED'
+                '__static_attributes__'
+            [Locals+Names]
+            [Constants]
+                'SkierStates'
+                51
+                (
+                )
+                None
+            [Disassembly]
+                0       RESUME                          0
+                2       LOAD_NAME                       0: __name__
+                4       STORE_NAME                      1: __module__
+                6       LOAD_CONST                      0: 'SkierStates'
+                8       STORE_NAME                      2: __qualname__
+                10      LOAD_CONST                      1: 51
+                12      STORE_NAME                      3: __firstlineno__
+                14      LOAD_NAME                       4: enum
+                16      LOAD_ATTR                       10: auto
+                36      PUSH_NULL                       
+                38      CALL                            0
+                46      STORE_NAME                      6: CRUISING
+                48      LOAD_NAME                       4: enum
+                50      LOAD_ATTR                       10: auto
+                70      PUSH_NULL                       
+                72      CALL                            0
+                80      STORE_NAME                      7: ACCELERATING
+                82      LOAD_NAME                       4: enum
+                84      LOAD_ATTR                       10: auto
+                104     PUSH_NULL                       
+                106     CALL                            0
+                114     STORE_NAME                      8: DECELERATING
+                116     LOAD_NAME                       4: enum
+                118     LOAD_ATTR                       10: auto
+                138     PUSH_NULL                       
+                140     CALL                            0
+                148     STORE_NAME                      9: TURNING_LEFT
+                150     LOAD_NAME                       4: enum
+                152     LOAD_ATTR                       10: auto
+                172     PUSH_NULL                       
+                174     CALL                            0
+                182     STORE_NAME                      10: TURNING_RIGHT
+                184     LOAD_NAME                       4: enum
+                186     LOAD_ATTR                       10: auto
+                206     PUSH_NULL                       
+                208     CALL                            0
+                216     STORE_NAME                      11: CRASHED
+                218     LOAD_CONST                      2: ()
+                220     STORE_NAME                      12: __static_attributes__
+                222     RETURN_CONST                    3: None
+            [Exception Table]
+        'SkierStates'
+        [Code]
+            File Name: FreeSki.py
+            Object Name: Skier
+            Qualified Name: Skier
+            Arg Count: 0
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 1
+            Flags: 0x00000000
+            [Names]
+                '__name__'
+                '__module__'
+                '__qualname__'
+                '__firstlineno__'
+                '__init__'
+                'Draw'
+                'TurnLeft'
+                'TurnRight'
+                'SlowDown'
+                'SpeedUp'
+                'Cruise'
+                'StateChange'
+                'UpdateLocation'
+                'isMoving'
+                'Crash'
+                'Reset'
+                'isReadyForReset'
+                '__static_attributes__'
+            [Locals+Names]
+            [Constants]
+                'Skier'
+                68
+                [Code]
+                    File Name: FreeSki.py
+                    Object Name: __init__
+                    Qualified Name: Skier.__init__
+                    Arg Count: 3
+                    Pos Only Arg Count: 0
+                    KW Only Arg Count: 0
+                    Stack Size: 6
+                    Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+                    [Names]
+                        'SkierStates'
+                        'CRUISING'
+                        'state'
+                        'elevation'
+                        'horizonal_location'
+                        'speed'
+                        'x'
+                        'y'
+                        'skierimage'
+                        'get_rect'
+                        'pygame'
+                        'Rect'
+                        'left'
+                        'height'
+                        'rect'
+                    [Locals+Names]
+                        'self'
+                        'x'
+                        'y'
+                        'imagerect'
+                    [Constants]
+                        'X and Y denote the pixel coordinates of the bottom center of the skier image'
+                        0
+                        2
+                        0
+                        None
+                    [Disassembly]
+                        0       RESUME                          0
+                        2       LOAD_GLOBAL                     0: SkierStates
+                        12      LOAD_ATTR                       2: CRUISING
+                        32      LOAD_FAST                       0: self
+                        34      STORE_ATTR                      2: state
+                        44      LOAD_CONST                      1: 0
+                        46      LOAD_FAST                       0: self
+                        48      STORE_ATTR                      3: elevation
+                        58      LOAD_CONST                      1: 0
+                        60      LOAD_FAST                       0: self
+                        62      STORE_ATTR                      4: horizonal_location
+                        72      LOAD_CONST                      1: 0
+                        74      LOAD_FAST                       0: self
+                        76      STORE_ATTR                      5: speed
+                        86      LOAD_FAST_LOAD_FAST             16: x, self
+                        88      STORE_ATTR                      6: x
+                        98      LOAD_FAST_LOAD_FAST             32: y, self
+                        100     STORE_ATTR                      7: y
+                        110     LOAD_GLOBAL                     16: skierimage
+                        120     LOAD_ATTR                       19: get_rect
+                        140     CALL                            0
+                        148     STORE_FAST                      3: imagerect
+                        150     LOAD_GLOBAL                     20: pygame
+                        160     LOAD_ATTR                       22: Rect
+                        180     PUSH_NULL                       
+                        182     LOAD_FAST                       0: self
+                        184     LOAD_ATTR                       12: x
+                        204     LOAD_FAST                       3: imagerect
+                        206     LOAD_ATTR                       24: left
+                        226     LOAD_CONST                      2: 2
+                        228     BINARY_OP                       11 (/)
+                        232     BINARY_OP                       10 (-)
+                        236     LOAD_FAST                       0: self
+                        238     LOAD_ATTR                       14: y
+                        258     LOAD_FAST                       3: imagerect
+                        260     LOAD_ATTR                       26: height
+                        280     BINARY_OP                       10 (-)
+                        284     LOAD_CONST                      3: 0
+                        286     LOAD_CONST                      3: 0
+                        288     CALL                            4
+                        296     LOAD_FAST                       0: self
+                        298     STORE_ATTR                      14: rect
+                        308     RETURN_CONST                    4: None
+                    [Exception Table]
+                [Code]
+                    File Name: FreeSki.py
+                    Object Name: Draw
+                    Qualified Name: Skier.Draw
+                    Arg Count: 2
+                    Pos Only Arg Count: 0
+                    KW Only Arg Count: 0
+                    Stack Size: 4
+                    Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+                    [Names]
+                        'blit'
+                        'SkierStateImages'
+                        'state'
+                        'rect'
+                    [Locals+Names]
+                        'self'
+                        'surface'
+                    [Constants]
+                        None
+                    [Disassembly]
+                        0       RESUME                          0
+                        2       LOAD_FAST                       1: surface
+                        4       LOAD_ATTR                       1: blit
+                        24      LOAD_GLOBAL                     2: SkierStateImages
+                        34      LOAD_FAST                       0: self
+                        36      LOAD_ATTR                       4: state
+                        56      BINARY_SUBSCR                   
+                        60      LOAD_FAST                       0: self
+                        62      LOAD_ATTR                       6: rect
+                        82      CALL                            2
+                        90      POP_TOP                         
+                        92      RETURN_CONST                    0: None
+                    [Exception Table]
+                [Code]
+                    File Name: FreeSki.py
+                    Object Name: TurnLeft
+                    Qualified Name: Skier.TurnLeft
+                    Arg Count: 1
+                    Pos Only Arg Count: 0
+                    KW Only Arg Count: 0
+                    Stack Size: 3
+                    Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+                    [Names]
+                        'StateChange'
+                        'SkierStates'
+                        'TURNING_LEFT'
+                    [Locals+Names]
+                        'self'
+                    [Constants]
+                        None
+                    [Disassembly]
+                        0       RESUME                          0
+                        2       LOAD_FAST                       0: self
+                        4       LOAD_ATTR                       1: StateChange
+                        24      LOAD_GLOBAL                     2: SkierStates
+                        34      LOAD_ATTR                       4: TURNING_LEFT
+                        54      CALL                            1
+                        62      POP_TOP                         
+                        64      RETURN_CONST                    0: None
+                    [Exception Table]
+                [Code]
+                    File Name: FreeSki.py
+                    Object Name: TurnRight
+                    Qualified Name: Skier.TurnRight
+                    Arg Count: 1
+                    Pos Only Arg Count: 0
+                    KW Only Arg Count: 0
+                    Stack Size: 3
+                    Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+                    [Names]
+                        'StateChange'
+                        'SkierStates'
+                        'TURNING_RIGHT'
+                    [Locals+Names]
+                        'self'
+                    [Constants]
+                        None
+                    [Disassembly]
+                        0       RESUME                          0
+                        2       LOAD_FAST                       0: self
+                        4       LOAD_ATTR                       1: StateChange
+                        24      LOAD_GLOBAL                     2: SkierStates
+                        34      LOAD_ATTR                       4: TURNING_RIGHT
+                        54      CALL                            1
+                        62      POP_TOP                         
+                        64      RETURN_CONST                    0: None
+                    [Exception Table]
+                [Code]
+                    File Name: FreeSki.py
+                    Object Name: SlowDown
+                    Qualified Name: Skier.SlowDown
+                    Arg Count: 1
+                    Pos Only Arg Count: 0
+                    KW Only Arg Count: 0
+                    Stack Size: 3
+                    Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+                    [Names]
+                        'speed'
+                        'decelerate_increment'
+                        'StateChange'
+                        'SkierStates'
+                        'DECELERATING'
+                    [Locals+Names]
+                        'self'
+                    [Constants]
+                        None
+                        0
+                    [Disassembly]
+                        0       RESUME                          0
+                        2       LOAD_FAST                       0: self
+                        4       COPY                            1
+                        6       LOAD_ATTR                       0: speed
+                        26      LOAD_GLOBAL                     2: decelerate_increment
+                        36      BINARY_OP                       23 (-=)
+                        40      SWAP                            2
+                        42      STORE_ATTR                      0: speed
+                        52      LOAD_FAST                       0: self
+                        54      LOAD_ATTR                       0: speed
+                        74      LOAD_CONST                      1: 0
+                        76      COMPARE_OP                      18 (<)
+                        80      POP_JUMP_IF_FALSE               7 (to 96)
+                        84      LOAD_CONST                      1: 0
+                        86      LOAD_FAST                       0: self
+                        88      STORE_ATTR                      0: speed
+                        98      LOAD_FAST                       0: self
+                        100     LOAD_ATTR                       5: StateChange
+                        120     LOAD_GLOBAL                     6: SkierStates
+                        130     LOAD_ATTR                       8: DECELERATING
+                        150     CALL                            1
+                        158     POP_TOP                         
+                        160     RETURN_CONST                    0: None
+                    [Exception Table]
+                [Code]
+                    File Name: FreeSki.py
+                    Object Name: SpeedUp
+                    Qualified Name: Skier.SpeedUp
+                    Arg Count: 1
+                    Pos Only Arg Count: 0
+                    KW Only Arg Count: 0
+                    Stack Size: 3
+                    Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+                    [Names]
+                        'speed'
+                        'accelerate_increment'
+                        'max_speed'
+                        'StateChange'
+                        'SkierStates'
+                        'ACCELERATING'
+                    [Locals+Names]
+                        'self'
+                    [Constants]
+                        None
+                    [Disassembly]
+                        0       RESUME                          0
+                        2       LOAD_FAST                       0: self
+                        4       COPY                            1
+                        6       LOAD_ATTR                       0: speed
+                        26      LOAD_GLOBAL                     2: accelerate_increment
+                        36      BINARY_OP                       13 (+=)
+                        40      SWAP                            2
+                        42      STORE_ATTR                      0: speed
+                        52      LOAD_FAST                       0: self
+                        54      LOAD_ATTR                       0: speed
+                        74      LOAD_GLOBAL                     4: max_speed
+                        84      COMPARE_OP                      148 (>)
+                        88      POP_JUMP_IF_FALSE               11 (to 112)
+                        92      LOAD_GLOBAL                     4: max_speed
+                        102     LOAD_FAST                       0: self
+                        104     STORE_ATTR                      0: speed
+                        114     LOAD_FAST                       0: self
+                        116     LOAD_ATTR                       7: StateChange
+                        136     LOAD_GLOBAL                     8: SkierStates
+                        146     LOAD_ATTR                       10: ACCELERATING
+                        166     CALL                            1
+                        174     POP_TOP                         
+                        176     RETURN_CONST                    0: None
+                    [Exception Table]
+                [Code]
+                    File Name: FreeSki.py
+                    Object Name: Cruise
+                    Qualified Name: Skier.Cruise
+                    Arg Count: 1
+                    Pos Only Arg Count: 0
+                    KW Only Arg Count: 0
+                    Stack Size: 3
+                    Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+                    [Names]
+                        'StateChange'
+                        'SkierStates'
+                        'CRUISING'
+                    [Locals+Names]
+                        'self'
+                    [Constants]
+                        None
+                    [Disassembly]
+                        0       RESUME                          0
+                        2       LOAD_FAST                       0: self
+                        4       LOAD_ATTR                       1: StateChange
+                        24      LOAD_GLOBAL                     2: SkierStates
+                        34      LOAD_ATTR                       4: CRUISING
+                        54      CALL                            1
+                        62      POP_TOP                         
+                        64      RETURN_CONST                    0: None
+                    [Exception Table]
+                [Code]
+                    File Name: FreeSki.py
+                    Object Name: StateChange
+                    Qualified Name: Skier.StateChange
+                    Arg Count: 2
+                    Pos Only Arg Count: 0
+                    KW Only Arg Count: 0
+                    Stack Size: 2
+                    Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+                    [Names]
+                        'state'
+                        'SkierStates'
+                        'CRASHED'
+                    [Locals+Names]
+                        'self'
+                        'newstate'
+                    [Constants]
+                        None
+                    [Disassembly]
+                        0       RESUME                          0
+                        2       LOAD_FAST                       0: self
+                        4       LOAD_ATTR                       0: state
+                        24      LOAD_GLOBAL                     2: SkierStates
+                        34      LOAD_ATTR                       4: CRASHED
+                        54      COMPARE_OP                      119 (!=)
+                        58      POP_JUMP_IF_FALSE               7 (to 74)
+                        62      LOAD_FAST_LOAD_FAST             16: newstate, self
+                        64      STORE_ATTR                      0: state
+                        74      RETURN_CONST                    0: None
+                        76      RETURN_CONST                    0: None
+                    [Exception Table]
+                [Code]
+                    File Name: FreeSki.py
+                    Object Name: UpdateLocation
+                    Qualified Name: Skier.UpdateLocation
+                    Arg Count: 1
+                    Pos Only Arg Count: 0
+                    KW Only Arg Count: 0
+                    Stack Size: 4
+                    Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+                    [Names]
+                        'state'
+                        'SkierStates'
+                        'TURNING_LEFT'
+                        'elevation'
+                        'speed'
+                        'horizonal_location'
+                        'TURNING_RIGHT'
+                    [Locals+Names]
+                        'self'
+                    [Constants]
+                        'update elevation and horizonal location based on one frame of the current speed and turning status\nspeed will be split between down and to the turning side with simplified math to avoid calculating \nsquare roots'
+                        0.7
+                        0
+                        None
+                    [Disassembly]
+                        0       RESUME                          0
+                        2       LOAD_FAST                       0: self
+                        4       LOAD_ATTR                       0: state
+                        24      LOAD_GLOBAL                     2: SkierStates
+                        34      LOAD_ATTR                       4: TURNING_LEFT
+                        54      COMPARE_OP                      88 (==)
+                        58      POP_JUMP_IF_FALSE               69 (to 198)
+                        62      LOAD_FAST                       0: self
+                        64      COPY                            1
+                        66      LOAD_ATTR                       6: elevation
+                        86      LOAD_FAST                       0: self
+                        88      LOAD_ATTR                       8: speed
+                        108     LOAD_CONST                      1: 0.7
+                        110     BINARY_OP                       5 (*)
+                        114     BINARY_OP                       23 (-=)
+                        118     SWAP                            2
+                        120     STORE_ATTR                      3: elevation
+                        130     LOAD_FAST                       0: self
+                        132     COPY                            1
+                        134     LOAD_ATTR                       10: horizonal_location
+                        154     LOAD_FAST                       0: self
+                        156     LOAD_ATTR                       8: speed
+                        176     LOAD_CONST                      1: 0.7
+                        178     BINARY_OP                       5 (*)
+                        182     BINARY_OP                       23 (-=)
+                        186     SWAP                            2
+                        188     STORE_ATTR                      5: horizonal_location
+                        198     JUMP_FORWARD                    130 (to 460)
+                        200     LOAD_FAST                       0: self
+                        202     LOAD_ATTR                       0: state
+                        222     LOAD_GLOBAL                     2: SkierStates
+                        232     LOAD_ATTR                       12: TURNING_RIGHT
+                        252     COMPARE_OP                      88 (==)
+                        256     POP_JUMP_IF_FALSE               69 (to 396)
+                        260     LOAD_FAST                       0: self
+                        262     COPY                            1
+                        264     LOAD_ATTR                       6: elevation
+                        284     LOAD_FAST                       0: self
+                        286     LOAD_ATTR                       8: speed
+                        306     LOAD_CONST                      1: 0.7
+                        308     BINARY_OP                       5 (*)
+                        312     BINARY_OP                       23 (-=)
+                        316     SWAP                            2
+                        318     STORE_ATTR                      3: elevation
+                        328     LOAD_FAST                       0: self
+                        330     COPY                            1
+                        332     LOAD_ATTR                       10: horizonal_location
+                        352     LOAD_FAST                       0: self
+                        354     LOAD_ATTR                       8: speed
+                        374     LOAD_CONST                      1: 0.7
+                        376     BINARY_OP                       5 (*)
+                        380     BINARY_OP                       13 (+=)
+                        384     SWAP                            2
+                        386     STORE_ATTR                      5: horizonal_location
+                        396     JUMP_FORWARD                    31 (to 460)
+                        398     LOAD_FAST                       0: self
+                        400     COPY                            1
+                        402     LOAD_ATTR                       6: elevation
+                        422     LOAD_FAST                       0: self
+                        424     LOAD_ATTR                       8: speed
+                        444     BINARY_OP                       23 (-=)
+                        448     SWAP                            2
+                        450     STORE_ATTR                      3: elevation
+                        460     LOAD_FAST                       0: self
+                        462     LOAD_ATTR                       6: elevation
+                        482     LOAD_CONST                      2: 0
+                        484     COMPARE_OP                      18 (<)
+                        488     POP_JUMP_IF_FALSE               8 (to 506)
+                        492     LOAD_CONST                      2: 0
+                        494     LOAD_FAST                       0: self
+                        496     STORE_ATTR                      3: elevation
+                        506     RETURN_CONST                    3: None
+                        508     RETURN_CONST                    3: None
+                    [Exception Table]
+                [Code]
+                    File Name: FreeSki.py
+                    Object Name: isMoving
+                    Qualified Name: Skier.isMoving
+                    Arg Count: 1
+                    Pos Only Arg Count: 0
+                    KW Only Arg Count: 0
+                    Stack Size: 2
+                    Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+                    [Names]
+                        'speed'
+                    [Locals+Names]
+                        'self'
+                    [Constants]
+                        None
+                        0
+                        True
+                        False
+                    [Disassembly]
+                        0       RESUME                          0
+                        2       LOAD_FAST                       0: self
+                        4       LOAD_ATTR                       0: speed
+                        24      LOAD_CONST                      1: 0
+                        26      COMPARE_OP                      119 (!=)
+                        30      POP_JUMP_IF_FALSE               1 (to 34)
+                        34      RETURN_CONST                    2: True
+                        36      RETURN_CONST                    3: False
+                    [Exception Table]
+                [Code]
+                    File Name: FreeSki.py
+                    Object Name: Crash
+                    Qualified Name: Skier.Crash
+                    Arg Count: 1
+                    Pos Only Arg Count: 0
+                    KW Only Arg Count: 0
+                    Stack Size: 3
+                    Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+                    [Names]
+                        'StateChange'
+                        'SkierStates'
+                        'CRASHED'
+                        'speed'
+                    [Locals+Names]
+                        'self'
+                    [Constants]
+                        None
+                        0
+                    [Disassembly]
+                        0       RESUME                          0
+                        2       LOAD_FAST                       0: self
+                        4       LOAD_ATTR                       1: StateChange
+                        24      LOAD_GLOBAL                     2: SkierStates
+                        34      LOAD_ATTR                       4: CRASHED
+                        54      CALL                            1
+                        62      POP_TOP                         
+                        64      LOAD_CONST                      1: 0
+                        66      LOAD_FAST                       0: self
+                        68      STORE_ATTR                      3: speed
+                        78      RETURN_CONST                    0: None
+                    [Exception Table]
+                [Code]
+                    File Name: FreeSki.py
+                    Object Name: Reset
+                    Qualified Name: Skier.Reset
+                    Arg Count: 1
+                    Pos Only Arg Count: 0
+                    KW Only Arg Count: 0
+                    Stack Size: 2
+                    Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+                    [Names]
+                        'SkierStates'
+                        'CRUISING'
+                        'state'
+                        'speed'
+                        'elevation'
+                        'horizonal_location'
+                    [Locals+Names]
+                        'self'
+                    [Constants]
+                        None
+                        0
+                    [Disassembly]
+                        0       RESUME                          0
+                        2       LOAD_GLOBAL                     0: SkierStates
+                        12      LOAD_ATTR                       2: CRUISING
+                        32      LOAD_FAST                       0: self
+                        34      STORE_ATTR                      2: state
+                        44      LOAD_CONST                      1: 0
+                        46      LOAD_FAST                       0: self
+                        48      STORE_ATTR                      3: speed
+                        58      LOAD_CONST                      1: 0
+                        60      LOAD_FAST                       0: self
+                        62      STORE_ATTR                      4: elevation
+                        72      LOAD_CONST                      1: 0
+                        74      LOAD_FAST                       0: self
+                        76      STORE_ATTR                      5: horizonal_location
+                        86      RETURN_CONST                    0: None
+                    [Exception Table]
+                [Code]
+                    File Name: FreeSki.py
+                    Object Name: isReadyForReset
+                    Qualified Name: Skier.isReadyForReset
+                    Arg Count: 1
+                    Pos Only Arg Count: 0
+                    KW Only Arg Count: 0
+                    Stack Size: 2
+                    Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+                    [Names]
+                        'state'
+                        'SkierStates'
+                        'CRASHED'
+                        'elevation'
+                    [Locals+Names]
+                        'self'
+                    [Constants]
+                        None
+                        0
+                        True
+                        False
+                    [Disassembly]
+                        0       RESUME                          0
+                        2       LOAD_FAST                       0: self
+                        4       LOAD_ATTR                       0: state
+                        24      LOAD_GLOBAL                     2: SkierStates
+                        34      LOAD_ATTR                       4: CRASHED
+                        54      COMPARE_OP                      88 (==)
+                        58      POP_JUMP_IF_TRUE                16 (to 92)
+                        62      LOAD_FAST                       0: self
+                        64      LOAD_ATTR                       6: elevation
+                        84      LOAD_CONST                      1: 0
+                        86      COMPARE_OP                      88 (==)
+                        90      POP_JUMP_IF_FALSE               1 (to 94)
+                        94      RETURN_CONST                    2: True
+                        96      RETURN_CONST                    3: False
+                    [Exception Table]
+                (
+                    'elevation'
+                    'horizonal_location'
+                    'rect'
+                    'speed'
+                    'state'
+                    'x'
+                    'y'
+                )
+                None
+            [Disassembly]
+                0       RESUME                          0
+                2       LOAD_NAME                       0: __name__
+                4       STORE_NAME                      1: __module__
+                6       LOAD_CONST                      0: 'Skier'
+                8       STORE_NAME                      2: __qualname__
+                10      LOAD_CONST                      1: 68
+                12      STORE_NAME                      3: __firstlineno__
+                14      LOAD_CONST                      2: <CODE> __init__
+                16      MAKE_FUNCTION                   
+                18      STORE_NAME                      4: __init__
+                20      LOAD_CONST                      3: <CODE> Draw
+                22      MAKE_FUNCTION                   
+                24      STORE_NAME                      5: Draw
+                26      LOAD_CONST                      4: <CODE> TurnLeft
+                28      MAKE_FUNCTION                   
+                30      STORE_NAME                      6: TurnLeft
+                32      LOAD_CONST                      5: <CODE> TurnRight
+                34      MAKE_FUNCTION                   
+                36      STORE_NAME                      7: TurnRight
+                38      LOAD_CONST                      6: <CODE> SlowDown
+                40      MAKE_FUNCTION                   
+                42      STORE_NAME                      8: SlowDown
+                44      LOAD_CONST                      7: <CODE> SpeedUp
+                46      MAKE_FUNCTION                   
+                48      STORE_NAME                      9: SpeedUp
+                50      LOAD_CONST                      8: <CODE> Cruise
+                52      MAKE_FUNCTION                   
+                54      STORE_NAME                      10: Cruise
+                56      LOAD_CONST                      9: <CODE> StateChange
+                58      MAKE_FUNCTION                   
+                60      STORE_NAME                      11: StateChange
+                62      LOAD_CONST                      10: <CODE> UpdateLocation
+                64      MAKE_FUNCTION                   
+                66      STORE_NAME                      12: UpdateLocation
+                68      LOAD_CONST                      11: <CODE> isMoving
+                70      MAKE_FUNCTION                   
+                72      STORE_NAME                      13: isMoving
+                74      LOAD_CONST                      12: <CODE> Crash
+                76      MAKE_FUNCTION                   
+                78      STORE_NAME                      14: Crash
+                80      LOAD_CONST                      13: <CODE> Reset
+                82      MAKE_FUNCTION                   
+                84      STORE_NAME                      15: Reset
+                86      LOAD_CONST                      14: <CODE> isReadyForReset
+                88      MAKE_FUNCTION                   
+                90      STORE_NAME                      16: isReadyForReset
+                92      LOAD_CONST                      15: ('elevation', 'horizonal_location', 'rect', 'speed', 'state', 'x', 'y')
+                94      STORE_NAME                      17: __static_attributes__
+                96      RETURN_CONST                    16: None
+            [Exception Table]
+        'Skier'
+        [Code]
+            File Name: FreeSki.py
+            Object Name: Obstacles
+            Qualified Name: Obstacles
+            Arg Count: 0
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 2
+            Flags: 0x00000000
+            [Names]
+                '__name__'
+                '__module__'
+                '__qualname__'
+                '__firstlineno__'
+                'enum'
+                'auto'
+                'BOULDER'
+                'TREE'
+                'YETI'
+                'TREASURE'
+                '__static_attributes__'
+            [Locals+Names]
+            [Constants]
+                'Obstacles'
+                146
+                (
+                )
+                None
+            [Disassembly]
+                0       RESUME                          0
+                2       LOAD_NAME                       0: __name__
+                4       STORE_NAME                      1: __module__
+                6       LOAD_CONST                      0: 'Obstacles'
+                8       STORE_NAME                      2: __qualname__
+                10      LOAD_CONST                      1: 146
+                12      STORE_NAME                      3: __firstlineno__
+                14      LOAD_NAME                       4: enum
+                16      LOAD_ATTR                       10: auto
+                36      PUSH_NULL                       
+                38      CALL                            0
+                46      STORE_NAME                      6: BOULDER
+                48      LOAD_NAME                       4: enum
+                50      LOAD_ATTR                       10: auto
+                70      PUSH_NULL                       
+                72      CALL                            0
+                80      STORE_NAME                      7: TREE
+                82      LOAD_NAME                       4: enum
+                84      LOAD_ATTR                       10: auto
+                104     PUSH_NULL                       
+                106     CALL                            0
+                114     STORE_NAME                      8: YETI
+                116     LOAD_NAME                       4: enum
+                118     LOAD_ATTR                       10: auto
+                138     PUSH_NULL                       
+                140     CALL                            0
+                148     STORE_NAME                      9: TREASURE
+                150     LOAD_CONST                      2: ()
+                152     STORE_NAME                      10: __static_attributes__
+                154     RETURN_CONST                    3: None
+            [Exception Table]
+        'Obstacles'
+        0.005
+        0.01
+        [Code]
+            File Name: FreeSki.py
+            Object Name: CalculateObstacleProbabilityRanges
+            Qualified Name: CalculateObstacleProbabilityRanges
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 4
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                'keys'
+            [Locals+Names]
+                'probabilities'
+                'remaining'
+                'last_end'
+                'range_dict'
+                'key'
+                'new_last_end'
+            [Constants]
+                None
+                1
+                0
+            [Disassembly]
+                0       RESUME                          0
+                2       LOAD_CONST                      1: 1
+                4       STORE_FAST                      1: remaining
+                6       LOAD_CONST                      2: 0
+                8       STORE_FAST                      2: last_end
+                10      BUILD_MAP                       0
+                12      STORE_FAST                      3: range_dict
+                14      LOAD_FAST                       0: probabilities
+                16      LOAD_ATTR                       1: keys
+                36      CALL                            0
+                44      GET_ITER                        
+                46      FOR_ITER                        17 (to 82)
+                50      STORE_FAST                      4: key
+                52      LOAD_FAST_LOAD_FAST             32: last_end, probabilities
+                54      LOAD_FAST                       4: key
+                56      BINARY_SUBSCR                   
+                60      BINARY_OP                       0 (+)
+                64      STORE_FAST                      5: new_last_end
+                66      LOAD_FAST_LOAD_FAST             37: last_end, new_last_end
+                68      BUILD_TUPLE                     2
+                70      LOAD_FAST_LOAD_FAST             52: range_dict, key
+                72      STORE_SUBSCR                    
+                76      LOAD_FAST                       5: new_last_end
+                78      STORE_FAST                      2: last_end
+                80      JUMP_BACKWARD                   19 (to 44)
+                84      END_FOR                         
+                86      POP_TOP                         
+                88      LOAD_FAST                       3: range_dict
+                90      RETURN_VALUE                    
+            [Exception Table]
+        [Code]
+            File Name: FreeSki.py
+            Object Name: Mountain
+            Qualified Name: Mountain
+            Arg Count: 0
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 1
+            Flags: 0x00000000
+            [Names]
+                '__name__'
+                '__module__'
+                '__qualname__'
+                '__firstlineno__'
+                '__init__'
+                'GetObstacles'
+                'GetTreasureLocations'
+                '__static_attributes__'
+            [Locals+Names]
+            [Constants]
+                'Mountain'
+                186
+                [Code]
+                    File Name: FreeSki.py
+                    Object Name: __init__
+                    Qualified Name: Mountain.__init__
+                    Arg Count: 6
+                    Pos Only Arg Count: 0
+                    KW Only Arg Count: 0
+                    Stack Size: 2
+                    Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+                    [Names]
+                        'name'
+                        'height'
+                        'treeline'
+                        'yetiline'
+                        'encoded_flag'
+                        'GetTreasureLocations'
+                        'treasures'
+                    [Locals+Names]
+                        'self'
+                        'name'
+                        'height'
+                        'treeline'
+                        'yetiline'
+                        'encoded_flag'
+                    [Constants]
+                        None
+                    [Disassembly]
+                        0       RESUME                          0
+                        2       LOAD_FAST_LOAD_FAST             16: name, self
+                        4       STORE_ATTR                      0: name
+                        14      LOAD_FAST_LOAD_FAST             32: height, self
+                        16      STORE_ATTR                      1: height
+                        26      LOAD_FAST_LOAD_FAST             48: treeline, self
+                        28      STORE_ATTR                      2: treeline
+                        38      LOAD_FAST_LOAD_FAST             64: yetiline, self
+                        40      STORE_ATTR                      3: yetiline
+                        50      LOAD_FAST_LOAD_FAST             80: encoded_flag, self
+                        52      STORE_ATTR                      4: encoded_flag
+                        62      LOAD_FAST                       0: self
+                        64      LOAD_ATTR                       11: GetTreasureLocations
+                        84      CALL                            0
+                        92      LOAD_FAST                       0: self
+                        94      STORE_ATTR                      6: treasures
+                        104     RETURN_CONST                    0: None
+                    [Exception Table]
+                [Code]
+                    File Name: FreeSki.py
+                    Object Name: GetObstacles
+                    Qualified Name: Mountain.GetObstacles
+                    Arg Count: 2
+                    Pos Only Arg Count: 0
+                    KW Only Arg Count: 0
+                    Stack Size: 7
+                    Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+                    [Names]
+                        'mountain_width'
+                        'height'
+                        'grace_period'
+                        'random'
+                        'seed'
+                        'binascii'
+                        'crc32'
+                        'name'
+                        'encode'
+                        'range'
+                        'ObstacleProbabilitiesRanges'
+                        'Obstacles'
+                        'TREE'
+                        'treeline'
+                        'YETI'
+                        'yetiline'
+                        'treasures'
+                        'keys'
+                        'int'
+                        'TREASURE'
+                    [Locals+Names]
+                        'self'
+                        'elevation'
+                        'obstacles'
+                        'i'
+                        'r'
+                        'obstacle'
+                        'rangekey'
+                        'probrange'
+                        'treasure_row'
+                        'key'
+                        'treasure_h'
+                    [Constants]
+                        None
+                        'utf-8'
+                        0
+                        1
+                        5
+                        -5
+                        6
+                    [Disassembly]
+                        0       RESUME                          0
+                        2       LOAD_CONST                      0: None
+                        4       BUILD_LIST                      1
+                        6       LOAD_GLOBAL                     0: mountain_width
+                        16      BINARY_OP                       5 (*)
+                        20      STORE_FAST                      2: obstacles
+                        22      LOAD_FAST_LOAD_FAST             16: elevation, self
+                        24      LOAD_ATTR                       2: height
+                        44      LOAD_GLOBAL                     4: grace_period
+                        54      BINARY_OP                       10 (-)
+                        58      COMPARE_OP                      148 (>)
+                        62      POP_JUMP_IF_FALSE               2 (to 68)
+                        66      LOAD_FAST                       2: obstacles
+                        68      RETURN_VALUE                    
+                        70      LOAD_GLOBAL                     6: random
+                        80      LOAD_ATTR                       8: seed
+                        100     PUSH_NULL                       
+                        102     LOAD_GLOBAL                     10: binascii
+                        112     LOAD_ATTR                       12: crc32
+                        132     PUSH_NULL                       
+                        134     LOAD_FAST                       0: self
+                        136     LOAD_ATTR                       14: name
+                        156     LOAD_ATTR                       17: encode
+                        176     LOAD_CONST                      1: 'utf-8'
+                        178     CALL                            1
+                        186     CALL                            1
+                        194     LOAD_FAST                       1: elevation
+                        196     BINARY_OP                       0 (+)
+                        200     CALL                            1
+                        208     POP_TOP                         
+                        210     LOAD_GLOBAL                     19: NULL + range
+                        220     LOAD_CONST                      2: 0
+                        222     LOAD_GLOBAL                     0: mountain_width
+                        232     CALL                            2
+                        240     GET_ITER                        
+                        242     FOR_ITER                        148 (to 540)
+                        246     STORE_FAST                      3: i
+                        248     LOAD_GLOBAL                     6: random
+                        258     LOAD_ATTR                       6: random
+                        278     PUSH_NULL                       
+                        280     CALL                            0
+                        288     STORE_FAST                      4: r
+                        290     LOAD_CONST                      0: None
+                        292     STORE_FAST                      5: obstacle
+                        294     LOAD_GLOBAL                     20: ObstacleProbabilitiesRanges
+                        304     GET_ITER                        
+                        306     FOR_ITER                        108 (to 524)
+                        310     STORE_FAST                      6: rangekey
+                        312     LOAD_FAST                       6: rangekey
+                        314     LOAD_GLOBAL                     22: Obstacles
+                        324     LOAD_ATTR                       24: TREE
+                        344     COMPARE_OP                      88 (==)
+                        348     POP_JUMP_IF_FALSE               17 (to 384)
+                        352     LOAD_FAST_LOAD_FAST             16: elevation, self
+                        354     LOAD_ATTR                       26: treeline
+                        374     COMPARE_OP                      148 (>)
+                        378     POP_JUMP_IF_FALSE               2 (to 384)
+                        382     JUMP_BACKWARD                   40 (to 304)
+                        386     LOAD_FAST                       6: rangekey
+                        388     LOAD_GLOBAL                     22: Obstacles
+                        398     LOAD_ATTR                       28: YETI
+                        418     COMPARE_OP                      88 (==)
+                        422     POP_JUMP_IF_FALSE               17 (to 458)
+                        426     LOAD_FAST_LOAD_FAST             16: elevation, self
+                        428     LOAD_ATTR                       30: yetiline
+                        448     COMPARE_OP                      148 (>)
+                        452     POP_JUMP_IF_FALSE               2 (to 458)
+                        456     JUMP_BACKWARD                   77 (to 304)
+                        460     LOAD_GLOBAL                     20: ObstacleProbabilitiesRanges
+                        470     LOAD_FAST                       6: rangekey
+                        472     BINARY_SUBSCR                   
+                        476     STORE_FAST                      7: probrange
+                        478     LOAD_FAST_LOAD_FAST             71: r, probrange
+                        480     LOAD_CONST                      2: 0
+                        482     BINARY_SUBSCR                   
+                        486     COMPARE_OP                      188 (>=)
+                        490     POP_JUMP_IF_TRUE                2 (to 496)
+                        494     JUMP_BACKWARD                   96 (to 304)
+                        498     LOAD_FAST_LOAD_FAST             71: r, probrange
+                        500     LOAD_CONST                      3: 1
+                        502     BINARY_SUBSCR                   
+                        506     COMPARE_OP                      58 (<=)
+                        510     POP_JUMP_IF_TRUE                2 (to 516)
+                        514     JUMP_BACKWARD                   106 (to 304)
+                        518     LOAD_FAST                       6: rangekey
+                        520     STORE_FAST                      5: obstacle
+                        522     POP_TOP                         
+                        524     JUMP_FORWARD                    2 (to 530)
+                        526     END_FOR                         
+                        528     POP_TOP                         
+                        530     LOAD_FAST_LOAD_FAST             82: obstacle, obstacles
+                        532     LOAD_FAST                       3: i
+                        534     STORE_SUBSCR                    
+                        538     JUMP_BACKWARD                   150 (to 240)
+                        542     END_FOR                         
+                        544     POP_TOP                         
+                        546     LOAD_CONST                      0: None
+                        548     STORE_FAST                      8: treasure_row
+                        550     LOAD_FAST                       0: self
+                        552     LOAD_ATTR                       32: treasures
+                        572     LOAD_ATTR                       35: keys
+                        592     CALL                            0
+                        600     GET_ITER                        
+                        602     FOR_ITER                        115 (to 834)
+                        606     STORE_FAST                      9: key
+                        608     LOAD_FAST                       1: elevation
+                        610     LOAD_CONST                      4: 5
+                        612     BINARY_OP                       0 (+)
+                        616     LOAD_FAST                       9: key
+                        618     COMPARE_OP                      188 (>=)
+                        622     POP_JUMP_IF_TRUE                2 (to 628)
+                        626     JUMP_BACKWARD                   14 (to 600)
+                        630     LOAD_FAST_LOAD_FAST             145: key, elevation
+                        632     LOAD_CONST                      4: 5
+                        634     BINARY_OP                       10 (-)
+                        638     COMPARE_OP                      188 (>=)
+                        642     POP_JUMP_IF_TRUE                2 (to 648)
+                        646     JUMP_BACKWARD                   24 (to 600)
+                        650     LOAD_FAST                       9: key
+                        652     STORE_FAST                      8: treasure_row
+                        654     LOAD_FAST                       0: self
+                        656     LOAD_ATTR                       32: treasures
+                        676     LOAD_FAST                       8: treasure_row
+                        678     BINARY_SUBSCR                   
+                        682     STORE_FAST                      10: treasure_h
+                        684     LOAD_GLOBAL                     19: NULL + range
+                        694     LOAD_CONST                      5: -5
+                        696     LOAD_CONST                      6: 6
+                        698     CALL                            2
+                        706     GET_ITER                        
+                        708     FOR_ITER                        17 (to 744)
+                        712     STORE_FAST                      3: i
+                        714     LOAD_CONST                      0: None
+                        716     LOAD_FAST_LOAD_FAST             42: obstacles, treasure_h
+                        718     LOAD_FAST                       3: i
+                        720     BINARY_OP                       0 (+)
+                        724     LOAD_GLOBAL                     0: mountain_width
+                        734     BINARY_OP                       6 (%)
+                        738     STORE_SUBSCR                    
+                        742     JUMP_BACKWARD                   19 (to 706)
+                        746     END_FOR                         
+                        748     POP_TOP                         
+                        750     LOAD_FAST                       8: treasure_row
+                        752     LOAD_GLOBAL                     37: NULL + int
+                        762     LOAD_FAST                       1: elevation
+                        764     CALL                            1
+                        772     COMPARE_OP                      88 (==)
+                        776     POP_JUMP_IF_FALSE               25 (to 828)
+                        780     LOAD_GLOBAL                     22: Obstacles
+                        790     LOAD_ATTR                       38: TREASURE
+                        810     LOAD_FAST_LOAD_FAST             42: obstacles, treasure_h
+                        812     LOAD_GLOBAL                     0: mountain_width
+                        822     BINARY_OP                       6 (%)
+                        826     STORE_SUBSCR                    
+                        830     POP_TOP                         
+                        832     LOAD_FAST                       2: obstacles
+                        834     RETURN_VALUE                    
+                        836     END_FOR                         
+                        838     POP_TOP                         
+                        840     LOAD_FAST                       2: obstacles
+                        842     RETURN_VALUE                    
+                    [Exception Table]
+                [Code]
+                    File Name: FreeSki.py
+                    Object Name: GetTreasureLocations
+                    Qualified Name: Mountain.GetTreasureLocations
+                    Arg Count: 1
+                    Pos Only Arg Count: 0
+                    KW Only Arg Count: 0
+                    Stack Size: 8
+                    Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+                    [Names]
+                        'random'
+                        'seed'
+                        'binascii'
+                        'crc32'
+                        'name'
+                        'encode'
+                        'height'
+                        'range'
+                        'randint'
+                        'int'
+                    [Locals+Names]
+                        'self'
+                        'locations'
+                        'prev_height'
+                        'prev_horiz'
+                        'i'
+                        'e_delta'
+                        'h_delta'
+                    [Constants]
+                        None
+                        'utf-8'
+                        0
+                        5
+                        200
+                        800
+                        4
+                    [Disassembly]
+                        0       RESUME                          0
+                        2       BUILD_MAP                       0
+                        4       STORE_FAST                      1: locations
+                        6       LOAD_GLOBAL                     0: random
+                        16      LOAD_ATTR                       2: seed
+                        36      PUSH_NULL                       
+                        38      LOAD_GLOBAL                     4: binascii
+                        48      LOAD_ATTR                       6: crc32
+                        68      PUSH_NULL                       
+                        70      LOAD_FAST                       0: self
+                        72      LOAD_ATTR                       8: name
+                        92      LOAD_ATTR                       11: encode
+                        112     LOAD_CONST                      1: 'utf-8'
+                        114     CALL                            1
+                        122     CALL                            1
+                        130     CALL                            1
+                        138     POP_TOP                         
+                        140     LOAD_FAST                       0: self
+                        142     LOAD_ATTR                       12: height
+                        162     STORE_FAST                      2: prev_height
+                        164     LOAD_CONST                      2: 0
+                        166     STORE_FAST                      3: prev_horiz
+                        168     LOAD_GLOBAL                     15: NULL + range
+                        178     LOAD_CONST                      2: 0
+                        180     LOAD_CONST                      3: 5
+                        182     CALL                            2
+                        190     GET_ITER                        
+                        192     FOR_ITER                        93 (to 380)
+                        196     STORE_FAST                      4: i
+                        198     LOAD_GLOBAL                     0: random
+                        208     LOAD_ATTR                       16: randint
+                        228     PUSH_NULL                       
+                        230     LOAD_CONST                      4: 200
+                        232     LOAD_CONST                      5: 800
+                        234     CALL                            2
+                        242     STORE_FAST                      5: e_delta
+                        244     LOAD_GLOBAL                     0: random
+                        254     LOAD_ATTR                       16: randint
+                        274     PUSH_NULL                       
+                        276     LOAD_GLOBAL                     19: NULL + int
+                        286     LOAD_CONST                      2: 0
+                        288     LOAD_FAST                       5: e_delta
+                        290     LOAD_CONST                      6: 4
+                        292     BINARY_OP                       11 (/)
+                        296     BINARY_OP                       10 (-)
+                        300     CALL                            1
+                        308     LOAD_GLOBAL                     19: NULL + int
+                        318     LOAD_FAST                       5: e_delta
+                        320     LOAD_CONST                      6: 4
+                        322     BINARY_OP                       11 (/)
+                        326     CALL                            1
+                        334     CALL                            2
+                        342     STORE_FAST                      6: h_delta
+                        344     LOAD_FAST_LOAD_FAST             54: prev_horiz, h_delta
+                        346     BINARY_OP                       0 (+)
+                        350     LOAD_FAST_LOAD_FAST             18: locations, prev_height
+                        352     LOAD_FAST                       5: e_delta
+                        354     BINARY_OP                       10 (-)
+                        358     STORE_SUBSCR                    
+                        362     LOAD_FAST_LOAD_FAST             37: prev_height, e_delta
+                        364     BINARY_OP                       10 (-)
+                        368     STORE_FAST                      2: prev_height
+                        370     LOAD_FAST_LOAD_FAST             54: prev_horiz, h_delta
+                        372     BINARY_OP                       0 (+)
+                        376     STORE_FAST                      3: prev_horiz
+                        378     JUMP_BACKWARD                   95 (to 190)
+                        382     END_FOR                         
+                        384     POP_TOP                         
+                        386     LOAD_FAST                       1: locations
+                        388     RETURN_VALUE                    
+                    [Exception Table]
+                (
+                    'encoded_flag'
+                    'height'
+                    'name'
+                    'treasures'
+                    'treeline'
+                    'yetiline'
+                )
+                None
+            [Disassembly]
+                0       RESUME                          0
+                2       LOAD_NAME                       0: __name__
+                4       STORE_NAME                      1: __module__
+                6       LOAD_CONST                      0: 'Mountain'
+                8       STORE_NAME                      2: __qualname__
+                10      LOAD_CONST                      1: 186
+                12      STORE_NAME                      3: __firstlineno__
+                14      LOAD_CONST                      2: <CODE> __init__
+                16      MAKE_FUNCTION                   
+                18      STORE_NAME                      4: __init__
+                20      LOAD_CONST                      3: <CODE> GetObstacles
+                22      MAKE_FUNCTION                   
+                24      STORE_NAME                      5: GetObstacles
+                26      LOAD_CONST                      4: <CODE> GetTreasureLocations
+                28      MAKE_FUNCTION                   
+                30      STORE_NAME                      6: GetTreasureLocations
+                32      LOAD_CONST                      5: ('encoded_flag', 'height', 'name', 'treasures', 'treeline', 'yetiline')
+                34      STORE_NAME                      7: __static_attributes__
+                36      RETURN_CONST                    6: None
+            [Exception Table]
+        'Mountain'
+        'Mount Snow'
+        3586
+        3400
+        2400
+        b'\x90\x00\x1d\xbc\x17b\xed6S"\xb0<Y\xd6\xce\x169\xae\xe9|\xe2Gs\xb7\xfdy\xcf5\x98'
+        'Aspen'
+        11211
+        11000
+        10000
+        b'U\xd7%x\xbfvj!\xfe\x9d\xb9\xc2\xd1k\x02y\x17\x9dK\x98\xf1\x92\x0f!\xf1\\\xa0\x1b\x0f'
+        'Whistler'
+        7156
+        6000
+        6500
+        b'\x1cN\x13\x1a\x97\xd4\xb2!\xf9\xf6\xd4#\xee\xebh\xecs.\x08M!hr9?\xde\x0c\x86\x02'
+        'Mount Baker'
+        10781
+        9000
+        b'\xac\xf9#\xf4T\xf1%h\xbe3FI+h\r\x01V\xee\xc2C\x13\xf3\x97ef\xac\xe3z\x96'
+        'Mount Norquay'
+        6998
+        6300
+        3000
+        b'\x0c\x1c\xad!\xc6,\xec0\x0b+"\x9f@.\xc8\x13\xadb\x86\xea{\xfeS\xe0S\x85\x90\x03q'
+        'Mount Erciyes'
+        12848
+        12000
+        b'n\xad\xb4l^I\xdb\xe1\xd0\x7f\x92\x92\x96\x1bq\xca`PvWg\x85\xb21^\x93F\x1a\xee'
+        'Dragonmount'
+        16282
+        15500
+        16000
+        b'Z\xf9\xdf\x7f_\x02\xd8\x89\x12\xd2\x11p\xb6\x96\x19\x05x))v\xc3\xecv\xf4\xe2\\\x9a\xbe\xb5'
+        [Code]
+            File Name: FreeSki.py
+            Object Name: ObstacleSet
+            Qualified Name: ObstacleSet
+            Arg Count: 0
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 2
+            Flags: 0x00000000
+            [Names]
+                '__name__'
+                '__module__'
+                '__qualname__'
+                '__firstlineno__'
+                '__init__'
+                'Update'
+                'CollisionDetect'
+                '__static_attributes__'
+                '__classcell__'
+            [Locals+Names]
+                '__class__'
+            [Constants]
+                'ObstacleSet'
+                260
+                [Code]
+                    File Name: FreeSki.py
+                    Object Name: __init__
+                    Qualified Name: ObstacleSet.__init__
+                    Arg Count: 4
+                    Pos Only Arg Count: 0
+                    KW Only Arg Count: 0
+                    Stack Size: 3
+                    Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+                    [Names]
+                        'super'
+                        '__init__'
+                        'mountain'
+                        'top'
+                        'max'
+                        'Update'
+                    [Locals+Names]
+                        'self'
+                        'mountain'
+                        'top'
+                        'max_distance'
+                        '__class__'
+                    [Constants]
+                        None
+                    [Disassembly]
+                        0       COPY_FREE_VARS                  1
+                        2       RESUME                          0
+                        4       LOAD_GLOBAL                     0: super
+                        14      LOAD_DEREF                      4: __class__
+                        16      LOAD_FAST                       0: self
+                        18      LOAD_SUPER_ATTR                 5: __init__
+                        22      BUILD_LIST                      0
+                        24      CALL                            1
+                        32      POP_TOP                         
+                        34      LOAD_FAST_LOAD_FAST             16: mountain, self
+                        36      STORE_ATTR                      2: mountain
+                        46      LOAD_CONST                      0: None
+                        48      LOAD_FAST                       0: self
+                        50      STORE_ATTR                      3: top
+                        60      LOAD_FAST_LOAD_FAST             48: max_distance, self
+                        62      STORE_ATTR                      4: max
+                        72      LOAD_FAST                       0: self
+                        74      LOAD_ATTR                       11: Update
+                        94      LOAD_FAST                       2: top
+                        96      CALL                            1
+                        104     POP_TOP                         
+                        106     RETURN_CONST                    0: None
+                    [Exception Table]
+                [Code]
+                    File Name: FreeSki.py
+                    Object Name: Update
+                    Qualified Name: ObstacleSet.Update
+                    Arg Count: 2
+                    Pos Only Arg Count: 0
+                    KW Only Arg Count: 0
+                    Stack Size: 7
+                    Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+                    [Names]
+                        'top'
+                        'len'
+                        'range'
+                        'max'
+                        'append'
+                        'mountain'
+                        'GetObstacles'
+                    [Locals+Names]
+                        'self'
+                        'newtop'
+                        'e'
+                    [Constants]
+                        None
+                        0
+                        -1
+                        1
+                    [Disassembly]
+                        0       RESUME                          0
+                        2       LOAD_FAST                       0: self
+                        4       LOAD_ATTR                       0: top
+                        24      TO_BOOL                         
+                        32      POP_JUMP_IF_FALSE               16 (to 66)
+                        36      LOAD_FAST_LOAD_FAST             16: newtop, self
+                        38      LOAD_ATTR                       0: top
+                        58      COMPARE_OP                      188 (>=)
+                        62      POP_JUMP_IF_FALSE               1 (to 66)
+                        66      RETURN_CONST                    0: None
+                        68      LOAD_FAST                       0: self
+                        70      LOAD_ATTR                       0: top
+                        90      TO_BOOL                         
+                        98      POP_JUMP_IF_FALSE               66 (to 232)
+                        102     LOAD_FAST                       0: self
+                        104     LOAD_ATTR                       0: top
+                        124     LOAD_CONST                      1: 0
+                        126     COMPARE_OP                      148 (>)
+                        130     POP_JUMP_IF_FALSE               50 (to 232)
+                        134     LOAD_FAST                       0: self
+                        136     LOAD_ATTR                       0: top
+                        156     LOAD_FAST                       1: newtop
+                        158     COMPARE_OP                      148 (>)
+                        162     POP_JUMP_IF_FALSE               34 (to 232)
+                        166     LOAD_FAST                       0: self
+                        168     LOAD_CONST                      1: 0
+                        170     DELETE_SUBSCR                   
+                        172     LOAD_FAST                       0: self
+                        174     LOAD_CONST                      1: 0
+                        176     BINARY_SUBSCR                   
+                        180     LOAD_CONST                      1: 0
+                        182     BINARY_SUBSCR                   
+                        186     LOAD_FAST                       0: self
+                        188     STORE_ATTR                      0: top
+                        198     LOAD_FAST                       0: self
+                        200     LOAD_ATTR                       0: top
+                        220     LOAD_FAST                       1: newtop
+                        222     COMPARE_OP                      148 (>)
+                        226     POP_JUMP_IF_FALSE               2 (to 232)
+                        230     JUMP_BACKWARD                   34 (to 164)
+                        234     LOAD_GLOBAL                     3: NULL + len
+                        244     LOAD_FAST                       0: self
+                        246     CALL                            1
+                        254     LOAD_CONST                      1: 0
+                        256     COMPARE_OP                      88 (==)
+                        260     POP_JUMP_IF_FALSE               76 (to 414)
+                        264     LOAD_GLOBAL                     5: NULL + range
+                        274     LOAD_FAST_LOAD_FAST             17: newtop, newtop
+                        276     LOAD_FAST                       0: self
+                        278     LOAD_ATTR                       6: max
+                        298     BINARY_OP                       10 (-)
+                        302     LOAD_CONST                      2: -1
+                        304     CALL                            3
+                        312     GET_ITER                        
+                        314     FOR_ITER                        46 (to 408)
+                        318     STORE_FAST                      2: e
+                        320     LOAD_FAST                       0: self
+                        322     LOAD_ATTR                       9: append
+                        342     LOAD_FAST_LOAD_FAST             32: e, self
+                        344     LOAD_ATTR                       10: mountain
+                        364     LOAD_ATTR                       13: GetObstacles
+                        384     LOAD_FAST                       2: e
+                        386     CALL                            1
+                        394     BUILD_TUPLE                     2
+                        396     CALL                            1
+                        404     POP_TOP                         
+                        406     JUMP_BACKWARD                   48 (to 312)
+                        410     END_FOR                         
+                        412     POP_TOP                         
+                        414     JUMP_FORWARD                    84 (to 584)
+                        416     LOAD_GLOBAL                     5: NULL + range
+                        426     LOAD_FAST                       0: self
+                        428     LOAD_CONST                      2: -1
+                        430     BINARY_SUBSCR                   
+                        434     LOAD_CONST                      1: 0
+                        436     BINARY_SUBSCR                   
+                        440     LOAD_CONST                      3: 1
+                        442     BINARY_OP                       10 (-)
+                        446     LOAD_FAST_LOAD_FAST             16: newtop, self
+                        448     LOAD_ATTR                       6: max
+                        468     BINARY_OP                       10 (-)
+                        472     LOAD_CONST                      2: -1
+                        474     CALL                            3
+                        482     GET_ITER                        
+                        484     FOR_ITER                        46 (to 578)
+                        488     STORE_FAST                      2: e
+                        490     LOAD_FAST                       0: self
+                        492     LOAD_ATTR                       9: append
+                        512     LOAD_FAST_LOAD_FAST             32: e, self
+                        514     LOAD_ATTR                       10: mountain
+                        534     LOAD_ATTR                       13: GetObstacles
+                        554     LOAD_FAST                       2: e
+                        556     CALL                            1
+                        564     BUILD_TUPLE                     2
+                        566     CALL                            1
+                        574     POP_TOP                         
+                        576     JUMP_BACKWARD                   48 (to 482)
+                        580     END_FOR                         
+                        582     POP_TOP                         
+                        584     LOAD_FAST_LOAD_FAST             16: newtop, self
+                        586     STORE_ATTR                      0: top
+                        596     RETURN_CONST                    0: None
+                    [Exception Table]
+                [Code]
+                    File Name: FreeSki.py
+                    Object Name: CollisionDetect
+                    Qualified Name: ObstacleSet.CollisionDetect
+                    Arg Count: 2
+                    Pos Only Arg Count: 0
+                    KW Only Arg Count: 0
+                    Stack Size: 7
+                    Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+                    [Names]
+                        'elevation'
+                        'object_vertical_hitbox'
+                        'horizonal_location'
+                        'object_horizonal_hitbox'
+                        'range'
+                        'int'
+                        'mountain_width'
+                    [Locals+Names]
+                        'self'
+                        'skier'
+                        'row'
+                        'hitrange_left'
+                        'hitrange_right'
+                        'x'
+                        'obj_at_loc'
+                    [Constants]
+                        None
+                        0
+                        1
+                    [Disassembly]
+                        0       RESUME                          0
+                        2       LOAD_FAST                       0: self
+                        4       GET_ITER                        
+                        6       FOR_ITER                        180 (to 368)
+                        10      STORE_FAST                      2: row
+                        12      LOAD_FAST                       2: row
+                        14      LOAD_CONST                      1: 0
+                        16      BINARY_SUBSCR                   
+                        20      LOAD_FAST                       1: skier
+                        22      LOAD_ATTR                       0: elevation
+                        42      COMPARE_OP                      148 (>)
+                        46      POP_JUMP_IF_FALSE               2 (to 52)
+                        50      JUMP_BACKWARD                   24 (to 4)
+                        54      LOAD_FAST                       2: row
+                        56      LOAD_CONST                      1: 0
+                        58      BINARY_SUBSCR                   
+                        62      LOAD_FAST                       1: skier
+                        64      LOAD_ATTR                       0: elevation
+                        84      LOAD_GLOBAL                     2: object_vertical_hitbox
+                        94      BINARY_OP                       10 (-)
+                        98      COMPARE_OP                      18 (<)
+                        102     POP_JUMP_IF_FALSE               2 (to 108)
+                        106     POP_TOP                         
+                        108     RETURN_CONST                    0: None
+                        110     LOAD_FAST                       1: skier
+                        112     LOAD_ATTR                       4: horizonal_location
+                        132     LOAD_GLOBAL                     6: object_horizonal_hitbox
+                        142     BINARY_OP                       10 (-)
+                        146     STORE_FAST                      3: hitrange_left
+                        148     LOAD_FAST                       1: skier
+                        150     LOAD_ATTR                       4: horizonal_location
+                        170     LOAD_GLOBAL                     6: object_horizonal_hitbox
+                        180     BINARY_OP                       0 (+)
+                        184     STORE_FAST                      4: hitrange_right
+                        186     LOAD_GLOBAL                     9: NULL + range
+                        196     LOAD_GLOBAL                     11: NULL + int
+                        206     LOAD_FAST                       3: hitrange_left
+                        208     CALL                            1
+                        216     LOAD_GLOBAL                     11: NULL + int
+                        226     LOAD_FAST                       4: hitrange_right
+                        228     CALL                            1
+                        236     LOAD_CONST                      2: 1
+                        238     BINARY_OP                       0 (+)
+                        242     CALL                            2
+                        250     GET_ITER                        
+                        252     FOR_ITER                        53 (to 360)
+                        256     STORE_FAST                      5: x
+                        258     LOAD_FAST                       2: row
+                        260     LOAD_CONST                      2: 1
+                        262     BINARY_SUBSCR                   
+                        266     LOAD_FAST                       5: x
+                        268     LOAD_GLOBAL                     12: mountain_width
+                        278     BINARY_OP                       6 (%)
+                        282     BINARY_SUBSCR                   
+                        286     STORE_FAST                      6: obj_at_loc
+                        288     LOAD_FAST                       6: obj_at_loc
+                        290     LOAD_CONST                      0: None
+                        292     COMPARE_OP                      119 (!=)
+                        296     POP_JUMP_IF_TRUE                2 (to 302)
+                        300     JUMP_BACKWARD                   26 (to 250)
+                        304     LOAD_FAST_LOAD_FAST             53: hitrange_left, x
+                        306     COMPARE_OP                      58 (<=)
+                        310     POP_JUMP_IF_TRUE                2 (to 316)
+                        314     JUMP_BACKWARD                   33 (to 250)
+                        318     LOAD_FAST_LOAD_FAST             84: x, hitrange_right
+                        320     COMPARE_OP                      58 (<=)
+                        324     POP_JUMP_IF_TRUE                2 (to 330)
+                        328     JUMP_BACKWARD                   40 (to 250)
+                        332     LOAD_FAST_LOAD_FAST             98: obj_at_loc, row
+                        334     LOAD_FAST                       5: x
+                        336     LOAD_GLOBAL                     12: mountain_width
+                        346     BINARY_OP                       6 (%)
+                        350     BUILD_TUPLE                     3
+                        352     SWAP                            2
+                        354     POP_TOP                         
+                        356     SWAP                            2
+                        358     POP_TOP                         
+                        360     RETURN_VALUE                    
+                        362     END_FOR                         
+                        364     POP_TOP                         
+                        366     JUMP_BACKWARD                   182 (to 4)
+                        370     END_FOR                         
+                        372     POP_TOP                         
+                        374     RETURN_CONST                    0: None
+                    [Exception Table]
+                (
+                    'max'
+                    'mountain'
+                    'top'
+                )
+            [Disassembly]
+                0       MAKE_CELL                       0: __class__
+                2       RESUME                          0
+                4       LOAD_NAME                       0: __name__
+                6       STORE_NAME                      1: __module__
+                8       LOAD_CONST                      0: 'ObstacleSet'
+                10      STORE_NAME                      2: __qualname__
+                12      LOAD_CONST                      1: 260
+                14      STORE_NAME                      3: __firstlineno__
+                16      LOAD_FAST                       0: __class__
+                18      BUILD_TUPLE                     1
+                20      LOAD_CONST                      2: <CODE> __init__
+                22      MAKE_FUNCTION                   
+                24      SET_FUNCTION_ATTRIBUTE          8 (MAKE_FUNCTION_CLOSURE)
+                26      STORE_NAME                      4: __init__
+                28      LOAD_CONST                      3: <CODE> Update
+                30      MAKE_FUNCTION                   
+                32      STORE_NAME                      5: Update
+                34      LOAD_CONST                      4: <CODE> CollisionDetect
+                36      MAKE_FUNCTION                   
+                38      STORE_NAME                      6: CollisionDetect
+                40      LOAD_CONST                      5: ('max', 'mountain', 'top')
+                42      STORE_NAME                      7: __static_attributes__
+                44      LOAD_FAST                       0: __class__
+                46      COPY                            1
+                48      STORE_NAME                      8: __classcell__
+                50      RETURN_VALUE                    
+            [Exception Table]
+        'ObstacleSet'
+        [Code]
+            File Name: FreeSki.py
+            Object Name: SetFlag
+            Qualified Name: SetFlag
+            Arg Count: 2
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 7
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                'random'
+                'seed'
+                'range'
+                'len'
+                'encoded_flag'
+                'randint'
+                'append'
+                'chr'
+                'join'
+                'print'
+                'flagfont'
+                'render'
+                'pygame'
+                'Color'
+                'flag_text_surface'
+            [Locals+Names]
+                'mountain'
+                'treasure_list'
+                'product'
+                'treasure_val'
+                'decoded'
+                'i'
+                'r'
+                'flag_text'
+            [Constants]
+                None
+                0
+                8
+                255
+                'Flag: %s'
+                ''
+                False
+                'saddle brown'
+            [Disassembly]
+                0       RESUME                          0
+                2       LOAD_CONST                      1: 0
+                4       STORE_FAST                      2: product
+                6       LOAD_FAST                       1: treasure_list
+                8       GET_ITER                        
+                10      FOR_ITER                        11 (to 34)
+                14      STORE_FAST                      3: treasure_val
+                16      LOAD_FAST                       2: product
+                18      LOAD_CONST                      2: 8
+                20      BINARY_OP                       3 (<<)
+                24      LOAD_FAST                       3: treasure_val
+                26      BINARY_OP                       12 (^)
+                30      STORE_FAST                      2: product
+                32      JUMP_BACKWARD                   13 (to 8)
+                36      END_FOR                         
+                38      POP_TOP                         
+                40      LOAD_GLOBAL                     0: random
+                50      LOAD_ATTR                       2: seed
+                70      PUSH_NULL                       
+                72      LOAD_FAST                       2: product
+                74      CALL                            1
+                82      POP_TOP                         
+                84      BUILD_LIST                      0
+                86      STORE_FAST                      4: decoded
+                88      LOAD_GLOBAL                     5: NULL + range
+                98      LOAD_CONST                      1: 0
+                100     LOAD_GLOBAL                     7: NULL + len
+                110     LOAD_FAST                       0: mountain
+                112     LOAD_ATTR                       8: encoded_flag
+                132     CALL                            1
+                140     CALL                            2
+                148     GET_ITER                        
+                150     FOR_ITER                        68 (to 288)
+                154     STORE_FAST                      5: i
+                156     LOAD_GLOBAL                     0: random
+                166     LOAD_ATTR                       10: randint
+                186     PUSH_NULL                       
+                188     LOAD_CONST                      1: 0
+                190     LOAD_CONST                      3: 255
+                192     CALL                            2
+                200     STORE_FAST                      6: r
+                202     LOAD_FAST                       4: decoded
+                204     LOAD_ATTR                       13: append
+                224     LOAD_GLOBAL                     15: NULL + chr
+                234     LOAD_FAST                       0: mountain
+                236     LOAD_ATTR                       8: encoded_flag
+                256     LOAD_FAST                       5: i
+                258     BINARY_SUBSCR                   
+                262     LOAD_FAST                       6: r
+                264     BINARY_OP                       12 (^)
+                268     CALL                            1
+                276     CALL                            1
+                284     POP_TOP                         
+                286     JUMP_BACKWARD                   70 (to 148)
+                290     END_FOR                         
+                292     POP_TOP                         
+                294     LOAD_CONST                      4: 'Flag: %s'
+                296     LOAD_CONST                      5: ''
+                298     LOAD_ATTR                       17: join
+                318     LOAD_FAST                       4: decoded
+                320     CALL                            1
+                328     BINARY_OP                       6 (%)
+                332     STORE_FAST                      7: flag_text
+                334     LOAD_GLOBAL                     19: NULL + print
+                344     LOAD_FAST                       7: flag_text
+                346     CALL                            1
+                354     POP_TOP                         
+                356     LOAD_GLOBAL                     20: flagfont
+                366     LOAD_ATTR                       23: render
+                386     LOAD_FAST                       7: flag_text
+                388     LOAD_CONST                      6: False
+                390     LOAD_GLOBAL                     24: pygame
+                400     LOAD_ATTR                       26: Color
+                420     PUSH_NULL                       
+                422     LOAD_CONST                      7: 'saddle brown'
+                424     CALL                            1
+                432     CALL                            3
+                440     STORE_GLOBAL                    14: flag_text_surface
+                442     RETURN_CONST                    0: None
+            [Exception Table]
+        [Code]
+            File Name: FreeSki.py
+            Object Name: main
+            Qualified Name: main
+            Arg Count: 0
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 9
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                'screen'
+                'fill'
+                'pygame'
+                'Color'
+                'Skier'
+                'screen_width'
+                'skier_vertical_pixel_location'
+                'random'
+                'choice'
+                'Mountains'
+                'height'
+                'skier_start'
+                'elevation'
+                'ObstacleSet'
+                'obstacle_draw_distance'
+                'event'
+                'get'
+                'type'
+                'QUIT'
+                'KEYDOWN'
+                'isReadyForReset'
+                'key'
+                'K_w'
+                'K_UP'
+                'SlowDown'
+                'K_s'
+                'K_DOWN'
+                'SpeedUp'
+                'K_a'
+                'K_LEFT'
+                'TurnLeft'
+                'K_d'
+                'K_RIGHT'
+                'TurnRight'
+                'KEYUP'
+                'Cruise'
+                'blit'
+                'victoryimage'
+                'flag_text_surface'
+                'get_width'
+                'screen_height'
+                'get_height'
+                'UpdateLocation'
+                'Update'
+                'int'
+                'pixels_per_meter'
+                'isMoving'
+                'CollisionDetect'
+                'Obstacles'
+                'TREASURE'
+                'append'
+                'mountain_width'
+                'len'
+                'SetFlag'
+                'Crash'
+                'horizonal_location'
+                'Draw'
+                'range'
+                'ObstacleImages'
+                'name'
+                'gamefont'
+                'render'
+                'display'
+                'flip'
+                'clock'
+                'tick'
+                'framerate_fps'
+                'quit'
+            [Locals+Names]
+                'victory_mode'
+                'running'
+                'reset_mode'
+                'player_started'
+                'treasures_collected'
+                'skier'
+                'mnt'
+                'obstacles'
+                'event'
+                'x'
+                'y'
+                'collided_data'
+                'collided_object'
+                'collided_row'
+                'collided_row_offset'
+                'top_edge'
+                'left_edge'
+                'right_edge'
+                'bottom_edge'
+                'skier_drawn'
+                'obstacle_row'
+                'obstacle_x'
+                'obstacle'
+                'obstacle_image'
+                'info_text'
+                'dt'
+            [Constants]
+                None
+                False
+                True
+                'white'
+                2
+                (
+                    42
+                    42
+                )
+                40
+                1
+                0
+                5
+                1
+                'Use arrow keys to ski and find the 5 treasures!'
+                "Aww shucks, didn't make it. Press any key to try again."
+                'Skiing %s    elevation: %.2f, horizonal: %.2f, treasures %d/5'
+                'blue'
+                (
+                    0
+                    0
+                )
+                1000
+            [Disassembly]
+                0       RESUME                          0
+                2       LOAD_CONST                      1: False
+                4       STORE_FAST                      0: victory_mode
+                6       LOAD_CONST                      2: True
+                8       STORE_FAST                      1: running
+                10      LOAD_CONST                      2: True
+                12      STORE_FAST                      2: reset_mode
+                14      LOAD_FAST                       1: running
+                16      TO_BOOL                         
+                24      POP_JUMP_IF_FALSE               1561 (to 3150)
+                30      LOAD_GLOBAL                     0: screen
+                40      LOAD_ATTR                       3: fill
+                60      LOAD_GLOBAL                     4: pygame
+                70      LOAD_ATTR                       6: Color
+                90      PUSH_NULL                       
+                92      LOAD_CONST                      3: 'white'
+                94      CALL                            1
+                102     CALL                            1
+                110     POP_TOP                         
+                112     LOAD_FAST                       2: reset_mode
+                114     TO_BOOL                         
+                122     POP_JUMP_IF_FALSE               112 (to 348)
+                126     LOAD_CONST                      1: False
+                128     STORE_FAST                      3: player_started
+                130     BUILD_LIST                      0
+                132     STORE_FAST                      4: treasures_collected
+                134     LOAD_GLOBAL                     9: NULL + Skier
+                144     LOAD_GLOBAL                     10: screen_width
+                154     LOAD_CONST                      4: 2
+                156     BINARY_OP                       11 (/)
+                160     LOAD_GLOBAL                     12: skier_vertical_pixel_location
+                170     CALL                            2
+                178     STORE_FAST                      5: skier
+                180     LOAD_GLOBAL                     14: random
+                190     LOAD_ATTR                       16: choice
+                210     PUSH_NULL                       
+                212     LOAD_GLOBAL                     18: Mountains
+                222     CALL                            1
+                230     STORE_FAST                      6: mnt
+                232     LOAD_FAST                       6: mnt
+                234     LOAD_ATTR                       20: height
+                254     LOAD_GLOBAL                     22: skier_start
+                264     BINARY_OP                       10 (-)
+                268     LOAD_FAST                       5: skier
+                270     STORE_ATTR                      12: elevation
+                280     LOAD_GLOBAL                     27: NULL + ObstacleSet
+                290     LOAD_FAST_LOAD_FAST             102: mnt, mnt
+                292     LOAD_ATTR                       20: height
+                312     LOAD_GLOBAL                     22: skier_start
+                322     BINARY_OP                       10 (-)
+                326     LOAD_GLOBAL                     28: obstacle_draw_distance
+                336     CALL                            3
+                344     STORE_FAST                      7: obstacles
+                346     LOAD_CONST                      1: False
+                348     STORE_FAST                      2: reset_mode
+                350     LOAD_GLOBAL                     4: pygame
+                360     LOAD_ATTR                       30: event
+                380     LOAD_ATTR                       33: get
+                400     CALL                            0
+                408     GET_ITER                        
+                410     FOR_ITER                        461 (to 1336)
+                416     STORE_FAST                      8: event
+                418     LOAD_FAST                       8: event
+                420     LOAD_ATTR                       34: type
+                440     LOAD_GLOBAL                     4: pygame
+                450     LOAD_ATTR                       36: QUIT
+                470     COMPARE_OP                      88 (==)
+                474     POP_JUMP_IF_FALSE               2 (to 480)
+                478     LOAD_CONST                      1: False
+                480     STORE_FAST                      1: running
+                482     LOAD_FAST                       8: event
+                484     LOAD_ATTR                       34: type
+                504     LOAD_GLOBAL                     4: pygame
+                514     LOAD_ATTR                       38: KEYDOWN
+                534     COMPARE_OP                      88 (==)
+                538     POP_JUMP_IF_FALSE               345 (to 1232)
+                544     LOAD_FAST_CHECK                 5: skier
+                546     LOAD_ATTR                       41: isReadyForReset
+                566     CALL                            0
+                574     TO_BOOL                         
+                582     POP_JUMP_IF_FALSE               5 (to 594)
+                586     LOAD_CONST                      2: True
+                588     STORE_FAST                      2: reset_mode
+                590     POP_TOP                         
+                592     JUMP_FORWARD                    373 (to 1342)
+                596     LOAD_CONST                      2: True
+                598     STORE_FAST                      3: player_started
+                600     LOAD_FAST                       8: event
+                602     LOAD_ATTR                       42: key
+                622     LOAD_GLOBAL                     4: pygame
+                632     LOAD_ATTR                       44: K_w
+                652     COMPARE_OP                      88 (==)
+                656     POP_JUMP_IF_TRUE                30 (to 718)
+                660     LOAD_FAST                       8: event
+                662     LOAD_ATTR                       42: key
+                682     LOAD_GLOBAL                     4: pygame
+                692     LOAD_ATTR                       46: K_UP
+                712     COMPARE_OP                      88 (==)
+                716     POP_JUMP_IF_FALSE               18 (to 754)
+                720     LOAD_FAST                       5: skier
+                722     LOAD_ATTR                       49: SlowDown
+                742     CALL                            0
+                750     POP_TOP                         
+                752     JUMP_BACKWARD                   173 (to 408)
+                756     LOAD_FAST                       8: event
+                758     LOAD_ATTR                       42: key
+                778     LOAD_GLOBAL                     4: pygame
+                788     LOAD_ATTR                       50: K_s
+                808     COMPARE_OP                      88 (==)
+                812     POP_JUMP_IF_TRUE                30 (to 874)
+                816     LOAD_FAST                       8: event
+                818     LOAD_ATTR                       42: key
+                838     LOAD_GLOBAL                     4: pygame
+                848     LOAD_ATTR                       52: K_DOWN
+                868     COMPARE_OP                      88 (==)
+                872     POP_JUMP_IF_FALSE               18 (to 910)
+                876     LOAD_FAST                       5: skier
+                878     LOAD_ATTR                       55: SpeedUp
+                898     CALL                            0
+                906     POP_TOP                         
+                908     JUMP_BACKWARD                   251 (to 408)
+                912     LOAD_FAST                       8: event
+                914     LOAD_ATTR                       42: key
+                934     LOAD_GLOBAL                     4: pygame
+                944     LOAD_ATTR                       56: K_a
+                964     COMPARE_OP                      88 (==)
+                968     POP_JUMP_IF_TRUE                30 (to 1030)
+                972     LOAD_FAST                       8: event
+                974     LOAD_ATTR                       42: key
+                994     LOAD_GLOBAL                     4: pygame
+                1004    LOAD_ATTR                       58: K_LEFT
+                1024    COMPARE_OP                      88 (==)
+                1028    POP_JUMP_IF_FALSE               19 (to 1068)
+                1032    LOAD_FAST                       5: skier
+                1034    LOAD_ATTR                       61: TurnLeft
+                1054    CALL                            0
+                1062    POP_TOP                         
+                1064    JUMP_BACKWARD                   330 (to 408)
+                1070    LOAD_FAST                       8: event
+                1072    LOAD_ATTR                       42: key
+                1092    LOAD_GLOBAL                     4: pygame
+                1102    LOAD_ATTR                       62: K_d
+                1122    COMPARE_OP                      88 (==)
+                1126    POP_JUMP_IF_TRUE                30 (to 1188)
+                1130    LOAD_FAST                       8: event
+                1132    LOAD_ATTR                       42: key
+                1152    LOAD_GLOBAL                     4: pygame
+                1162    LOAD_ATTR                       64: K_RIGHT
+                1182    COMPARE_OP                      88 (==)
+                1186    POP_JUMP_IF_FALSE               19 (to 1226)
+                1190    LOAD_FAST                       5: skier
+                1192    LOAD_ATTR                       67: TurnRight
+                1212    CALL                            0
+                1220    POP_TOP                         
+                1222    JUMP_BACKWARD                   409 (to 408)
+                1228    JUMP_BACKWARD                   412 (to 408)
+                1234    LOAD_FAST                       8: event
+                1236    LOAD_ATTR                       34: type
+                1256    LOAD_GLOBAL                     4: pygame
+                1266    LOAD_ATTR                       68: KEYUP
+                1286    COMPARE_OP                      88 (==)
+                1290    POP_JUMP_IF_TRUE                3 (to 1298)
+                1294    JUMP_BACKWARD                   445 (to 408)
+                1300    LOAD_FAST_CHECK                 5: skier
+                1302    LOAD_ATTR                       71: Cruise
+                1322    CALL                            0
+                1330    POP_TOP                         
+                1332    JUMP_BACKWARD                   464 (to 408)
+                1338    END_FOR                         
+                1340    POP_TOP                         
+                1342    LOAD_FAST                       0: victory_mode
+                1344    TO_BOOL                         
+                1352    POP_JUMP_IF_FALSE               124 (to 1602)
+                1356    LOAD_GLOBAL                     0: screen
+                1366    LOAD_ATTR                       73: blit
+                1386    LOAD_GLOBAL                     74: victoryimage
+                1396    LOAD_CONST                      5: (42, 42)
+                1398    CALL                            2
+                1406    POP_TOP                         
+                1408    LOAD_GLOBAL                     10: screen_width
+                1418    LOAD_CONST                      4: 2
+                1420    BINARY_OP                       11 (/)
+                1424    LOAD_GLOBAL                     76: flag_text_surface
+                1434    LOAD_ATTR                       79: get_width
+                1454    CALL                            0
+                1462    LOAD_CONST                      4: 2
+                1464    BINARY_OP                       11 (/)
+                1468    BINARY_OP                       10 (-)
+                1472    STORE_FAST                      9: x
+                1474    LOAD_GLOBAL                     80: screen_height
+                1484    LOAD_CONST                      4: 2
+                1486    BINARY_OP                       11 (/)
+                1490    LOAD_GLOBAL                     76: flag_text_surface
+                1500    LOAD_ATTR                       83: get_height
+                1520    CALL                            0
+                1528    LOAD_CONST                      4: 2
+                1530    BINARY_OP                       11 (/)
+                1534    BINARY_OP                       10 (-)
+                1538    LOAD_CONST                      6: 40
+                1540    BINARY_OP                       0 (+)
+                1544    STORE_FAST                      10: y
+                1546    LOAD_GLOBAL                     0: screen
+                1556    LOAD_ATTR                       73: blit
+                1576    LOAD_GLOBAL                     76: flag_text_surface
+                1586    LOAD_FAST_LOAD_FAST             154: x, y
+                1588    BUILD_TUPLE                     2
+                1590    CALL                            2
+                1598    POP_TOP                         
+                1600    JUMP_FORWARD                    706 (to 3016)
+                1604    LOAD_FAST_CHECK                 5: skier
+                1606    LOAD_ATTR                       85: UpdateLocation
+                1626    CALL                            0
+                1634    POP_TOP                         
+                1636    LOAD_FAST_CHECK                 7: obstacles
+                1638    LOAD_ATTR                       87: Update
+                1658    LOAD_GLOBAL                     89: NULL + int
+                1668    LOAD_FAST                       5: skier
+                1670    LOAD_ATTR                       24: elevation
+                1690    LOAD_GLOBAL                     12: skier_vertical_pixel_location
+                1700    LOAD_GLOBAL                     90: pixels_per_meter
+                1710    BINARY_OP                       11 (/)
+                1714    BINARY_OP                       0 (+)
+                1718    CALL                            1
+                1726    CALL                            1
+                1734    POP_TOP                         
+                1736    LOAD_FAST                       5: skier
+                1738    LOAD_ATTR                       93: isMoving
+                1758    CALL                            0
+                1766    TO_BOOL                         
+                1774    POP_JUMP_IF_FALSE               132 (to 2040)
+                1778    LOAD_FAST                       7: obstacles
+                1780    LOAD_ATTR                       95: CollisionDetect
+                1800    LOAD_FAST                       5: skier
+                1802    CALL                            1
+                1810    STORE_FAST                      11: collided_data
+                1812    LOAD_FAST                       11: collided_data
+                1814    LOAD_CONST                      0: None
+                1816    COMPARE_OP                      119 (!=)
+                1820    POP_JUMP_IF_FALSE               109 (to 2040)
+                1824    LOAD_FAST                       11: collided_data
+                1826    UNPACK_SEQUENCE                 3
+                1830    STORE_FAST_STORE_FAST           205: collided_object, collided_row
+                1832    STORE_FAST                      14: collided_row_offset
+                1834    LOAD_FAST                       12: collided_object
+                1836    LOAD_GLOBAL                     96: Obstacles
+                1846    LOAD_ATTR                       98: TREASURE
+                1866    COMPARE_OP                      88 (==)
+                1870    POP_JUMP_IF_FALSE               68 (to 2008)
+                1874    LOAD_CONST                      0: None
+                1876    LOAD_FAST                       13: collided_row
+                1878    LOAD_CONST                      7: 1
+                1880    BINARY_SUBSCR                   
+                1884    LOAD_FAST                       14: collided_row_offset
+                1886    STORE_SUBSCR                    
+                1890    LOAD_FAST_CHECK                 4: treasures_collected
+                1892    LOAD_ATTR                       101: append
+                1912    LOAD_FAST                       13: collided_row
+                1914    LOAD_CONST                      8: 0
+                1916    BINARY_SUBSCR                   
+                1920    LOAD_GLOBAL                     102: mountain_width
+                1930    BINARY_OP                       5 (*)
+                1934    LOAD_FAST                       14: collided_row_offset
+                1936    BINARY_OP                       0 (+)
+                1940    CALL                            1
+                1948    POP_TOP                         
+                1950    LOAD_GLOBAL                     105: NULL + len
+                1960    LOAD_FAST                       4: treasures_collected
+                1962    CALL                            1
+                1970    LOAD_CONST                      9: 5
+                1972    COMPARE_OP                      88 (==)
+                1976    POP_JUMP_IF_FALSE               14 (to 2006)
+                1980    LOAD_GLOBAL                     107: NULL + SetFlag
+                1990    LOAD_FAST_CHECK                 6: mnt
+                1992    LOAD_FAST                       4: treasures_collected
+                1994    CALL                            2
+                2002    POP_TOP                         
+                2004    LOAD_CONST                      2: True
+                2006    STORE_FAST                      0: victory_mode
+                2008    JUMP_FORWARD                    16 (to 2042)
+                2010    LOAD_FAST                       5: skier
+                2012    LOAD_ATTR                       109: Crash
+                2032    CALL                            0
+                2040    POP_TOP                         
+                2042    LOAD_FAST                       5: skier
+                2044    LOAD_ATTR                       24: elevation
+                2064    LOAD_GLOBAL                     12: skier_vertical_pixel_location
+                2074    LOAD_GLOBAL                     90: pixels_per_meter
+                2084    BINARY_OP                       11 (/)
+                2088    BINARY_OP                       0 (+)
+                2092    STORE_FAST                      15: top_edge
+                2094    LOAD_FAST                       5: skier
+                2096    LOAD_ATTR                       110: horizonal_location
+                2116    LOAD_GLOBAL                     10: screen_width
+                2126    LOAD_CONST                      4: 2
+                2128    BINARY_OP                       11 (/)
+                2132    LOAD_GLOBAL                     90: pixels_per_meter
+                2142    BINARY_OP                       11 (/)
+                2146    BINARY_OP                       10 (-)
+                2150    STORE_FAST                      16: left_edge
+                2152    LOAD_FAST                       5: skier
+                2154    LOAD_ATTR                       110: horizonal_location
+                2174    LOAD_GLOBAL                     10: screen_width
+                2184    LOAD_CONST                      4: 2
+                2186    BINARY_OP                       11 (/)
+                2190    LOAD_GLOBAL                     90: pixels_per_meter
+                2200    BINARY_OP                       11 (/)
+                2204    BINARY_OP                       0 (+)
+                2208    STORE_FAST                      17: right_edge
+                2210    LOAD_FAST                       17: right_edge
+                2212    LOAD_CONST                      4: 2
+                2214    BINARY_OP                       13 (+=)
+                2218    STORE_FAST                      17: right_edge
+                2220    LOAD_FAST                       5: skier
+                2222    LOAD_ATTR                       24: elevation
+                2242    LOAD_GLOBAL                     80: screen_height
+                2252    LOAD_GLOBAL                     90: pixels_per_meter
+                2262    BINARY_OP                       11 (/)
+                2266    BINARY_OP                       0 (+)
+                2270    STORE_FAST                      18: bottom_edge
+                2272    LOAD_CONST                      1: False
+                2274    STORE_FAST                      19: skier_drawn
+                2276    LOAD_FAST                       7: obstacles
+                2278    GET_ITER                        
+                2280    FOR_ITER                        220 (to 2722)
+                2284    STORE_FAST                      20: obstacle_row
+                2286    LOAD_FAST                       19: skier_drawn
+                2288    TO_BOOL                         
+                2296    POP_JUMP_IF_TRUE                45 (to 2388)
+                2300    LOAD_FAST                       20: obstacle_row
+                2302    LOAD_CONST                      8: 0
+                2304    BINARY_SUBSCR                   
+                2308    LOAD_CONST                      7: 1
+                2310    BINARY_OP                       0 (+)
+                2314    LOAD_FAST                       5: skier
+                2316    LOAD_ATTR                       24: elevation
+                2336    COMPARE_OP                      18 (<)
+                2340    POP_JUMP_IF_FALSE               23 (to 2388)
+                2344    LOAD_FAST                       5: skier
+                2346    LOAD_ATTR                       113: Draw
+                2366    LOAD_GLOBAL                     0: screen
+                2376    CALL                            1
+                2384    POP_TOP                         
+                2386    LOAD_CONST                      2: True
+                2388    STORE_FAST                      19: skier_drawn
+                2390    LOAD_GLOBAL                     115: NULL + range
+                2400    LOAD_GLOBAL                     89: NULL + int
+                2410    LOAD_FAST                       16: left_edge
+                2412    LOAD_CONST                      7: 1
+                2414    BINARY_OP                       10 (-)
+                2418    CALL                            1
+                2426    LOAD_GLOBAL                     89: NULL + int
+                2436    LOAD_FAST                       17: right_edge
+                2438    LOAD_CONST                      7: 1
+                2440    BINARY_OP                       0 (+)
+                2444    CALL                            1
+                2452    CALL                            2
+                2460    GET_ITER                        
+                2462    FOR_ITER                        125 (to 2714)
+                2466    STORE_FAST                      21: obstacle_x
+                2468    LOAD_FAST                       20: obstacle_row
+                2470    LOAD_CONST                      7: 1
+                2472    BINARY_SUBSCR                   
+                2476    LOAD_FAST                       21: obstacle_x
+                2478    LOAD_GLOBAL                     102: mountain_width
+                2488    BINARY_OP                       6 (%)
+                2492    BINARY_SUBSCR                   
+                2496    STORE_FAST                      22: obstacle
+                2498    LOAD_FAST                       22: obstacle
+                2500    TO_BOOL                         
+                2508    POP_JUMP_IF_TRUE                2 (to 2514)
+                2512    JUMP_BACKWARD                   27 (to 2460)
+                2516    LOAD_GLOBAL                     116: ObstacleImages
+                2526    LOAD_FAST                       22: obstacle
+                2528    BINARY_SUBSCR                   
+                2532    STORE_FAST                      23: obstacle_image
+                2534    LOAD_FAST                       21: obstacle_x
+                2536    LOAD_GLOBAL                     90: pixels_per_meter
+                2546    BINARY_OP                       5 (*)
+                2550    LOAD_CONST                      10: 1
+                2552    BINARY_OP                       5 (*)
+                2556    LOAD_FAST                       16: left_edge
+                2558    LOAD_GLOBAL                     90: pixels_per_meter
+                2568    BINARY_OP                       5 (*)
+                2572    BINARY_OP                       10 (-)
+                2576    STORE_FAST                      9: x
+                2578    LOAD_FAST                       15: top_edge
+                2580    LOAD_GLOBAL                     90: pixels_per_meter
+                2590    BINARY_OP                       5 (*)
+                2594    LOAD_FAST                       20: obstacle_row
+                2596    LOAD_CONST                      8: 0
+                2598    BINARY_SUBSCR                   
+                2602    LOAD_GLOBAL                     90: pixels_per_meter
+                2612    BINARY_OP                       5 (*)
+                2616    LOAD_CONST                      10: 1
+                2618    BINARY_OP                       5 (*)
+                2622    BINARY_OP                       10 (-)
+                2626    STORE_FAST                      10: y
+                2628    LOAD_FAST                       10: y
+                2630    LOAD_FAST                       23: obstacle_image
+                2632    LOAD_ATTR                       83: get_height
+                2652    CALL                            0
+                2660    BINARY_OP                       23 (-=)
+                2664    STORE_FAST                      10: y
+                2666    LOAD_GLOBAL                     0: screen
+                2676    LOAD_ATTR                       73: blit
+                2696    LOAD_FAST                       23: obstacle_image
+                2698    LOAD_FAST_LOAD_FAST             154: x, y
+                2700    BUILD_TUPLE                     2
+                2702    CALL                            2
+                2710    POP_TOP                         
+                2712    JUMP_BACKWARD                   127 (to 2460)
+                2716    END_FOR                         
+                2718    POP_TOP                         
+                2720    JUMP_BACKWARD                   222 (to 2278)
+                2724    END_FOR                         
+                2726    POP_TOP                         
+                2728    LOAD_FAST_CHECK                 3: player_started
+                2730    LOAD_CONST                      1: False
+                2732    COMPARE_OP                      88 (==)
+                2736    POP_JUMP_IF_FALSE               3 (to 2744)
+                2740    LOAD_CONST                      11: 'Use arrow keys to ski and find the 5 treasures!'
+                2742    STORE_FAST                      24: info_text
+                2744    JUMP_FORWARD                    72 (to 2890)
+                2746    LOAD_FAST                       5: skier
+                2748    LOAD_ATTR                       41: isReadyForReset
+                2768    CALL                            0
+                2776    TO_BOOL                         
+                2784    POP_JUMP_IF_FALSE               3 (to 2792)
+                2788    LOAD_CONST                      12: "Aww shucks, didn't make it. Press any key to try again."
+                2790    STORE_FAST                      24: info_text
+                2792    JUMP_FORWARD                    48 (to 2890)
+                2794    LOAD_CONST                      13: 'Skiing %s    elevation: %.2f, horizonal: %.2f, treasures %d/5'
+                2796    LOAD_FAST_CHECK                 6: mnt
+                2798    LOAD_ATTR                       118: name
+                2818    LOAD_FAST                       5: skier
+                2820    LOAD_ATTR                       24: elevation
+                2840    LOAD_FAST                       5: skier
+                2842    LOAD_ATTR                       110: horizonal_location
+                2862    LOAD_GLOBAL                     105: NULL + len
+                2872    LOAD_FAST_CHECK                 4: treasures_collected
+                2874    CALL                            1
+                2882    BUILD_TUPLE                     4
+                2884    BINARY_OP                       6 (%)
+                2888    STORE_FAST                      24: info_text
+                2890    LOAD_GLOBAL                     0: screen
+                2900    LOAD_ATTR                       73: blit
+                2920    LOAD_GLOBAL                     120: gamefont
+                2930    LOAD_ATTR                       123: render
+                2950    LOAD_FAST                       24: info_text
+                2952    LOAD_CONST                      1: False
+                2954    LOAD_GLOBAL                     4: pygame
+                2964    LOAD_ATTR                       6: Color
+                2984    PUSH_NULL                       
+                2986    LOAD_CONST                      14: 'blue'
+                2988    CALL                            1
+                2996    CALL                            3
+                3004    LOAD_CONST                      15: (0, 0)
+                3006    CALL                            2
+                3014    POP_TOP                         
+                3016    LOAD_GLOBAL                     4: pygame
+                3026    LOAD_ATTR                       124: display
+                3046    LOAD_ATTR                       127: flip
+                3066    CALL                            0
+                3074    POP_TOP                         
+                3076    LOAD_GLOBAL                     128: clock
+                3086    LOAD_ATTR                       131: tick
+                3106    LOAD_GLOBAL                     132: framerate_fps
+                3116    CALL                            1
+                3124    LOAD_CONST                      16: 1000
+                3126    BINARY_OP                       11 (/)
+                3130    STORE_FAST                      25: dt
+                3132    LOAD_FAST                       1: running
+                3134    TO_BOOL                         
+                3142    POP_JUMP_IF_FALSE               3 (to 3150)
+                3146    JUMP_BACKWARD                   1561 (to 28)
+                3152    LOAD_GLOBAL                     4: pygame
+                3162    LOAD_ATTR                       134: quit
+                3182    PUSH_NULL                       
+                3184    CALL                            0
+                3192    POP_TOP                         
+                3194    RETURN_CONST                    0: None
+            [Exception Table]
+        '__main__'
+    [Disassembly]
+        0       RESUME                          0
+        2       LOAD_CONST                      0: 0
+        4       LOAD_CONST                      1: None
+        6       IMPORT_NAME                     0: pygame
+        8       STORE_NAME                      0: pygame
+        10      LOAD_CONST                      0: 0
+        12      LOAD_CONST                      1: None
+        14      IMPORT_NAME                     1: enum
+        16      STORE_NAME                      1: enum
+        18      LOAD_CONST                      0: 0
+        20      LOAD_CONST                      1: None
+        22      IMPORT_NAME                     2: random
+        24      STORE_NAME                      2: random
+        26      LOAD_CONST                      0: 0
+        28      LOAD_CONST                      1: None
+        30      IMPORT_NAME                     3: binascii
+        32      STORE_NAME                      3: binascii
+        34      LOAD_NAME                       0: pygame
+        36      LOAD_ATTR                       8: init
+        56      PUSH_NULL                       
+        58      CALL                            0
+        66      POP_TOP                         
+        68      LOAD_NAME                       0: pygame
+        70      LOAD_ATTR                       10: font
+        90      LOAD_ATTR                       9: init
+        110     CALL                            0
+        118     POP_TOP                         
+        120     LOAD_CONST                      2: 800
+        122     STORE_NAME                      6: screen_width
+        124     LOAD_CONST                      3: 600
+        126     STORE_NAME                      7: screen_height
+        128     LOAD_CONST                      4: 60
+        130     STORE_NAME                      8: framerate_fps
+        132     LOAD_CONST                      5: 1.5
+        134     STORE_NAME                      9: object_horizonal_hitbox
+        136     LOAD_CONST                      6: 0.5
+        138     STORE_NAME                      10: object_vertical_hitbox
+        140     LOAD_CONST                      7: 0.4
+        142     STORE_NAME                      11: max_speed
+        144     LOAD_CONST                      8: 0.02
+        146     STORE_NAME                      12: accelerate_increment
+        148     LOAD_CONST                      9: 0.05
+        150     STORE_NAME                      13: decelerate_increment
+        152     LOAD_CONST                      10: 0.1
+        154     STORE_NAME                      14: scale_factor
+        156     LOAD_CONST                      11: 30
+        158     STORE_NAME                      15: pixels_per_meter
+        160     LOAD_CONST                      12: 100
+        162     STORE_NAME                      16: skier_vertical_pixel_location
+        164     LOAD_CONST                      13: 1000
+        166     STORE_GLOBAL                    17: mountain_width
+        168     LOAD_CONST                      14: 23
+        170     STORE_NAME                      18: obstacle_draw_distance
+        172     LOAD_CONST                      15: 5
+        174     STORE_NAME                      19: skier_start
+        176     LOAD_CONST                      16: 10
+        178     STORE_GLOBAL                    20: grace_period
+        180     LOAD_NAME                       0: pygame
+        182     LOAD_ATTR                       42: display
+        202     LOAD_ATTR                       45: set_mode
+        222     LOAD_NAME                       6: screen_width
+        224     LOAD_NAME                       7: screen_height
+        226     BUILD_TUPLE                     2
+        228     CALL                            1
+        236     STORE_NAME                      23: screen
+        238     LOAD_NAME                       0: pygame
+        240     LOAD_ATTR                       48: time
+        260     LOAD_ATTR                       51: Clock
+        280     CALL                            0
+        288     STORE_NAME                      26: clock
+        290     LOAD_CONST                      0: 0
+        292     STORE_NAME                      27: dt
+        294     LOAD_NAME                       0: pygame
+        296     LOAD_ATTR                       56: key
+        316     LOAD_ATTR                       59: set_repeat
+        336     LOAD_CONST                      17: 500
+        338     LOAD_CONST                      12: 100
+        340     CALL                            2
+        348     POP_TOP                         
+        350     LOAD_NAME                       0: pygame
+        352     LOAD_ATTR                       42: display
+        372     LOAD_ATTR                       61: set_caption
+        392     LOAD_CONST                      18: 'FreeSki v0.0'
+        394     CALL                            1
+        402     POP_TOP                         
+        404     LOAD_NAME                       0: pygame
+        406     LOAD_ATTR                       62: transform
+        426     LOAD_ATTR                       65: scale_by
+        446     LOAD_NAME                       0: pygame
+        448     LOAD_ATTR                       66: image
+        468     LOAD_ATTR                       69: load
+        488     LOAD_CONST                      19: 'img/skier.png'
+        490     CALL                            1
+        498     LOAD_NAME                       14: scale_factor
+        500     CALL                            2
+        508     STORE_NAME                      35: skierimage
+        510     LOAD_NAME                       0: pygame
+        512     LOAD_ATTR                       62: transform
+        532     LOAD_ATTR                       65: scale_by
+        552     LOAD_NAME                       0: pygame
+        554     LOAD_ATTR                       66: image
+        574     LOAD_ATTR                       69: load
+        594     LOAD_CONST                      20: 'img/skier_left.png'
+        596     CALL                            1
+        604     LOAD_NAME                       14: scale_factor
+        606     CALL                            2
+        614     STORE_NAME                      36: skier_leftimage
+        616     LOAD_NAME                       0: pygame
+        618     LOAD_ATTR                       62: transform
+        638     LOAD_ATTR                       65: scale_by
+        658     LOAD_NAME                       0: pygame
+        660     LOAD_ATTR                       66: image
+        680     LOAD_ATTR                       69: load
+        700     LOAD_CONST                      21: 'img/skier_right.png'
+        702     CALL                            1
+        710     LOAD_NAME                       14: scale_factor
+        712     CALL                            2
+        720     STORE_NAME                      37: skier_rightimage
+        722     LOAD_NAME                       0: pygame
+        724     LOAD_ATTR                       62: transform
+        744     LOAD_ATTR                       65: scale_by
+        764     LOAD_NAME                       0: pygame
+        766     LOAD_ATTR                       66: image
+        786     LOAD_ATTR                       69: load
+        806     LOAD_CONST                      22: 'img/skier_crash.png'
+        808     CALL                            1
+        816     LOAD_NAME                       14: scale_factor
+        818     CALL                            2
+        826     STORE_NAME                      38: skier_crashimage
+        828     LOAD_NAME                       0: pygame
+        830     LOAD_ATTR                       62: transform
+        850     LOAD_ATTR                       65: scale_by
+        870     LOAD_NAME                       0: pygame
+        872     LOAD_ATTR                       66: image
+        892     LOAD_ATTR                       69: load
+        912     LOAD_CONST                      23: 'img/skier_pizza.png'
+        914     CALL                            1
+        922     LOAD_NAME                       14: scale_factor
+        924     CALL                            2
+        932     STORE_NAME                      39: skier_pizzaimage
+        934     LOAD_NAME                       0: pygame
+        936     LOAD_ATTR                       62: transform
+        956     LOAD_ATTR                       65: scale_by
+        976     LOAD_NAME                       0: pygame
+        978     LOAD_ATTR                       66: image
+        998     LOAD_ATTR                       69: load
+        1018    LOAD_CONST                      24: 'img/tree.png'
+        1020    CALL                            1
+        1028    LOAD_NAME                       14: scale_factor
+        1030    CALL                            2
+        1038    STORE_NAME                      40: treeimage
+        1040    LOAD_NAME                       0: pygame
+        1042    LOAD_ATTR                       62: transform
+        1062    LOAD_ATTR                       65: scale_by
+        1082    LOAD_NAME                       0: pygame
+        1084    LOAD_ATTR                       66: image
+        1104    LOAD_ATTR                       69: load
+        1124    LOAD_CONST                      25: 'img/yeti.png'
+        1126    CALL                            1
+        1134    LOAD_NAME                       14: scale_factor
+        1136    CALL                            2
+        1144    STORE_NAME                      41: yetiimage
+        1146    LOAD_NAME                       0: pygame
+        1148    LOAD_ATTR                       62: transform
+        1168    LOAD_ATTR                       65: scale_by
+        1188    LOAD_NAME                       0: pygame
+        1190    LOAD_ATTR                       66: image
+        1210    LOAD_ATTR                       69: load
+        1230    LOAD_CONST                      26: 'img/treasure.png'
+        1232    CALL                            1
+        1240    LOAD_NAME                       14: scale_factor
+        1242    CALL                            2
+        1250    STORE_NAME                      42: treasureimage
+        1252    LOAD_NAME                       0: pygame
+        1254    LOAD_ATTR                       62: transform
+        1274    LOAD_ATTR                       65: scale_by
+        1294    LOAD_NAME                       0: pygame
+        1296    LOAD_ATTR                       66: image
+        1316    LOAD_ATTR                       69: load
+        1336    LOAD_CONST                      27: 'img/boulder.png'
+        1338    CALL                            1
+        1346    LOAD_NAME                       14: scale_factor
+        1348    CALL                            2
+        1356    STORE_NAME                      43: boulderimage
+        1358    LOAD_NAME                       0: pygame
+        1360    LOAD_ATTR                       62: transform
+        1380    LOAD_ATTR                       65: scale_by
+        1400    LOAD_NAME                       0: pygame
+        1402    LOAD_ATTR                       66: image
+        1422    LOAD_ATTR                       69: load
+        1442    LOAD_CONST                      28: 'img/victory.png'
+        1444    CALL                            1
+        1452    LOAD_CONST                      29: 0.7
+        1454    CALL                            2
+        1462    STORE_NAME                      44: victoryimage
+        1464    LOAD_NAME                       0: pygame
+        1466    LOAD_ATTR                       10: font
+        1486    LOAD_ATTR                       91: Font
+        1506    LOAD_CONST                      30: 'fonts/VT323-Regular.ttf'
+        1508    LOAD_CONST                      31: 24
+        1510    CALL                            2
+        1518    STORE_NAME                      46: gamefont
+        1520    LOAD_NAME                       46: gamefont
+        1522    LOAD_ATTR                       95: render
+        1542    LOAD_CONST                      32: 'Use arrow keys to ski and find the 5 treasures!'
+        1544    LOAD_CONST                      33: False
+        1546    LOAD_NAME                       0: pygame
+        1548    LOAD_ATTR                       96: Color
+        1568    PUSH_NULL                       
+        1570    LOAD_CONST                      34: 'blue'
+        1572    CALL                            1
+        1580    CALL                            3
+        1588    STORE_NAME                      49: text_surface1
+        1590    LOAD_NAME                       46: gamefont
+        1592    LOAD_ATTR                       95: render
+        1612    LOAD_CONST                      35: "          find all the lost bears. don't drill into a rock. Win game."
+        1614    LOAD_CONST                      33: False
+        1616    LOAD_NAME                       0: pygame
+        1618    LOAD_ATTR                       96: Color
+        1638    PUSH_NULL                       
+        1640    LOAD_CONST                      36: 'yellow'
+        1642    CALL                            1
+        1650    CALL                            3
+        1658    STORE_NAME                      50: text_surface2
+        1660    LOAD_NAME                       0: pygame
+        1662    LOAD_ATTR                       10: font
+        1682    LOAD_ATTR                       91: Font
+        1702    LOAD_CONST                      30: 'fonts/VT323-Regular.ttf'
+        1704    LOAD_CONST                      37: 32
+        1706    CALL                            2
+        1714    STORE_NAME                      51: flagfont
+        1716    LOAD_NAME                       51: flagfont
+        1718    LOAD_ATTR                       95: render
+        1738    LOAD_CONST                      38: 'replace me'
+        1740    LOAD_CONST                      33: False
+        1742    LOAD_NAME                       0: pygame
+        1744    LOAD_ATTR                       96: Color
+        1764    PUSH_NULL                       
+        1766    LOAD_CONST                      39: 'saddle brown'
+        1768    CALL                            1
+        1776    CALL                            3
+        1784    STORE_GLOBAL                    52: flag_text_surface
+        1786    LOAD_NAME                       51: flagfont
+        1788    LOAD_ATTR                       95: render
+        1808    LOAD_CONST                      40: 'You win! Drill Baby is reunited with'
+        1810    LOAD_CONST                      33: False
+        1812    LOAD_NAME                       0: pygame
+        1814    LOAD_ATTR                       96: Color
+        1834    PUSH_NULL                       
+        1836    LOAD_CONST                      36: 'yellow'
+        1838    CALL                            1
+        1846    CALL                            3
+        1854    STORE_NAME                      53: flag_message_text_surface1
+        1856    LOAD_NAME                       51: flagfont
+        1858    LOAD_ATTR                       95: render
+        1878    LOAD_CONST                      41: 'all its bears. Welcome to Flare-On 12.'
+        1880    LOAD_CONST                      33: False
+        1882    LOAD_NAME                       0: pygame
+        1884    LOAD_ATTR                       96: Color
+        1904    PUSH_NULL                       
+        1906    LOAD_CONST                      36: 'yellow'
+        1908    CALL                            1
+        1916    CALL                            3
+        1924    STORE_NAME                      54: flag_message_text_surface2
+        1926    LOAD_BUILD_CLASS                
+        1928    PUSH_NULL                       
+        1930    LOAD_CONST                      42: <CODE> SkierStates
+        1932    MAKE_FUNCTION                   
+        1934    LOAD_CONST                      43: 'SkierStates'
+        1936    LOAD_NAME                       1: enum
+        1938    LOAD_ATTR                       110: Enum
+        1958    CALL                            3
+        1966    STORE_NAME                      56: SkierStates
+        1968    LOAD_NAME                       56: SkierStates
+        1970    LOAD_ATTR                       114: CRUISING
+        1990    LOAD_NAME                       35: skierimage
+        1992    LOAD_NAME                       56: SkierStates
+        1994    LOAD_ATTR                       116: ACCELERATING
+        2014    LOAD_NAME                       35: skierimage
+        2016    LOAD_NAME                       56: SkierStates
+        2018    LOAD_ATTR                       118: DECELERATING
+        2038    LOAD_NAME                       39: skier_pizzaimage
+        2040    LOAD_NAME                       56: SkierStates
+        2042    LOAD_ATTR                       120: TURNING_LEFT
+        2062    LOAD_NAME                       36: skier_leftimage
+        2064    LOAD_NAME                       56: SkierStates
+        2066    LOAD_ATTR                       122: TURNING_RIGHT
+        2086    LOAD_NAME                       37: skier_rightimage
+        2088    LOAD_NAME                       56: SkierStates
+        2090    LOAD_ATTR                       124: CRASHED
+        2110    LOAD_NAME                       38: skier_crashimage
+        2112    BUILD_MAP                       6
+        2114    STORE_NAME                      63: SkierStateImages
+        2116    LOAD_BUILD_CLASS                
+        2118    PUSH_NULL                       
+        2120    LOAD_CONST                      44: <CODE> Skier
+        2122    MAKE_FUNCTION                   
+        2124    LOAD_CONST                      45: 'Skier'
+        2126    CALL                            2
+        2134    STORE_NAME                      64: Skier
+        2136    LOAD_BUILD_CLASS                
+        2138    PUSH_NULL                       
+        2140    LOAD_CONST                      46: <CODE> Obstacles
+        2142    MAKE_FUNCTION                   
+        2144    LOAD_CONST                      47: 'Obstacles'
+        2146    LOAD_NAME                       1: enum
+        2148    LOAD_ATTR                       110: Enum
+        2168    CALL                            3
+        2176    STORE_NAME                      65: Obstacles
+        2178    LOAD_NAME                       65: Obstacles
+        2180    LOAD_ATTR                       132: BOULDER
+        2200    LOAD_NAME                       43: boulderimage
+        2202    LOAD_NAME                       65: Obstacles
+        2204    LOAD_ATTR                       134: TREE
+        2224    LOAD_NAME                       40: treeimage
+        2226    LOAD_NAME                       65: Obstacles
+        2228    LOAD_ATTR                       136: YETI
+        2248    LOAD_NAME                       41: yetiimage
+        2250    LOAD_NAME                       65: Obstacles
+        2252    LOAD_ATTR                       138: TREASURE
+        2272    LOAD_NAME                       42: treasureimage
+        2274    BUILD_MAP                       4
+        2276    STORE_NAME                      70: ObstacleImages
+        2278    LOAD_NAME                       65: Obstacles
+        2280    LOAD_ATTR                       132: BOULDER
+        2300    LOAD_CONST                      48: 0.005
+        2302    LOAD_NAME                       65: Obstacles
+        2304    LOAD_ATTR                       134: TREE
+        2324    LOAD_CONST                      49: 0.01
+        2326    LOAD_NAME                       65: Obstacles
+        2328    LOAD_ATTR                       136: YETI
+        2348    LOAD_CONST                      48: 0.005
+        2350    BUILD_MAP                       3
+        2352    STORE_NAME                      71: ObstacleProbabilities
+        2354    LOAD_NAME                       65: Obstacles
+        2356    LOAD_ATTR                       132: BOULDER
+        2376    LOAD_CONST                      10: 0.1
+        2378    LOAD_NAME                       65: Obstacles
+        2380    LOAD_ATTR                       134: TREE
+        2400    LOAD_CONST                      10: 0.1
+        2402    LOAD_NAME                       65: Obstacles
+        2404    LOAD_ATTR                       136: YETI
+        2424    LOAD_CONST                      10: 0.1
+        2426    BUILD_MAP                       3
+        2428    STORE_NAME                      72: fakeObstacleProbabilities
+        2430    LOAD_CONST                      50: <CODE> CalculateObstacleProbabilityRanges
+        2432    MAKE_FUNCTION                   
+        2434    STORE_NAME                      73: CalculateObstacleProbabilityRanges
+        2436    LOAD_NAME                       73: CalculateObstacleProbabilityRanges
+        2438    PUSH_NULL                       
+        2440    LOAD_NAME                       71: ObstacleProbabilities
+        2442    CALL                            1
+        2450    STORE_NAME                      74: ObstacleProbabilitiesRanges
+        2452    LOAD_BUILD_CLASS                
+        2454    PUSH_NULL                       
+        2456    LOAD_CONST                      51: <CODE> Mountain
+        2458    MAKE_FUNCTION                   
+        2460    LOAD_CONST                      52: 'Mountain'
+        2462    CALL                            2
+        2470    STORE_NAME                      75: Mountain
+        2472    LOAD_NAME                       75: Mountain
+        2474    PUSH_NULL                       
+        2476    LOAD_CONST                      53: 'Mount Snow'
+        2478    LOAD_CONST                      54: 3586
+        2480    LOAD_CONST                      55: 3400
+        2482    LOAD_CONST                      56: 2400
+        2484    LOAD_CONST                      57: b'\x90\x00\x1d\xbc\x17b\xed6S"\xb0<Y\xd6\xce\x169\xae\xe9|\xe2Gs\xb7\xfdy\xcf5\x98'
+        2486    CALL                            5
+        2494    LOAD_NAME                       75: Mountain
+        2496    PUSH_NULL                       
+        2498    LOAD_CONST                      58: 'Aspen'
+        2500    LOAD_CONST                      59: 11211
+        2502    LOAD_CONST                      60: 11000
+        2504    LOAD_CONST                      61: 10000
+        2506    LOAD_CONST                      62: b'U\xd7%x\xbfvj!\xfe\x9d\xb9\xc2\xd1k\x02y\x17\x9dK\x98\xf1\x92\x0f!\xf1\\\xa0\x1b\x0f'
+        2508    CALL                            5
+        2516    LOAD_NAME                       75: Mountain
+        2518    PUSH_NULL                       
+        2520    LOAD_CONST                      63: 'Whistler'
+        2522    LOAD_CONST                      64: 7156
+        2524    LOAD_CONST                      65: 6000
+        2526    LOAD_CONST                      66: 6500
+        2528    LOAD_CONST                      67: b'\x1cN\x13\x1a\x97\xd4\xb2!\xf9\xf6\xd4#\xee\xebh\xecs.\x08M!hr9?\xde\x0c\x86\x02'
+        2530    CALL                            5
+        2538    LOAD_NAME                       75: Mountain
+        2540    PUSH_NULL                       
+        2542    LOAD_CONST                      68: 'Mount Baker'
+        2544    LOAD_CONST                      69: 10781
+        2546    LOAD_CONST                      70: 9000
+        2548    LOAD_CONST                      65: 6000
+        2550    LOAD_CONST                      71: b'\xac\xf9#\xf4T\xf1%h\xbe3FI+h\r\x01V\xee\xc2C\x13\xf3\x97ef\xac\xe3z\x96'
+        2552    CALL                            5
+        2560    LOAD_NAME                       75: Mountain
+        2562    PUSH_NULL                       
+        2564    LOAD_CONST                      72: 'Mount Norquay'
+        2566    LOAD_CONST                      73: 6998
+        2568    LOAD_CONST                      74: 6300
+        2570    LOAD_CONST                      75: 3000
+        2572    LOAD_CONST                      76: b'\x0c\x1c\xad!\xc6,\xec0\x0b+"\x9f@.\xc8\x13\xadb\x86\xea{\xfeS\xe0S\x85\x90\x03q'
+        2574    CALL                            5
+        2582    LOAD_NAME                       75: Mountain
+        2584    PUSH_NULL                       
+        2586    LOAD_CONST                      77: 'Mount Erciyes'
+        2588    LOAD_CONST                      78: 12848
+        2590    LOAD_CONST                      61: 10000
+        2592    LOAD_CONST                      79: 12000
+        2594    LOAD_CONST                      80: b'n\xad\xb4l^I\xdb\xe1\xd0\x7f\x92\x92\x96\x1bq\xca`PvWg\x85\xb21^\x93F\x1a\xee'
+        2596    CALL                            5
+        2604    LOAD_NAME                       75: Mountain
+        2606    PUSH_NULL                       
+        2608    LOAD_CONST                      81: 'Dragonmount'
+        2610    LOAD_CONST                      82: 16282
+        2612    LOAD_CONST                      83: 15500
+        2614    LOAD_CONST                      84: 16000
+        2616    LOAD_CONST                      85: b'Z\xf9\xdf\x7f_\x02\xd8\x89\x12\xd2\x11p\xb6\x96\x19\x05x))v\xc3\xecv\xf4\xe2\\\x9a\xbe\xb5'
+        2618    CALL                            5
+        2626    BUILD_LIST                      7
+        2628    STORE_GLOBAL                    76: Mountains
+        2630    LOAD_BUILD_CLASS                
+        2632    PUSH_NULL                       
+        2634    LOAD_CONST                      86: <CODE> ObstacleSet
+        2636    MAKE_FUNCTION                   
+        2638    LOAD_CONST                      87: 'ObstacleSet'
+        2640    LOAD_NAME                       77: list
+        2642    CALL                            3
+        2650    STORE_NAME                      78: ObstacleSet
+        2652    LOAD_CONST                      88: <CODE> SetFlag
+        2654    MAKE_FUNCTION                   
+        2656    STORE_NAME                      79: SetFlag
+        2658    LOAD_CONST                      89: <CODE> main
+        2660    MAKE_FUNCTION                   
+        2662    STORE_NAME                      80: main
+        2664    LOAD_NAME                       81: __name__
+        2666    LOAD_CONST                      90: '__main__'
+        2668    COMPARE_OP                      88 (==)
+        2672    POP_JUMP_IF_FALSE               8 (to 2690)
+        2676    LOAD_NAME                       80: main
+        2678    PUSH_NULL                       
+        2680    CALL                            0
+        2688    POP_TOP                         
+        2690    RETURN_CONST                    1: None
+        2692    RETURN_CONST                    1: None
+    [Exception Table]

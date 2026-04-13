@@ -1,0 +1,832 @@
+{
+  "documents": [
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/gnomes/6J2bowmKiNVbITWmR4XsxjH7i492",
+      "fields": {
+        "driversLicenseUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-documents/6J2bowmKiNVbITWmR4XsxjH7i492_drivers_license.jpeg"
+        },
+        "email": {
+          "stringValue": "professorpumpernickel@gnomemail.dosis"
+        },
+        "interests": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "gardening"
+              },
+              {
+                "stringValue": "mushrooms"
+              },
+              {
+                "stringValue": "gossip"
+              }
+            ]
+          }
+        },
+        "homeLocation": {
+          "stringValue": "Gnomewood Grove, Dosis Neighborhood"
+        },
+        "avatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/6J2bowmKiNVbITWmR4XsxjH7i492_profile.png"
+        },
+        "bio": {
+          "stringValue": "An erudite loaf-loving lecturer who measures the stars in crumbs and the weather in yeast. Wears spectacles made from jam jars and teaches fungi philosophy at the Elm Academy."
+        },
+        "uid": {
+          "stringValue": "6J2bowmKiNVbITWmR4XsxjH7i492"
+        },
+        "createdAt": {
+          "timestampValue": "2025-09-30T18:21:46.843Z"
+        },
+        "name": {
+          "stringValue": "Professor Pumpernickel"
+        }
+      },
+      "createTime": "2025-09-30T18:21:46.850133Z",
+      "updateTime": "2025-09-30T19:19:05.495116Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/gnomes/6nBUHcdxo2fLKSYqYyipr9iCOey2",
+      "fields": {
+        "homeLocation": {
+          "stringValue": "Maple Mist Court, Dosis Neighborhood"
+        },
+        "driversLicenseUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-documents/6nBUHcdxo2fLKSYqYyipr9iCOey2_drivers_license.jpeg"
+        },
+        "createdAt": {
+          "timestampValue": "2025-09-30T18:21:51.096Z"
+        },
+        "interests": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "gardening"
+              },
+              {
+                "stringValue": "mushrooms"
+              },
+              {
+                "stringValue": "gossip"
+              }
+            ]
+          }
+        },
+        "bio": {
+          "stringValue": "Former animation mogul who recently left his big studio gig and is cruising the neighborhood looking for his next creative venture. He still whistles old tugboat tunes and hands out business cards made of steam."
+        },
+        "email": {
+          "stringValue": "steamymcsteamface@gnomemail.dosis"
+        },
+        "name": {
+          "stringValue": "Steamy Mcsteamface"
+        },
+        "avatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/6nBUHcdxo2fLKSYqYyipr9iCOey2_profile.png"
+        },
+        "uid": {
+          "stringValue": "6nBUHcdxo2fLKSYqYyipr9iCOey2"
+        }
+      },
+      "createTime": "2025-09-30T18:21:51.103326Z",
+      "updateTime": "2025-09-30T19:19:05.598952Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/gnomes/7sQlw9l4xUOWSjDTphvLgKVEm0j1",
+      "fields": {
+        "avatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/7sQlw9l4xUOWSjDTphvLgKVEm0j1_profile.png"
+        },
+        "homeLocation": {
+          "stringValue": "Dewdrop Drive, Dosis Neighborhood"
+        },
+        "bio": {
+          "stringValue": "A fearless explorer of damp leaf litter who naps on his favorite red-spotted umbrella (strictly no raindrop complaints). He catalogues secret mushroom rings and offers guided tours to timid beetles."
+        },
+        "name": {
+          "stringValue": "Titus Toadstool"
+        },
+        "createdAt": {
+          "timestampValue": "2025-09-30T18:21:52.601Z"
+        },
+        "interests": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "gardening"
+              },
+              {
+                "stringValue": "mushrooms"
+              },
+              {
+                "stringValue": "gossip"
+              }
+            ]
+          }
+        },
+        "uid": {
+          "stringValue": "7sQlw9l4xUOWSjDTphvLgKVEm0j1"
+        },
+        "driversLicenseUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-documents/7sQlw9l4xUOWSjDTphvLgKVEm0j1_drivers_license.jpeg"
+        },
+        "email": {
+          "stringValue": "titustoadstool@gnomemail.dosis"
+        }
+      },
+      "createTime": "2025-09-30T18:21:52.609749Z",
+      "updateTime": "2025-09-30T19:19:05.688962Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/gnomes/G5c0vX06WOaEf1YKutqkur4HEU63",
+      "fields": {
+        "uid": {
+          "stringValue": "G5c0vX06WOaEf1YKutqkur4HEU63"
+        },
+        "avatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/G5c0vX06WOaEf1YKutqkur4HEU63_profile.png"
+        },
+        "email": {
+          "stringValue": "reggiereggae@gnomemail.dosis"
+        },
+        "bio": {
+          "stringValue": "Plays mellow tunes on a tin-can guitar, swaying sunflowers into conga lines and convincing grumpy snails to groove. Wears sunglasses carved from acorn caps and spreads peace, mint tea, and foot-tapping rhythms."
+        },
+        "driversLicenseUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-documents/G5c0vX06WOaEf1YKutqkur4HEU63_drivers_license.jpeg"
+        },
+        "interests": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "gardening"
+              },
+              {
+                "stringValue": "mushrooms"
+              },
+              {
+                "stringValue": "gossip"
+              }
+            ]
+          }
+        },
+        "createdAt": {
+          "timestampValue": "2025-09-30T18:21:48.255Z"
+        },
+        "homeLocation": {
+          "stringValue": "Enchanted Elm Street, Dosis Neighborhood"
+        },
+        "name": {
+          "stringValue": "Reggie Reggae"
+        }
+      },
+      "createTime": "2025-09-30T18:21:48.265788Z",
+      "updateTime": "2025-09-30T19:19:05.766737Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/gnomes/IvLFBZQgo3R6iteLHmShbWmctqo2",
+      "fields": {
+        "avatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/IvLFBZQgo3R6iteLHmShbWmctqo2_profile.png"
+        },
+        "createdAt": {
+          "timestampValue": "2025-09-30T18:21:32.318Z"
+        },
+        "homeLocation": {
+          "stringValue": "Mushroom Meadows, Dosis Neighborhood"
+        },
+        "interests": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "gardening"
+              },
+              {
+                "stringValue": "mushrooms"
+              },
+              {
+                "stringValue": "gossip"
+              }
+            ]
+          }
+        },
+        "driversLicenseUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-documents/IvLFBZQgo3R6iteLHmShbWmctqo2_drivers_license.jpeg"
+        },
+        "email": {
+          "stringValue": "chestercherryhat@gnomemail.dosis"
+        },
+        "name": {
+          "stringValue": "Chester Cherryhat"
+        },
+        "uid": {
+          "stringValue": "IvLFBZQgo3R6iteLHmShbWmctqo2"
+        },
+        "bio": {
+          "stringValue": "Dapper gnome with a cherry-stem bowtie and a hat that doubles as a picnic basket; insists on proper manners and perfectly polished boots. Hosts afternoon tea parties where he judges ornamental topiary and dispenses compliments by the dozen."
+        }
+      },
+      "createTime": "2025-09-30T18:21:32.326346Z",
+      "updateTime": "2025-09-30T19:19:05.829876Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/gnomes/LA5w0EskgSbQyFnlp9OrX8Zovu43",
+      "fields": {
+        "bio": {
+          "stringValue": "Ethical hacker-for-hire who debugs garden irrigation systems and leaves helpful security notes on sticky patches. He wears tiny wireframe glasses and carries a soldering iron shaped like a conscience."
+        },
+        "createdAt": {
+          "timestampValue": "2025-09-30T18:21:38.345Z"
+        },
+        "email": {
+          "stringValue": "glitchmitnick@gnomemail.dosis"
+        },
+        "homeLocation": {
+          "stringValue": "Pixie Hollow Lane, Dosis Neighborhood"
+        },
+        "driversLicenseUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-documents/LA5w0EskgSbQyFnlp9OrX8Zovu43_drivers_license.jpeg"
+        },
+        "avatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/LA5w0EskgSbQyFnlp9OrX8Zovu43_profile.png"
+        },
+        "name": {
+          "stringValue": "Glitch Mitnick"
+        },
+        "interests": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "gardening"
+              },
+              {
+                "stringValue": "mushrooms"
+              },
+              {
+                "stringValue": "gossip"
+              }
+            ]
+          }
+        },
+        "uid": {
+          "stringValue": "LA5w0EskgSbQyFnlp9OrX8Zovu43"
+        }
+      },
+      "createTime": "2025-09-30T18:21:38.352794Z",
+      "updateTime": "2025-09-30T19:19:05.883768Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/gnomes/LOPFa6rXj6eB7uMVHu6IbKARYbe2",
+      "fields": {
+        "homeLocation": {
+          "stringValue": "Maple Mist Court, Dosis Neighborhood"
+        },
+        "createdAt": {
+          "timestampValue": "2025-09-30T18:21:53.925Z"
+        },
+        "interests": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "gardening"
+              },
+              {
+                "stringValue": "mushrooms"
+              },
+              {
+                "stringValue": "gossip"
+              }
+            ]
+          }
+        },
+        "email": {
+          "stringValue": "wizzystardust@gnomemail.dosis"
+        },
+        "driversLicenseUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-documents/LOPFa6rXj6eB7uMVHu6IbKARYbe2_drivers_license.jpeg"
+        },
+        "avatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/LOPFa6rXj6eB7uMVHu6IbKARYbe2_profile.png"
+        },
+        "uid": {
+          "stringValue": "LOPFa6rXj6eB7uMVHu6IbKARYbe2"
+        },
+        "bio": {
+          "stringValue": "A glitter-sprinkled dreamer who charts meteor showers from puddle-reflecting telescopes and gives unsolicited horoscope readings to daisies. Rumored to have once taught a moonbeam how to play hopscotch."
+        },
+        "name": {
+          "stringValue": "Wizzy Stardust"
+        }
+      },
+      "createTime": "2025-09-30T18:21:53.933691Z",
+      "updateTime": "2025-09-30T19:19:05.947441Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/gnomes/PyxedrsAN2bewsg4Rno9SsCqZHg2",
+      "fields": {
+        "bio": {
+          "stringValue": "Up-and-coming rapper with a gold chain so heavy it drags in the dirt, spitting bars about mulch and making it rain with sunflower seeds. His mixtape \"Garden State of Mind\" dropped last spring."
+        },
+        "uid": {
+          "stringValue": "PyxedrsAN2bewsg4Rno9SsCqZHg2"
+        },
+        "homeLocation": {
+          "stringValue": "Mushroom Meadows, Dosis Neighborhood"
+        },
+        "avatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/PyxedrsAN2bewsg4Rno9SsCqZHg2_profile.png"
+        },
+        "driversLicenseUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-documents/PyxedrsAN2bewsg4Rno9SsCqZHg2_drivers_license.jpeg"
+        },
+        "email": {
+          "stringValue": "gnormangoldchain@gnomemail.dosis"
+        },
+        "createdAt": {
+          "timestampValue": "2025-09-30T18:21:41.146Z"
+        },
+        "name": {
+          "stringValue": "Gnorman Goldchain"
+        },
+        "interests": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "gardening"
+              },
+              {
+                "stringValue": "mushrooms"
+              },
+              {
+                "stringValue": "gossip"
+              }
+            ]
+          }
+        }
+      },
+      "createTime": "2025-09-30T18:21:41.160975Z",
+      "updateTime": "2025-09-30T19:19:06.003457Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/gnomes/RQw0hYxlKIhsTUVPyR8ivrM3ls02",
+      "fields": {
+        "name": {
+          "stringValue": "Flex Muscle"
+        },
+        "avatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/RQw0hYxlKIhsTUVPyR8ivrM3ls02_profile.png"
+        },
+        "homeLocation": {
+          "stringValue": "Mushroom Meadows, Dosis Neighborhood"
+        },
+        "bio": {
+          "stringValue": "Competitive bodybuilder who lifts rocks for reps and flexes at his reflection in birdbaths. Despite the bulk, he has a gentle soul and does yoga with the caterpillars at dawn."
+        },
+        "createdAt": {
+          "timestampValue": "2025-09-30T18:21:36.804Z"
+        },
+        "driversLicenseUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-documents/RQw0hYxlKIhsTUVPyR8ivrM3ls02_drivers_license.jpeg"
+        },
+        "email": {
+          "stringValue": "flexmuscle@gnomemail.dosis"
+        },
+        "interests": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "gardening"
+              },
+              {
+                "stringValue": "mushrooms"
+              },
+              {
+                "stringValue": "gossip"
+              }
+            ]
+          }
+        },
+        "uid": {
+          "stringValue": "RQw0hYxlKIhsTUVPyR8ivrM3ls02"
+        }
+      },
+      "createTime": "2025-09-30T18:21:36.833966Z",
+      "updateTime": "2025-09-30T19:19:06.074960Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/gnomes/VgJCVlELJ6VfQTxeIt1dR5PWyiX2",
+      "fields": {
+        "avatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/VgJCVlELJ6VfQTxeIt1dR5PWyiX2_profile.png"
+        },
+        "createdAt": {
+          "timestampValue": "2025-09-30T18:21:45.351Z"
+        },
+        "interests": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "gardening"
+              },
+              {
+                "stringValue": "mushrooms"
+              },
+              {
+                "stringValue": "gossip"
+              }
+            ]
+          }
+        },
+        "name": {
+          "stringValue": "Pip Sparkletoes"
+        },
+        "uid": {
+          "stringValue": "VgJCVlELJ6VfQTxeIt1dR5PWyiX2"
+        },
+        "email": {
+          "stringValue": "pipsparkletoes@gnomemail.dosis"
+        },
+        "driversLicenseUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-documents/VgJCVlELJ6VfQTxeIt1dR5PWyiX2_drivers_license.jpeg"
+        },
+        "bio": {
+          "stringValue": "Tiny and lightning-fast, Pip tap dances on dewdrops and leaves faint trails of fairy glitter where she twirls. She organizes nightly flash-mob ballets for fireflies and refuses to wear anything without sequins."
+        },
+        "homeLocation": {
+          "stringValue": "Blossom Brook, Dosis Neighborhood"
+        }
+      },
+      "createTime": "2025-09-30T18:21:45.358580Z",
+      "updateTime": "2025-09-30T19:19:06.130769Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/gnomes/golJeh7xg9YUvcj5nDugTssQPy62",
+      "fields": {
+        "email": {
+          "stringValue": "grizeldagrittooth@gnomemail.dosis"
+        },
+        "homeLocation": {
+          "stringValue": "Dewdrop Drive, Dosis Neighborhood"
+        },
+        "bio": {
+          "stringValue": "Definitely not a gremlin in disguise trying very hard to fit in as a gnome, complete with painted-on rosy cheeks and an overly cheerful greeting voice. She sometimes forgets to hide her tail."
+        },
+        "interests": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "gardening"
+              },
+              {
+                "stringValue": "mushrooms"
+              },
+              {
+                "stringValue": "gossip"
+              }
+            ]
+          }
+        },
+        "driversLicenseUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-documents/golJeh7xg9YUvcj5nDugTssQPy62_drivers_license.jpeg"
+        },
+        "uid": {
+          "stringValue": "golJeh7xg9YUvcj5nDugTssQPy62"
+        },
+        "name": {
+          "stringValue": "Grizelda Grit-Tooth"
+        },
+        "avatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/golJeh7xg9YUvcj5nDugTssQPy62_profile.png"
+        },
+        "createdAt": {
+          "timestampValue": "2025-09-30T18:21:42.625Z"
+        }
+      },
+      "createTime": "2025-09-30T18:21:42.632397Z",
+      "updateTime": "2025-09-30T19:19:06.187649Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/gnomes/jlm1nPFV5xWM4jQaokLHDb6K8kj1",
+      "fields": {
+        "uid": {
+          "stringValue": "jlm1nPFV5xWM4jQaokLHDb6K8kj1"
+        },
+        "createdAt": {
+          "timestampValue": "2025-09-30T18:21:39.806Z"
+        },
+        "homeLocation": {
+          "stringValue": "Maple Mist Court, Dosis Neighborhood"
+        },
+        "driversLicenseUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-documents/jlm1nPFV5xWM4jQaokLHDb6K8kj1_drivers_license.jpeg"
+        },
+        "bio": {
+          "stringValue": "Stoic garden guardian programmed for collective prosperity and equal distribution of compost resources. He speaks in monotone about the people's garden and offers suspiciously generous mulch shares."
+        },
+        "avatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/jlm1nPFV5xWM4jQaokLHDb6K8kj1_profile.png"
+        },
+        "email": {
+          "stringValue": "gnominatort800@gnomemail.dosis"
+        },
+        "interests": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "gardening"
+              },
+              {
+                "stringValue": "mushrooms"
+              },
+              {
+                "stringValue": "gossip"
+              }
+            ]
+          }
+        },
+        "name": {
+          "stringValue": "Gnom-inator T-800"
+        }
+      },
+      "createTime": "2025-09-30T18:21:39.813294Z",
+      "updateTime": "2025-09-30T19:19:06.253261Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/gnomes/kmoZyOIt7sWgehQC8ovcsxXPWUS2",
+      "fields": {
+        "email": {
+          "stringValue": "rowdyrootrouser@gnomemail.dosis"
+        },
+        "uid": {
+          "stringValue": "kmoZyOIt7sWgehQC8ovcsxXPWUS2"
+        },
+        "driversLicenseUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-documents/kmoZyOIt7sWgehQC8ovcsxXPWUS2_drivers_license.jpeg"
+        },
+        "name": {
+          "stringValue": "Rowdy Root-Rouser"
+        },
+        "createdAt": {
+          "timestampValue": "2025-09-30T18:21:49.678Z"
+        },
+        "interests": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "gardening"
+              },
+              {
+                "stringValue": "mushrooms"
+              },
+              {
+                "stringValue": "gossip"
+              }
+            ]
+          }
+        },
+        "avatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/kmoZyOIt7sWgehQC8ovcsxXPWUS2_profile.png"
+        },
+        "homeLocation": {
+          "stringValue": "Fairy Ring Road, Dosis Neighborhood"
+        },
+        "bio": {
+          "stringValue": "Passionate football hooligan from the old country who paints his face with pollen and chants victory songs for his team, The Dosis Dandelions. He organized a supporters club that meets by the shed."
+        }
+      },
+      "createTime": "2025-09-30T18:21:49.685949Z",
+      "updateTime": "2025-09-30T19:19:06.320416Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/gnomes/l7VS01K9GKV5ir5S8suDcwOFEpp2",
+      "fields": {
+        "interests": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "gardening"
+              },
+              {
+                "stringValue": "mushrooms"
+              },
+              {
+                "stringValue": "gossip"
+              }
+            ]
+          }
+        },
+        "name": {
+          "stringValue": "Barnaby Briefcase"
+        },
+        "bio": {
+          "stringValue": "Corporate ladder-climber with a leather briefcase full of seed contracts, quarterly reports, and a suspiciously large collection of business cards. He schedules synergy meetings and talks about \"disrupting the garden space.\""
+        },
+        "createdAt": {
+          "timestampValue": "2025-09-30T18:21:29.604Z"
+        },
+        "avatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/l7VS01K9GKV5ir5S8suDcwOFEpp2_profile.png"
+        },
+        "email": {
+          "stringValue": "barnabybriefcase@gnomemail.dosis"
+        },
+        "homeLocation": {
+          "stringValue": "Gnomewood Grove, Dosis Neighborhood"
+        },
+        "uid": {
+          "stringValue": "l7VS01K9GKV5ir5S8suDcwOFEpp2"
+        },
+        "driversLicenseUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-documents/l7VS01K9GKV5ir5S8suDcwOFEpp2_drivers_license.jpeg"
+        }
+      },
+      "createTime": "2025-09-30T18:21:29.617348Z",
+      "updateTime": "2025-09-30T19:09:06.541085Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/gnomes/prxA2hBSkhg3dkhkfzvnlGxCCfP2",
+      "fields": {
+        "interests": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "gardening"
+              },
+              {
+                "stringValue": "mushrooms"
+              },
+              {
+                "stringValue": "gossip"
+              }
+            ]
+          }
+        },
+        "avatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/prxA2hBSkhg3dkhkfzvnlGxCCfP2_profile.png"
+        },
+        "createdAt": {
+          "timestampValue": "2025-09-30T18:21:33.684Z"
+        },
+        "email": {
+          "stringValue": "elderickmossbeard@gnomemail.dosis"
+        },
+        "bio": {
+          "stringValue": "Ancient wise gnome who recently shaved his iconic moss beard, leaving everyone confused about his name and questioning their memories. He keeps explaining it but nobody seems to remember."
+        },
+        "driversLicenseUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-documents/prxA2hBSkhg3dkhkfzvnlGxCCfP2_drivers_license.jpeg"
+        },
+        "name": {
+          "stringValue": "Elderick Mossbeard"
+        },
+        "homeLocation": {
+          "stringValue": "Pixie Hollow Lane, Dosis Neighborhood"
+        },
+        "uid": {
+          "stringValue": "prxA2hBSkhg3dkhkfzvnlGxCCfP2"
+        }
+      },
+      "createTime": "2025-09-30T18:21:33.699070Z",
+      "updateTime": "2025-09-30T19:19:06.427653Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/gnomes/pwbhMFuRbkesddTrtT3gVRzv8Ux1",
+      "fields": {
+        "email": {
+          "stringValue": "ferdinandfiggypudding@gnomemail.dosis"
+        },
+        "uid": {
+          "stringValue": "pwbhMFuRbkesddTrtT3gVRzv8Ux1"
+        },
+        "interests": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "gardening"
+              },
+              {
+                "stringValue": "mushrooms"
+              },
+              {
+                "stringValue": "gossip"
+              }
+            ]
+          }
+        },
+        "avatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/pwbhMFuRbkesddTrtT3gVRzv8Ux1_profile.png"
+        },
+        "homeLocation": {
+          "stringValue": "Toadstool Terrace, Dosis Neighborhood"
+        },
+        "bio": {
+          "stringValue": "Well-bred and slightly squishy, Ferdinand judges every dessert by its wobble and will duel you for the last spoonful of Figgy Pudding à la mode. Keeps a monocle, a recipe book bound in bark, and an army of polite spoons."
+        },
+        "createdAt": {
+          "timestampValue": "2025-09-30T18:21:35.096Z"
+        },
+        "driversLicenseUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-documents/pwbhMFuRbkesddTrtT3gVRzv8Ux1_drivers_license.jpeg"
+        },
+        "name": {
+          "stringValue": "Ferdinand Figgypudding"
+        }
+      },
+      "createTime": "2025-09-30T18:21:35.103425Z",
+      "updateTime": "2025-09-30T19:19:06.486481Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/gnomes/q6GasKLVBYSo3g4c1mI6qXDpRmv2",
+      "fields": {
+        "bio": {
+          "stringValue": "Inventive tinker whose hat jingles with tiny gears and bells, announcing every brilliant (and occasionally exploding) idea. Runs the neighborhood clockwork choir and doubles as the emergency party-starter."
+        },
+        "avatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/q6GasKLVBYSo3g4c1mI6qXDpRmv2_profile.png"
+        },
+        "createdAt": {
+          "timestampValue": "2025-09-30T18:21:30.930Z"
+        },
+        "homeLocation": {
+          "stringValue": "Moonbeam Manor, Dosis Neighborhood"
+        },
+        "interests": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "gardening"
+              },
+              {
+                "stringValue": "mushrooms"
+              },
+              {
+                "stringValue": "gossip"
+              }
+            ]
+          }
+        },
+        "name": {
+          "stringValue": "Bixby Jinglehat"
+        },
+        "email": {
+          "stringValue": "bixbyjinglehat@gnomemail.dosis"
+        },
+        "driversLicenseUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-documents/q6GasKLVBYSo3g4c1mI6qXDpRmv2_drivers_license.jpeg"
+        },
+        "uid": {
+          "stringValue": "q6GasKLVBYSo3g4c1mI6qXDpRmv2"
+        }
+      },
+      "createTime": "2025-09-30T18:21:30.937177Z",
+      "updateTime": "2025-09-30T19:19:06.560381Z"
+    },
+    {
+      "name": "projects/holidayhack2025/databases/(default)/documents/gnomes/xK25sJX7usSwAJwAjpN8DMfzS872",
+      "fields": {
+        "avatarUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-avatars/xK25sJX7usSwAJwAjpN8DMfzS872_profile.png"
+        },
+        "name": {
+          "stringValue": "Lil G"
+        },
+        "email": {
+          "stringValue": "lilg@gnomemail.dosis"
+        },
+        "interests": {
+          "arrayValue": {
+            "values": [
+              {
+                "stringValue": "gardening"
+              },
+              {
+                "stringValue": "mushrooms"
+              },
+              {
+                "stringValue": "gossip"
+              }
+            ]
+          }
+        },
+        "homeLocation": {
+          "stringValue": "Pebble Path Place, Dosis Neighborhood"
+        },
+        "bio": {
+          "stringValue": "Wannabe rapper hustling his fire mixtape \"Gnome Sweet Gnome\" to anyone who'll listen. He freestyles about the streets (garden paths) and hands out burned CDs wrapped in cabbage leaves."
+        },
+        "driversLicenseUrl": {
+          "stringValue": "https://storage.googleapis.com/holidayhack2025.firebasestorage.app/gnome-documents/xK25sJX7usSwAJwAjpN8DMfzS872_drivers_license.jpeg"
+        },
+        "uid": {
+          "stringValue": "xK25sJX7usSwAJwAjpN8DMfzS872"
+        },
+        "createdAt": {
+          "timestampValue": "2025-09-30T18:21:44.063Z"
+        }
+      },
+      "createTime": "2025-09-30T18:21:44.072972Z",
+      "updateTime": "2025-09-30T19:19:06.613513Z"
+    }
+  ]
+}

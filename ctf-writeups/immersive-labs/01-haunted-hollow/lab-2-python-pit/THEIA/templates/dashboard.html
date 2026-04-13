@@ -1,0 +1,62 @@
+{% extends 'page.html' %}
+
+{% block content %}
+<div class="text-center">
+    <h2 class="text-center">Current Operator: {{ operator }}</h2>
+    <form class="text-center" action="{{ url_for('operator.upload_avatar') }}" method="post" enctype="multipart/form-data">
+        <label for="avatar">Upload your avatar:</label>
+        <input class="btn btn-  outline-success" type="file" id="avatar" name="file">
+        <input class="btn btn-outline-success" type="submit" value="Upload">
+    </form>
+</div>
+<!-- {% import 'flash.html' as flash %} -->
+{{ flash.render() }}
+<div class="container mb-3">
+    <div class="row p-3 g-3 row-cols-1 row-cols-xl-2">
+        {% import 'card.html' as card %}
+            {% for obstacle in obstacles %}
+            {{ card.obstacle(obstacle.name, obstacle.rate, obstacle.operational, obstacle.img_name, obstacle.description) }}
+            {% endfor %}
+    </div>
+</div>
+<!-- If you want to shut this pit down for good and get out of this place, you'll need this code - OuroborosAreWheels -->
+<div class="container text-white">
+    {% for log in logs %}
+    <div class="card border border-success bg-dark">
+        <div class="card-body text-white">
+            <h5 class="card-title">Operator Name: {{ log.name }}</h5>
+            <h6 class="card-subtitle mb-2">Obstacle Name: {{ log.obstacle }}</h6>
+            <p class="card-text">Timestamp: {{ log.timestamp }}</p>
+            <canvas id="chart{{ loop.index }}" width="400" height="200"></canvas>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+<script>
+    {% for log in logs %}
+    var ctx = document.getElementById('chart{{ loop.index }}').getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: 'V',
+            datasets: [{
+                label: 'Rate at Time',
+                data: [{{ log.rate_at_time }}],
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                borderColor: 'rgba(75, 192, 192, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    min: 0,
+                    max: 1000,
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+    {% endfor %}
+</script>
+{% endblock %}

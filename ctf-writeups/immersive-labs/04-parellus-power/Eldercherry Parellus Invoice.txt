@@ -1,0 +1,36 @@
+Eldercherry Hampers
+
+Invoice no: 7942
+Invoice date: 03 June 2015
+
+Invoice to:
+CEO PARELLUS POWER
+Phone: +8816577726188
+Email: ceo@parelluspower.corp
+
+NO	ITEM DESCRIPTION		PRICE	QTY	TOTAL
+01	Kite Hamper			£200	2	£400.00
+02	Wine & Cheese Hamper		£100	1	£100.00
+03	Popcorn Gift Basket		£60	1	£60.00
+04	Tech Hamper			£150	3	£450.00
+05	'Sorry You're Leaving' Hamper	£150	1	£150.00
+06 	Warm & Toasty Hamper		£100	1	£100
+07	Snack from Around the World	£50	1	£100
+
+				Subtotal:	£960.00
+				Discount:	£0.00
+				Tax (19%):	£182.40
+
+				TOTAL:		£1142.40
+
+Payment Method
+
+Account no: 28454994-740
+Account name: ﻿Eldercherry ltd
+Branch name: Glasshouse
+
+Terms & Conditions
+All sales are final. Invoice must be paid within 30 days.
+
+
+					THANK YOU FOR YOUR BUSINESS

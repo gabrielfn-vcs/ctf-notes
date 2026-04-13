@@ -1,0 +1,35 @@
+{% extends 'page.html' %}
+
+{% block content %}
+
+<div class="row">
+    <div class="col-md-6 mx-auto">
+        <br>
+        <h1 class="login-header text-center">IS ANYONE THERE? LOG IN IF YOU DARE</h1>
+        <hr>
+        {% import 'flash.html' as flash %}
+        {{ flash.render() }}
+        <br>
+        <form action="login" method="POST">
+            <div class="form-group">
+                <!-- New operators: log in with pypit/breakup-cloud-crates4 until you've been assigned your own account. -->
+                <input
+                        id="email"
+                        name="email" class="form-control input-lg md-3"
+                        type="email" placeholder="Enter your email" required>
+                <input
+                        id="password"
+                        name="password" class="form-control input-lg md-3"
+                        type="password" placeholder="Enter your password" required>
+            </div>
+            <input
+                    id="login_button"
+                    type="submit" class="btn btn-secondary btn-lg btn-block"
+                    value="Submit">
+        </form>
+        <a class="signup-link" href="{{ url_for('auth.signup') }}">Need an account? Sign up here!</a>
+        <div class="footer"></div>
+    </div>
+</div>
+
+{% endblock %}
