@@ -38,7 +38,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Build MkDocs Documentation Site
-        run: mkdocs build
+        run: mkdocs build --strict
 
       - name: Upload Documentation Site Artifact
         uses: actions/upload-pages-artifact@v3
@@ -54,6 +54,6 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
 
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy Site Artifact to GitHub Pages
         id: deploy
         uses: actions/deploy-pages@v4
