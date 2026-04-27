@@ -1,0 +1,7 @@
+nav:
+  - Home: README.md
+  - Techniques: ctf-techniques
+  - Writeups: ctf-writeups
+
+# Remove nesting in the sidebar if only one child exists
+flatten_single_child_sections: true

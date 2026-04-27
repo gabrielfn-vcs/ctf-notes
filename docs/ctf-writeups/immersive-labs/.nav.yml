@@ -1,0 +1,6 @@
+nav:
+  - Overview: README.md
+  - Haunted Hollow: 01-haunted-hollow
+  - Return to Haunted Hollow: 02-return-to-haunted-hollow
+  - Scanning DNS Zone Transfer: 03-scanning-dns-zone-transfer
+  - Parellus Power: 04-parellus-power

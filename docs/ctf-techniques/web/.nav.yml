@@ -1,0 +1,13 @@
+title: Web Applications
+nav:
+  - Overview: README.md
+  - burpsuite
+  - cookies
+  - curl
+  - firebase
+  - jwt
+  - prototype-pollution
+  - xss
+  - sqli
+  - ssti
+  - rce

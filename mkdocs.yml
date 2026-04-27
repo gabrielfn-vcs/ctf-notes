@@ -1,0 +1,136 @@
+# Site Information
+site_name: CTF Notes and Knowledge Base
+site_url: https://gabrielfn-vcs.github.io/ctf-notes/
+site_author: Gabriel Fernández
+site_description: A structured personal collection of CTF (Capture the Flag) techniques and challenge writeups, built for learning and quick reference.
+
+# Repository
+# Add link to GitHub document source repository to the header
+repo_name: GitHub
+repo_url: https://github.com/gabrielfn-vcs/ctf-notes/
+
+# Configuration
+theme:
+  # Apply Material design principles
+  name: material
+  features:
+    # Enables instant loading like SPA (Single Page Application)
+    - navigation.instant
+    # Render top-level sections in a menu layer below the header
+    - navigation.tabs
+    # Lock navigation tabs below the header and remain visible when scrolling down
+    - navigation.tabs.sticky
+    # Show a back-to-top button when the user starts to scroll up
+    - navigation.top
+    # Make section clickable to display the content of the index page
+    - navigation.indexes
+    # Automatically highlight search terms on the page after user clicks
+    # a results from the search bar
+    - search.highlight
+    # Enable a "Share" button for search results
+    - search.share
+    # Enable a copy-to-clipboard button for all code blocks
+    - content.code.copy
+    # Scroll sidebar automatically so that the active anchor is always visible
+    - toc.follow
+
+  # Define Color Scheme for Light/Dark Mode
+  palette:
+    # Light mode (default)
+    - scheme: default
+      primary: blue
+      accent: cyan
+      # primary: indigo
+      # accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Dark mode
+    - scheme: slate
+      primary: teal
+      accent: amber
+      # primary: black
+      # accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+# Plugins
+plugins:
+  # Convert Obsidian-style callout syntax into standard MkDocs admonitions
+  - callouts
+  # Provide full-text, client-side search interface
+  - search
+  # Customize and decentralize navigation management
+  - awesome-nav
+
+# Additional Configuration
+extra:
+  # Add social media links to the footer
+  social:
+    # Add link to GitHub profile
+    - icon: fontawesome/brands/github
+      link: https://github.com/gabrielfn-vcs
+
+# Use MathJax library to display mathematical content
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+# Extensions
+markdown_extensions:
+  # Support for callouts
+  - admonition
+  # Table of Contents for each page
+  - toc:
+      # Generate clickable anchor links next to every section header
+      permalink: true
+      # Create URL-friendly, lowercase, unicode-safe "slugs" (anchor IDs)
+      # for document headers similar to GitHub/VS Code behavior
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  # Add standard table syntax to documentation
+  - tables
+  # Use Pygments for high-quality syntax coloring during build time
+  # Needed for enhanced code block rendering using pymdownx.superfences
+  # as it is incompatible with "codehilite"
+  - pymdownx.highlight:
+      # Enable clickable line numbers that link directly to specific lines of code
+      anchor_linenums: true
+      # Wrap every line in a <span> tag
+      line_spans: __span
+      # Ensures lines are highlighted correctly
+      pygments_lang_class: true
+  # Support syntax highlighting within inline code
+  - pymdownx.inlinehilite
+  # Embed source code directly from external files
+  - pymdownx.snippets
+  # Support collapsable adminitions
+  - pymdownx.details
+  # Support nesting code blocks in admonitions/tabs
+  - pymdownx.superfences
+  # Make list rendering more predictable and flexible
+  - mdx_truly_sane_lists
+  # Support LaTex syntax
+  - pymdownx.arithmatex:
+      generic: true
+  # Render task lists (checkmarks)
+  - pymdownx.tasklist:
+      # Use theme-styled checkboxes
+      custom_checkbox: true
+  # Support custom HTML attributes
+  - attr_list
+  # Support Markdown syntax inside raw HTML tags
+  - md_in_html
+  # Enable inserting emojis and icons
+  - pymdownx.emoji:
+      # Use high-quality Twemoji and Material Design icons
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      # Render the emoji/icon as an optimized inline SVG
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  # Support content tabs
+  - pymdownx.tabbed:
+      # Mandatory style since 8.x
+      alternate_style: true

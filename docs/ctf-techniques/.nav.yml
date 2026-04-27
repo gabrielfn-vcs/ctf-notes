@@ -1,0 +1,11 @@
+title: Techniques
+nav:
+  - Overview: README.md
+  - Web Applications: web
+  - Cryptography: crypto
+  - Forensics: forensics
+  - Network: network
+  - Post-Exploitation: post-exploitation
+  - Reverse Engineering: reverse
+  - Mobile Applications: mobile
+  - Hardware: hardware
