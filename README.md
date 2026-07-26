@@ -75,10 +75,10 @@ Manages navigation using local `.nav.yml` files instead of a central configurati
 
 - Keeps navigation close to content.
 - Supports ordering, hiding, and grouping pages.
-- Reduces complexity in` mkdocs.yml`.
+- Reduces complexity in `mkdocs.yml`.
 
 ### mkdocs-callouts
-Converts Obsidian-style callouts into MkDocs admonitions used by the MAterial theme.
+Converts Obsidian-style callouts into MkDocs admonitions used by the Material theme.
 
 - Supports collapsible blocks (`+` / `-`).
 - Recognizes aliases and layout hints.
